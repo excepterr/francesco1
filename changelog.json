@@ -1,0 +1,25 @@
+{
+    "version": "prod_1.0.0_24.15.0",
+    "changes": [
+        "1. Project migration from JavaScript to TypeScript",
+        "2. Added support for 8 languages: English (default), Russian, Japanese, German, Portuguese, Spanish, Hindi, French",
+        "3. Connected Supabase as the primary database",
+        "4. Added in-memory caching of guild settings for 60 seconds with invalidation on changes",
+        "5. The /config command received subcommands: language, modules, birthdays, logging, currency",
+        "6. Implemented configuration of the birthday announcement channel and status",
+        "7. Implemented configuration of the logging channel and status",
+        "8. Economic system change: transition from a decentralized economy to a default one",
+        "9. Implemented changing the currency emoji and name",
+        "10. Mod embeds brought to a unified style: title «Action — user», description mentioning the moderator and target, reason field, target avatar in thumbnail",
+        "11. Added a restriction on some actions against yourself",
+        "12. Written the /about command with canvas ping graph generation and CPU and RAM statistics",
+        "13. Written the /birthday command with subcommands set, view, delete",
+        "14. Connected node-cron: daily at 09:00 UTC the bot checks birthday users and congratulates them in the configured channel",
+        "15. Written the leaderboard command with pagination across 5 pages",
+        "16. Written the marriage command with subcommands propose and divorce and confirmation buttons",
+        "17. Added the ability to customize the currency via /config currency",
+        "18. Extended the Francesca character prompt: main character backstory, command hints, added Tavily for information search",
+        "19. Reduced the limit for containers (confessions) to 15MB",
+        "20. Connected Shoukaku as the Lavalink v4 client"
+    ]
+}

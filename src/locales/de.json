@@ -1,0 +1,1488 @@
+{
+    "yes": "Ja",
+    "no": "Nein",
+
+    "modules": {
+        "config": "Konfiguration",
+        "info": "Informationen",
+        "websearch": "Suche",
+        "interactions": "Interaktionen",
+        "moderation": "Moderation",
+        "fun": "Unterhaltung",
+        "economy": "Wirtschaft",
+        "utilities": "Dienstprogramme",
+        "music": "Musik",
+        "administrative": "Administrativ",
+        "text": "Text"
+    },
+
+    "say": {
+        "sent": "Gesendet!"
+    },
+
+    "music": {
+        "noVoiceChannel": "Tritt zuerst einem Sprachkanal bei, um Musikbefehle zu verwenden.",
+        "noNode": "Musikserver nicht verfügbar. Versuche es später erneut oder kontaktiere den Support.",
+        "notFound": "Track nicht gefunden. Überprüfe den Namen oder Link und versuche es erneut.",
+        "addedToQueue": "Zur Warteschlange hinzugefügt",
+        "author": "Autor",
+        "tracksAdded": "Tracks hinzugefügt",
+        "notPlaying": "Derzeit wird nichts abgespielt.",
+        "skipped": "Track übersprungen.",
+        "paused": "Pausiert.",
+        "resumed": "Fortgesetzt.",
+        "stopped": "Gestoppt, Warteschlange geleert.",
+        "queueEmpty": "Die Warteschlange ist leer.",
+        "queueTitle": "Warteschlange",
+        "queue": "Warteschlange",
+        "nowPlaying": "Jetzt läuft",
+        "nowplayingTitle": "Jetzt läuft",
+        "length": "Dauer",
+        "loop": "Wiederholung",
+        "andMore": "und {{n}} weitere",
+        "volumeSet": "Lautstärke auf **{{value}}** gesetzt.",
+        "loopSet": "Wiederholungsmodus: **{{mode}}**.",
+        "loopSame": "Dieser Modus ist bereits eingestellt.",
+        "queueTooSmall": "Nicht genug Tracks zum Mischen.",
+        "shuffled": "**{{count}}** Tracks gemischt.",
+        "seeked": "Zu **{{seconds}}** Sek. gesprungen."
+    },
+
+    "currency": {
+        "title": "Serverwährung",
+        "currentSettings": "Aktuelle Einstellungen",
+        "emojiLabel": "Emoji",
+        "nameLabel": "Name",
+        "changedInfo": "Währungseinstellungen aktualisiert.",
+        "saveError": "Einstellungen konnten nicht gespeichert werden. Versuche es später erneut."
+    },
+
+    "changelog": {
+        "title": "Änderungsprotokoll — {{user}}",
+        "version": "Build-Version"
+    },
+
+    "economy": {
+        "balanceTitle": "Mitgliederguthaben — {{user}}",
+        "wallet": "Bargeld",
+        "bank": "Auf der Bank",
+        "total": "Gesamtguthaben",
+        "walletShort": "Bargeld",
+        "bankShort": "Auf der Bank",
+        "totalShort": "Gesamt",
+        "rank": "Ranglistenplatz",
+        "level": "Level",
+        "info": "Informationen",
+        "rewards": "Belohnungen",
+        "donateCurrency": "Spendenwährung:",
+        "rewardsAvailable": "Für Belohnung verfügbare Befehle: {{list}}",
+        "rewardsEmpty": "Alle Belohnungen wurden bereits abgeholt.",
+        "nextBonus": "Nächster Bonus kann abgeholt werden",
+        "cooldown": "Warte {{time}} vor dem nächsten Versuch.",
+        "notEnough": "Unzureichende Mittel.",
+        "bankNothing": "Nichts zu überweisen.",
+
+        "timelyTitle": "Regelmäßiger Bonus",
+        "timelyDescription": "**{{user}}** hat seine **{{amount}}** {{currency}} abgeholt",
+
+        "dailyTitle": "Täglicher Bonus",
+        "dailyDescription": "**{{user}}** hat seine **{{amount}}** {{currency}} abgeholt",
+
+        "weeklyTitle": "Wöchentlicher Bonus",
+        "weeklyDescription": "**{{user}}** hat seine **{{amount}}** {{currency}} abgeholt",
+
+        "workTitle": "Arbeit",
+        "workDescription": "**{{user}}**, du hast erfolgreich als ***{{job}}*** gearbeitet.",
+        "workIncome": "Einkommen",
+        "workProgress": "Fortschritt",
+
+        "leaderboardTitle": "Guthaben-Rangliste",
+        "leaderboardEmpty": "Noch niemand in der Rangliste.",
+        "page": "Seite",
+
+        "bankDepositTitle": "Bankeinzahlung",
+        "bankDepositDescription": "**{{user}}**, du hast **{{amount}}** {{currency}} auf die Bank eingezahlt.",
+        "bankWithdrawTitle": "Bankabhebung",
+        "bankWithdrawDescription": "**{{user}}**, du hast **{{amount}}** {{currency}} von der Bank abgehoben.",
+
+        "shopTitle": "Rollen-Shop",
+        "shopEmpty": "Der Shop ist leer.",
+        "shopRoleNotFound": "Diese Rolle ist nicht im Shop.",
+        "shopBuyTitle": "Kauf",
+        "shopBuyDescription": "**{{user}}**, du hast die Rolle **{{role}}** für **{{price}}** {{currency}} gekauft.",
+        "shopAddTitle": "Rolle hinzugefügt",
+        "shopAddDescription": "Die Rolle **{{role}}** wurde für **{{price}}** {{currency}} zum Shop hinzugefügt.",
+        "shopRemoveTitle": "Rolle entfernt",
+        "shopRemoveDescription": "Die Rolle **{{role}}** wurde aus dem Shop entfernt.",
+        "alreadyOwned": "Du besitzt diese Rolle bereits."
+    },
+
+    "moderation": {
+        "cantSelf": "Du kannst keine Aktion auf dich selbst anwenden.",
+        "hierarchyUser": "Du hast keine Berechtigung: Das Ziel ist gleich oder höher als du.",
+        "hierarchyBot": "Der Bot hat keine Berechtigung: Das Ziel ist höher als der Bot.",
+        "notOnServer": "Der Benutzer ist nicht auf dem Server.",
+        "notBanned": "Dieser Benutzer ist nicht gebannt.",
+        "notTimedOut": "Der Benutzer hat keinen aktiven Timeout.",
+        "invalidId": "Ungültige Benutzer-ID. Stelle sicher, dass die ID nur Zahlen enthält.",
+        "invalidDuration": "Ungültiges Dauerformat. Beispiel: `5m`, `1h`, `2d`.",
+        "tooLong": "Die maximale Timeout-Dauer beträgt 28 Tage.",
+        "roleTooHigh": "Diese Rolle ist höher als die Rolle des Bots.",
+
+        "actionTitle": "Interaktion mit Mitglied — {{user}}",
+        "actionDescription": "{{moderator}}, Mitglied **{{user}}** {{action}}.",
+        "reasonLabel": "Grund",
+        "reasonNone": "Nicht angegeben",
+
+        "actionBan": "wurde vom Server gebannt",
+        "actionUnban": "wurde entbannt",
+        "actionKick": "wurde vom Server gekickt",
+        "actionTimeout": "erhielt einen Timeout für **{{duration}}**",
+        "actionUntimeout": "wurde vom Timeout befreit",
+        "actionWarnAdd": "erhielt Verwarnung **#{{id}}**",
+        "actionNicknameSet": "erhielt den neuen Nicknamen **{{name}}**",
+        "actionNicknameReset": "verlor seinen Nicknamen",
+        "actionRoleAdd": "erhielt die Rolle **{{role}}**",
+        "actionRoleRemove": "verlor die Rolle **{{role}}**",
+
+        "ban": { "success": "Benutzer **{{user}}** (`{{id}}`) gebannt." },
+        "unban": { "success": "Benutzer **{{user}}** (`{{id}}`) entbannt." },
+        "kick": { "success": "Benutzer **{{user}}** (`{{id}}`) gekickt." },
+        "timeout": { "success": "Benutzer **{{user}}** (`{{id}}`) hat einen Timeout für **{{duration}}**." },
+        "untimeout": { "success": "Timeout von Benutzer **{{user}}** (`{{id}}`) entfernt." },
+
+        "warn": {
+            "added": "Benutzer **{{user}}** (`{{id}}`) erhielt Verwarnung **#{{warnId}}**.\nGrund: {{reason}}",
+            "removed": "Verwarnung **#{{id}}** entfernt.",
+            "cleared": "Alle Verwarnungen von Benutzer **{{user}}** wurden entfernt.",
+            "empty": "Benutzer **{{user}}** hat keine Verwarnungen.",
+            "listTitle": "Verwarnungen — {{user}}"
+        },
+
+        "clear": {
+            "title": "Nachrichtenbereinigung — {{channel}}",
+            "description": "{{moderator}}, **{{count}}** Nachrichten gelöscht.",
+            "success": "**{{count}}** Nachrichten gelöscht.",
+            "none": "Nichts zu löschen.",
+            "tooOld": "Konnte nicht löschen — Nachrichten älter als 14 Tage."
+        },
+
+        "slowmode": {
+            "title": "Slowmode — {{channel}}",
+            "description": "{{moderator}}, Slowmode auf **{{seconds}}** Sek. gesetzt.",
+            "titleOff": "Slowmode deaktiviert — {{channel}}",
+            "descriptionOff": "{{moderator}}, der Slowmode im Kanal wurde deaktiviert.",
+            "success": "Im Kanal {{channel}} wurde Slowmode auf **{{seconds}}** Sek. gesetzt.",
+            "off": "Slowmode in {{channel}} deaktiviert."
+        },
+
+        "channelLock": {
+            "title": "Kanal gesperrt — {{channel}}",
+            "description": "{{moderator}}, Kanal **{{channel}}** wurde gesperrt."
+        },
+        "channelUnlock": {
+            "title": "Kanal entsperrt — {{channel}}",
+            "description": "{{moderator}}, Kanal **{{channel}}** wurde entsperrt."
+        },
+
+        "nickname": {
+            "success": "Der Nickname von **{{user}}** wurde zu **{{name}}** geändert.",
+            "reset": "Der Nickname von **{{user}}** wurde zurückgesetzt."
+        },
+        "role": {
+            "added": "Rolle **{{role}}** wurde an **{{user}}** vergeben.",
+            "removed": "Rolle **{{role}}** wurde von **{{user}}** entfernt."
+        }
+    },
+
+    "confessions": {
+        "description": "Verwaltung von KI-Speichercontainern.",
+        "notText": "Gib einen Textkanal an.",
+        "notFound": "Container nicht gefunden.",
+        "maxContainers": "Container-Limit erreicht (**{{max}}** pro Server).",
+        "maxSize": "Größenlimit erreicht (**{{size}}**).",
+        "noContainers": "Es gibt keine Container auf dem Server.",
+        "unknownError": "Ein Fehler ist aufgetreten.",
+        "create": {
+            "description": "Erstelle einen Speichercontainer für den Kanal.",
+            "option": "Kanal.",
+            "title": "Container erstellt",
+            "success": "Kanal: {{channel}}\nID: `{{id}}`"
+        },
+        "list": {
+            "description": "Liste der Server-Container.",
+            "title": "KI-Speichercontainer"
+        },
+        "block": {
+            "description": "Container dauerhaft löschen.",
+            "option": "Container-ID.",
+            "title": "Container gelöscht",
+            "confirm": "{{user}}, bist du **sicher**, dass du den Container dauerhaft löschen möchtest?\n```\nID: {{id}}\n{{count}} Nachrichten / {{size}}\n```",
+            "confirmBtn": "Bestätigen",
+            "cancelBtn": "Abbrechen",
+            "success": "Container `{{id}}` gelöscht."
+        },
+        "report": {
+            "description": "Container an den Bot-Besitzer senden.",
+            "idOption": "Container-ID.",
+            "reasonOption": "Meldegrund.",
+            "reasonLabel": "Grund",
+            "title": "Meldung gesendet",
+            "success": "Deine Meldung zum Container `{{id}}` wurde an den Besitzer gesendet."
+        },
+        "regen": {
+            "expired": "Der Kontext ist abgelaufen. Stelle deine Frage erneut.",
+            "limit": "Versuchlimit erreicht.",
+            "rateLimit": "Dem Bot sind die Anfragen für heute ausgegangen.",
+            "failed": "Antwort konnte nicht generiert werden."
+        }
+    },
+
+    "birthday": {
+        "description": "Verwaltung von Geburtstagen.",
+        "invalidDate": "Dieser Monat hat nur **{{max}}** Tage.",
+        "saveError": "Geburtstag konnte nicht gespeichert werden.",
+        "set": {
+            "description": "Lege deinen Geburtstag fest.",
+            "dayOption": "Tag (1-31).",
+            "monthOption": "Monat (1-12).",
+            "yearOption": "Jahr (optional).",
+            "title": "Geburtstag festgelegt",
+            "success": "Dein Geburtstag: **{{date}}**."
+        },
+        "view": {
+            "description": "Geburtstag von jemandem ansehen.",
+            "userOption": "Benutzer.",
+            "title": "Geburtstag",
+            "selfNotFound": "Du hast keinen Geburtstag festgelegt. Verwende `/birthday set`.",
+            "notFound": "Benutzer **{{user}}** hat keinen Geburtstag festgelegt."
+        },
+        "delete": {
+            "description": "Lösche deinen Geburtstag.",
+            "title": "Geburtstag gelöscht",
+            "success": "Dein Geburtstag wurde gelöscht.",
+            "notFound": "Du hast keinen gespeicherten Geburtstag.",
+            "error": "Geburtstag konnte nicht gelöscht werden."
+        },
+        "congrats": {
+            "title": "🎉 Alles Gute zum Geburtstag!",
+            "message": "Heute hat {{users}} Geburtstag!\n\nHerzlichen Glückwunsch! 🎂🎈"
+        }
+    },
+
+    "actions": {
+        "description": "Emotionen und Interaktionen mit GIFs.",
+        "actionOption": "Was tun.",
+        "userOption": "Benutzer.",
+        "unknown": "Unbekannte Aktion.",
+        "targetRequired": "Gib einen Benutzer für diese Aktion an.",
+        "noGif": "GIF nicht verfügbar.",
+        "selfNotAllowed": "Diese Aktion kann nicht auf dich selbst angewendet werden.",
+        "list": {
+            "hug":      { "self": "**{user}** umarmt",                       "other": "**{user}** umarmt **{target}**" },
+            "kiss":     { "self": "**{user}** küsst",                        "other": "**{user}** küsst **{target}**" },
+            "slap":     { "self": "**{user}** ohrfeigt",                     "other": "**{user}** ohrfeigt **{target}**" },
+            "pat":      { "self": "**{user}** streichelt",                   "other": "**{user}** streichelt **{target}**" },
+            "cuddle":   { "self": "**{user}** kuschelt",                     "other": "**{user}** kuschelt mit **{target}**" },
+            "poke":     { "self": "**{user}** stubst",                       "other": "**{user}** stubst **{target}**" },
+            "tickle":   { "self": "**{user}** kitzelt",                      "other": "**{user}** kitzelt **{target}**" },
+            "punch":    { "self": "**{user}** schlägt",                      "other": "**{user}** schlägt **{target}**" },
+            "bite":     { "self": "**{user}** beißt",                        "other": "**{user}** beißt **{target}**" },
+            "highfive": { "self": "**{user}** gibt ein High Five",           "other": "**{user}** gibt **{target}** ein High Five" },
+            "handhold": { "self": "**{user}** hält Händchen",                "other": "**{user}** hält Händchen mit **{target}**" },
+            "feed":     { "self": "**{user}** füttert",                      "other": "**{user}** füttert **{target}**" },
+            "cry":      { "self": "**{user}** weint",                        "other": "" },
+            "laugh":    { "self": "**{user}** lacht",                        "other": "" },
+            "dance":    { "self": "**{user}** tanzt",                        "other": "" },
+            "wave":     { "self": "**{user}** winkt",                        "other": "" },
+            "blush":    { "self": "**{user}** errötet",                      "other": "" },
+            "smile":    { "self": "**{user}** lächelt",                      "other": "" },
+            "wink":     { "self": "**{user}** zwinkert",                     "other": "" },
+            "facepalm": { "self": "**{user}** macht ein Facepalm",           "other": "" },
+            "thumbsup": { "self": "**{user}** zeigt einen Daumen hoch",      "other": "" },
+            "smug":     { "self": "**{user}** grinst selbstgefällig",        "other": "" }
+        },
+        "labels": {
+            "hug":      "Umarmen",
+            "kiss":     "Küssen",
+            "slap":     "Ohrfeigen",
+            "pat":      "Streicheln",
+            "cuddle":   "Kuscheln",
+            "poke":     "Stupsen",
+            "tickle":   "Kitzeln",
+            "punch":    "Schlagen",
+            "bite":     "Beißen",
+            "highfive": "High Five",
+            "handhold": "Händchen halten",
+            "feed":     "Füttern",
+            "cry":      "Weinen",
+            "laugh":    "Lachen",
+            "dance":    "Tanzen",
+            "wave":     "Winken",
+            "blush":    "Erröten",
+            "smile":    "Lächeln",
+            "wink":     "Zwinkern",
+            "facepalm": "Facepalm",
+            "thumbsup": "Daumen hoch",
+            "smug":     "Selbstgefällig"
+        }
+    },
+
+    "ping": {
+        "cluster": "Cluster",
+        "shards": "Shards",
+        "ws": "Latenz",
+        "roundtrip": "Befehlsverarbeitung",
+        "database": "Datenbank",
+        "error": "Fehler"
+    },
+
+    "about": {
+        "description": "Zeigt Informationen über den Bot.",
+        "title": "Informationen über {{botName}}",
+        "botDesc": "Multifunktionaler, unterhaltsamer Bot ⭐\nWird häufig für Wartung oder neue Funktionen aktualisiert!\n\n**Entwickler:** {{dev}}",
+        "apiLatency": "API-Latenz",
+        "messageLatency": "Nachrichtenlatenz",
+        "started": "Bot gestartet",
+        "buildHash": "Build-Hash",
+        "ms": "ms",
+
+        "supportButton": "Support-Server",
+        "inviteButton": "Bot einladen",
+
+        "chartTitle": "Antwortzeit",
+        "chartBadge": "Ping",
+        "chartAllRegions": "Alle Regionen",
+        "chartDay": "Tag",
+        "chartWeek": "Woche",
+        "chartMonth": "Monat",
+        "chartAverage": "Durchschnitt",
+        "chartUptime": "Uptime",
+        "chartRamLoad": "RAM-Auslastung",
+        "chartCpuLoad": "CPU-Auslastung",
+        "chartMs": "ms"
+    },
+
+    "avatar": { "title": "Avatar" },
+    "banner": {
+        "title": "Banner",
+        "noBanner": "Benutzer **{{user}}** hat kein Banner."
+    },
+
+    "channel": {
+        "category": "Kategorie",
+        "topic": "Thema",
+        "noTopic": "Keins",
+        "none": "Keins",
+        "invites": "Einladungen",
+        "created": "Erstellungsdatum"
+    },
+
+    "user": {
+        "joined": "Beigetreten",
+        "created": "Konto erstellt",
+        "roles": "Rollen",
+        "noRoles": "Keine",
+        "requestedBy": "Angefordert von"
+    },
+
+    "roles": {
+        "infoLabel": "Rolleninformationen",
+        "color": "Farbe",
+        "created": "Erstellungsdatum",
+        "id": "ID"
+    },
+
+    "guild": {
+        "subtitle": "Serverinformationen",
+        "boosts": "Boosts",
+        "boostLevel": "Level",
+        "boostsWord": "Boosts",
+        "owner": "Besitzer",
+        "members": "Mitglieder",
+        "created": "Erstellungsdatum",
+        "moderation": "Moderation",
+        "features": "Funktionen",
+        "emojis": "Emojis",
+        "bitrate": "Bitrate",
+        "kbps": "Kbps",
+        "filesize": "Dateigröße",
+        "iconTitle": "Server-Icon",
+        "bannerTitle": "Server-Banner",
+        "noIcon": "Dieser Server hat kein Icon.",
+        "noBanner": "Dieser Server hat kein Banner."
+    },
+
+    "timestamp": {
+        "title": "Discord Timestamp",
+        "shortTime": "kurze Zeit",
+        "longTime": "lange Zeit",
+        "shortDate": "kurzes Datum",
+        "longDate": "langes Datum",
+        "shortDateTime": "kurzes Datum und Uhrzeit",
+        "longDateTime": "langes Datum und Uhrzeit",
+        "relative": "relativ"
+    },
+
+    "emoji": {
+        "listTitle": "Server-Emojis",
+        "listEmpty": "Der Server hat keine Emojis.",
+        "notFound": "Emoji nicht gefunden.",
+        "id": "ID",
+        "animated": "Animiert",
+        "created": "Erstellungsdatum"
+    },
+
+    "websearch": {
+        "wikiNotFound": "Nichts gefunden.",
+        "genshinTitle": "Genshin Impact — Profil",
+        "genshinInvalidUid": "Ungültige UID.",
+        "genshinNotFound": "Profil nicht gefunden.",
+        "steamTitle": "Steam — Profil",
+        "steamNotFound": "Profil nicht gefunden.",
+        "youtubeTitle": "YouTube",
+        "youtubeNotFound": "Kanäle nicht gefunden.",
+        "youtubeUnavailable": "YouTube nicht verfügbar."
+    },
+
+    "config": {
+        "description": "Bot-Konfiguration für diesen Server.",
+        "title": "Serverkonfiguration",
+        "currentSettings": "Aktuelle Servereinstellungen",
+        "info": "Informationen",
+        "changedInfo": "Du hast **{{changed}}** auf **{{to}}** geändert. Achtung: Änderungen gelten sofort für alle Benutzer des Servers.",
+        "changedLanguage": "Sprache",
+        "language": {
+            "description": "Ändere die Sprache des Servers.",
+            "selectPlaceholder": "Sprache auswählen",
+            "currentLang": "Eingestellte Sprache: **{{lang}}**"
+        },
+        "modules": {
+            "description": "Module aktivieren oder deaktivieren.",
+            "selectPlaceholder": "Aktive Module auswählen",
+            "currentValue": "Aktive Module: **{{active}}** von **{{total}}**",
+            "changedInfo": "Du hast die Module geändert. Aktive Module: **{{active}}** von **{{total}}**. Änderungen gelten sofort für alle Benutzer des Servers."
+        },
+        "birthdays": {
+            "description": "Geburtstagsglückwünsche konfigurieren.",
+            "channelOption": "Kanal für Glückwünsche.",
+            "enableOption": "Aktivieren oder deaktivieren.",
+            "title": "Geburtstagsglückwünsche",
+            "status": "Status",
+            "on": "Aktiviert",
+            "off": "Deaktiviert",
+            "channel": "Kanal",
+            "notSet": "nicht ausgewählt",
+            "changedInfo": "Einstellungen aktualisiert. Der Bot gratuliert Geburtstagskindern jeden Tag um **09:00 UTC**.",
+            "channelRequired": "Wähle zuerst einen Kanal.",
+            "notTextChannel": "Der Kanal muss ein Textkanal sein.",
+            "saveError": "Einstellungen konnten nicht gespeichert werden."
+        },
+        "logging": {
+            "description": "Server-Logs konfigurieren.",
+            "channelOption": "Kanal für Logs.",
+            "enableOption": "Aktivieren oder deaktivieren.",
+            "title": "Server-Logs",
+            "status": "Status",
+            "on": "Aktiviert",
+            "off": "Deaktiviert",
+            "channel": "Kanal",
+            "notSet": "nicht ausgewählt",
+            "changedInfo": "Log-Einstellungen aktualisiert. Serverereignisse werden im angegebenen Kanal aufgezeichnet.",
+            "channelRequired": "Wähle zuerst einen Kanal.",
+            "notTextChannel": "Der Kanal muss ein Textkanal sein.",
+            "saveError": "Einstellungen konnten nicht gespeichert werden."
+        },
+        "currency": {
+            "description": "Serverwährung konfigurieren.",
+            "emojiOption": "Währungs-Emoji (z. B. 💎, 🪙).",
+            "nameOption": "Währungsname.",
+            "title": "Serverwährung",
+            "emoji": "Emoji",
+            "name": "Name",
+            "changedInfo": "Währungseinstellungen aktualisiert.",
+            "saveError": "Einstellungen konnten nicht gespeichert werden."
+        }
+    },
+
+    "help": {
+        "description": "Liste der verfügbaren Befehle.",
+        "commandOption": "Wähle oder gib den Befehlsnamen ein.",
+        "title": "Liste der verfügbaren Befehle",
+        "selectPlaceholder": "Kategorie auswählen",
+        "homeOption": "🏠 Start",
+        "moduleTitle": "Modul",
+        "commandInfo": "Befehlsinformationen",
+        "commandNotFound": "Befehl `{{name}}` nicht gefunden.",
+        "fieldInfo": "Informationen",
+        "fieldCooldown": "Cooldown",
+        "fieldBotPerms": "Bot-Berechtigungen",
+        "fieldUserPerms": "Mitglieder-Berechtigungen",
+        "fieldExampleN": "Beispiel Nr. {{n}}"
+    },
+
+    "errors": {
+        "generic": "Ein unerwarteter Fehler ist aufgetreten. Versuche es später erneut oder kontaktiere den Support.",
+        "noPermission": "Du hast nicht genügend Berechtigungen, um diesen Befehl zu verwenden. Überprüfe deine Berechtigungen oder kontaktiere einen Administrator.",
+        "cooldown": "Der Befehl ist noch nicht bereit. Warte **{{time}}** und versuche es erneut.",
+        "notFound": "Die angeforderte Ressource wurde nicht gefunden. Überprüfe die Parameter und versuche es erneut.",
+        "moduleDisabled": "Dieses Modul ist auf diesem Server deaktiviert. Aktiviere es in `/config modules`.",
+        "guildOnly": "Dieser Befehl ist nur auf einem Server verfügbar, nicht in Direktnachrichten."
+    },
+
+    "components": {
+        "notOwner": "Dieses Menü wurde von einem anderen Benutzer geöffnet. Verwende deinen eigenen Befehl."
+    },
+
+    "commands": {
+        "say": {
+            "description": "Sende eine Nachricht als Bot im aktuellen Kanal.",
+            "longDescription": "Sendet eine Nachricht als Bot im aktuellen Kanal.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Nachrichten senden",
+            "userPermissions": "Administrator",
+            "option": "Nachrichtentext.",
+            "examples": [
+                "/say message:Hallo zusammen!\nSendet eine Nachricht als Bot.",
+                "/say message:**Fett** Text\nUnterstützt Markdown."
+            ]
+        },
+        "birthday": {
+            "description": "Geburtstage verwalten: festlegen, ansehen und löschen.",
+            "longDescription": "Festlegen, Anzeigen und Löschen von Geburtstagen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/birthday set day:15 month:6\nLegt den Geburtstag auf den 15. Juni fest.",
+                "/birthday set day:15 month:6 year:2000\nLegt das Datum mit Jahr fest.",
+                "/birthday view\nZeigt deinen Geburtstag.",
+                "/birthday view @user\nZeigt den Geburtstag des Benutzers.",
+                "/birthday delete\nLöscht deinen Geburtstag."
+            ],
+            "set": {
+                "description": "Lege deinen Geburtstag fest.",
+                "longDescription": "Speichert Tag, Monat und optional das Jahr deines Geburtstags.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/birthday set day:15 month:6\nLegt den Geburtstag auf den 15. Juni fest.",
+                    "/birthday set day:15 month:6 year:2000\nLegt ihn mit Jahr fest."
+                ]
+            },
+            "view": {
+                "description": "Geburtstag von jemandem ansehen.",
+                "longDescription": "Zeigt den Geburtstag des angegebenen Benutzers.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/birthday view\nZeigt deinen Geburtstag.",
+                    "/birthday view @user\nZeigt den Geburtstag des Benutzers."
+                ]
+            },
+            "delete": {
+                "description": "Lösche deinen Geburtstag.",
+                "longDescription": "Löscht den gespeicherten Geburtstag.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/birthday delete\nLöscht deinen Geburtstag."
+                ]
+            }
+        },
+        "actions": {
+            "description": "Emotionen und GIF-Interaktionen: umarmen, küssen und mehr.",
+            "longDescription": "Sendet eine GIF-Interaktion mit dem angegebenen Benutzer oder ohne.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/actions action:hug user:@user\nUmarmt den Benutzer.",
+                "/actions action:kiss user:@user\nKüsst den Benutzer.",
+                "/actions action:slap user:@user\nOhrfeigt den Benutzer.",
+                "/actions action:cry\nWeint.",
+                "/actions action:dance\nTanzt."
+            ]
+        },
+        "ping": {
+            "description": "Zeigt die Latenz von Bot, API, Datenbank und Shards.",
+            "longDescription": "Meldet die aktuelle Antwortzeit und den Verbindungsstatus des Bots.",
+            "cooldown": "6 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/ping\nZeigt die Latenz des Bots."
+            ]
+        },
+        "help": {
+            "description": "Liste der verfügbaren Befehle mit Beschreibung, Berechtigungen und Beispielen.",
+            "longDescription": "Zeigt alle Module und Befehle, die auf diesem Server verfügbar sind.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/help\nZeigt das Hilfemenü.",
+                "/help command:ban\nDetaillierte Informationen zum Befehl /ban."
+            ]
+        },
+        "config": {
+            "description": "Bot-Konfiguration für den Server: Sprache, Module, Logs, Geburtstage und Währung.",
+            "longDescription": "Ändern von Server-Sprache, Modulen, Logs und Glückwünschen.",
+            "cooldown": "5 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Server verwalten",
+            "examples": [
+                "/config language\nÄndert die Sprache des Servers.",
+                "/config modules\nAktiviert/deaktiviert Module.",
+                "/config birthdays channel:#general enable:true\nKonfiguriert Geburtstagsglückwünsche.",
+                "/config logging channel:#logs enable:true\nKonfiguriert Logs."
+            ],
+            "language": {
+                "description": "Ändere die Sprache des Servers.",
+                "longDescription": "Ändert die Sprache des Bots für den gesamten Server.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Server verwalten",
+                "examples": [
+                    "/config language\nÖffnet das Sprachauswahlmenü."
+                ]
+            },
+            "modules": {
+                "description": "Module aktivieren oder deaktivieren.",
+                "longDescription": "Verwaltet die aktiven Module des Bots auf dem Server.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Server verwalten",
+                "examples": [
+                    "/config modules\nÖffnet das Modulauswahlmenü."
+                ]
+            },
+            "birthdays": {
+                "description": "Geburtstagsglückwünsche konfigurieren.",
+                "longDescription": "Kanalauswahl und Aktivierung/Deaktivierung automatischer Glückwünsche.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten, Nachrichten senden",
+                "userPermissions": "Server verwalten",
+                "examples": [
+                    "/config birthdays\nZeigt die aktuellen Einstellungen.",
+                    "/config birthdays channel:#general enable:true\nAktiviert Glückwünsche in #general.",
+                    "/config birthdays enable:false\nDeaktiviert Glückwünsche."
+                ]
+            },
+            "logging": {
+                "description": "Server-Logs konfigurieren.",
+                "longDescription": "Kanalauswahl und Aktivierung/Deaktivierung des Log-Systems.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten, Nachrichten senden",
+                "userPermissions": "Server verwalten",
+                "examples": [
+                    "/config logging\nZeigt die aktuellen Einstellungen.",
+                    "/config logging channel:#logs enable:true\nAktiviert Logs in #logs.",
+                    "/config logging enable:false\nDeaktiviert Logs."
+                ]
+            },
+            "currency": {
+                "description": "Serverwährung konfigurieren.",
+                "longDescription": "Ändert das Emoji und den Namen der Wirtschaftswährung.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Server verwalten",
+                "examples": [
+                    "/config currency\nAktuelle Einstellungen anzeigen.",
+                    "/config currency emoji:🪙 name:Münzen"
+                ]
+            }
+        },
+        "confessions": {
+            "description": "KI-Speichercontainer für die Kanäle des Servers verwalten.",
+            "longDescription": "Verwaltet KI-Speichercontainer für Kanäle auf diesem Server.",
+            "cooldown": "5 Sekunden",
+            "botPermissions": "Links einbetten, Nachrichten senden",
+            "userPermissions": "Administrator",
+            "examples": [
+                "/confessions create channel:#general\nKI-Speichercontainer erstellen.",
+                "/confessions list\nListe der Server-Container.",
+                "/confessions block id:123\nContainer per ID löschen.",
+                "/confessions report id:123 reason:spam\nContainer an den Besitzer senden."
+            ],
+            "create": { "description": "Erstelle einen Speichercontainer für den Kanal.", "option": "Kanal." },
+            "list": { "description": "Liste der Server-Container." },
+            "block": { "description": "Container dauerhaft löschen.", "option": "Container-ID." },
+            "report": {
+                "description": "Container an den Bot-Besitzer senden.",
+                "idOption": "Container-ID.",
+                "reasonOption": "Meldegrund."
+            }
+        },
+        "about": {
+            "description": "Zeigt Informationen über den Bot, Statistiken und Systemauslastung.",
+            "longDescription": "Zeigt Statistiken, Auslastung und Systeminformationen.",
+            "cooldown": "5 Sekunden",
+            "botPermissions": "Links einbetten, Dateien anhängen",
+            "userPermissions": "Keine",
+            "examples": [
+                "/about\nZeigt Informationen über den Bot."
+            ]
+        },
+        "avatar": {
+            "description": "Zeigt den Avatar des Benutzers in maximaler Größe.",
+            "longDescription": "Zeigt den Avatar des Benutzers in maximaler Größe.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/avatar\nZeigt deinen Avatar.",
+                "/avatar user:@user\nZeigt den Avatar des Benutzers."
+            ]
+        },
+        "banner": {
+            "description": "Zeigt das Banner des Benutzers in maximaler Größe.",
+            "longDescription": "Zeigt das Banner des Benutzers in maximaler Größe.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/banner\nZeigt dein Banner.",
+                "/banner user:@user\nZeigt das Banner des Benutzers."
+            ]
+        },
+        "guild": {
+            "description": "Serverinformationen: Mitglieder, Boosts, Besitzer, Funktionen.",
+            "longDescription": "Befehle zum Abrufen von Serverinformationen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/guild info\nZeigt Serverinformationen.",
+                "/guild icon\nZeigt das Server-Icon.",
+                "/guild banner\nZeigt das Server-Banner."
+            ],
+            "icon": {
+                "description": "Zeigt das Server-Icon.",
+                "longDescription": "Zeigt das Icon des aktuellen Servers.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/guild icon\nZeigt das Server-Icon."]
+            },
+            "banner": {
+                "description": "Zeigt das Server-Banner.",
+                "longDescription": "Zeigt das Banner des aktuellen Servers.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/guild banner\nZeigt das Server-Banner."]
+            },
+            "info": {
+                "description": "Detaillierte Serverinformationen.",
+                "longDescription": "Zeigt detaillierte Serverstatistiken.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/guild info\nZeigt Serverinformationen."]
+            }
+        },
+        "channel": {
+            "description": "Kanalinformationen: Kategorie, Thema, Erstellungsdatum.",
+            "longDescription": "Befehle zum Abrufen von Kanalinformationen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/channel info\nZeigt Informationen zum aktuellen Kanal.",
+                "/channel info channel:#general\nZeigt Informationen zum Kanal #general."
+            ],
+            "info": {
+                "description": "Zeigt Kanalinformationen.",
+                "longDescription": "Zeigt die Kategorie, das Thema und das Erstellungsdatum des Kanals.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten, Kanäle verwalten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/channel info\nZeigt Informationen zum aktuellen Kanal.",
+                    "/channel info channel:#general\nZeigt Informationen zum Kanal #general."
+                ]
+            }
+        },
+        "user": {
+            "description": "Benutzerinformationen: Registrierungsdatum, Beitrittsdatum, Rollen.",
+            "longDescription": "Befehle zum Abrufen von Benutzerinformationen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/user info\nZeigt Informationen über dich.",
+                "/user info user:@user\nZeigt Informationen über den Benutzer."
+            ],
+            "info": {
+                "description": "Zeigt Benutzerinformationen.",
+                "longDescription": "Zeigt das Registrierungsdatum, das Beitrittsdatum und die Rollen des Benutzers.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/user info\nZeigt Informationen über dich.",
+                    "/user info user:@user\nZeigt Informationen über den Benutzer."
+                ]
+            }
+        },
+        "roles": {
+            "description": "Rolleninformationen: Farbe, Erstellungsdatum, ID.",
+            "longDescription": "Befehle zum Abrufen von Rolleninformationen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/roles info role:@role\nZeigt Informationen über die Rolle."
+            ],
+            "info": {
+                "description": "Zeigt Rolleninformationen.",
+                "longDescription": "Zeigt die Farbe, das Erstellungsdatum und die ID der Rolle.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/roles info role:@role\nZeigt Informationen über die Rolle."
+                ]
+            }
+        },
+        "timestamp": {
+            "description": "Discord-Timestamps in verschiedenen Formaten generieren.",
+            "longDescription": "Erstellt alle Discord-Timestamp-Formate aus der angegebenen Zeit.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/timestamp\nZeigt die aktuelle Zeit in allen Formaten.",
+                "/timestamp time:5m\nZeigt die Zeit in 5 Minuten.",
+                "/timestamp time:2026-01-01 12:00\nZeigt das angegebene Datum."
+            ]
+        },
+        "emoji": {
+            "description": "Server-Emojis anzeigen und Informationen abrufen.",
+            "longDescription": "Server-Emojis anzeigen und Informationen abrufen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/emoji list\nZeigt die Liste der Emojis.",
+                "/emoji info emoji:cat\nInformationen über das Emoji."
+            ],
+            "list": {
+                "description": "Liste der Server-Emojis.",
+                "longDescription": "Zeigt alle Server-Emojis mit Paginierung.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/emoji list\nZeigt die Liste der Emojis."]
+            },
+            "info": {
+                "description": "Emoji-Informationen.",
+                "longDescription": "Zeigt die ID, Animation und das Erstellungsdatum des Emojis.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/emoji info emoji:cat\nInformationen nach Name.",
+                    "/emoji info emoji:123456789012345678\nInformationen nach ID."
+                ]
+            }
+        },
+        "ban": {
+            "description": "Bannt einen Benutzer vom Server mit Grund und Nachrichtenlöschung.",
+            "longDescription": "Blockiert einen Benutzer auf dem Server mit optionaler Nachrichtenbereinigung.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Mitglieder bannen",
+            "userPermissions": "Mitglieder bannen",
+            "userOption": "Zu bannender Benutzer.",
+            "reasonOption": "Grund.",
+            "deleteOption": "Nachrichten der letzten N Tage löschen (0-7).",
+            "examples": [
+                "/ban user:@user reason:spam\nBannt den Benutzer.",
+                "/ban user:@user reason:flood delete_messages:7\nBannt und löscht Nachrichten der letzten 7 Tage.",
+                "/ban user:@user\nBannt ohne Grund anzugeben."
+            ]
+        },
+        "unban": {
+            "description": "Entbannt einen Benutzer anhand seiner ID mit Grund.",
+            "longDescription": "Hebt den Bann eines Benutzers anhand seiner ID auf.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Mitglieder bannen",
+            "userPermissions": "Mitglieder bannen",
+            "userIdOption": "Benutzer-ID.",
+            "reasonOption": "Grund.",
+            "examples": [
+                "/unban user_id:123456789012345678 reason:einspruch\nEntbannt den Benutzer.",
+                "/unban user_id:123456789012345678\nEntbannt ohne Grund."
+            ]
+        },
+        "kick": {
+            "description": "Kickt einen Benutzer vom Server mit Grund.",
+            "longDescription": "Entfernt ein Mitglied vom Server.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Mitglieder kicken",
+            "userPermissions": "Mitglieder kicken",
+            "userOption": "Benutzer.",
+            "reasonOption": "Grund.",
+            "examples": [
+                "/kick user:@user reason:flood\nKickt den Benutzer mit Grund.",
+                "/kick user:@user\nKickt ohne Grund."
+            ]
+        },
+        "timeout": {
+            "description": "Wendet einen Timeout auf einen Benutzer für die angegebene Zeit an.",
+            "longDescription": "Blockiert vorübergehend die Kommunikation des Benutzers.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Mitglieder moderieren",
+            "userPermissions": "Mitglieder moderieren",
+            "userOption": "Benutzer.",
+            "durationOption": "Dauer (z. B. 5m, 1h, 2d).",
+            "reasonOption": "Grund.",
+            "examples": [
+                "/timeout user:@user duration:5m reason:flood\nTimeout für 5 Minuten.",
+                "/timeout user:@user duration:1h reason:spam\nTimeout für eine Stunde.",
+                "/timeout user:@user duration:2d\nTimeout für 2 Tage."
+            ]
+        },
+        "untimeout": {
+            "description": "Entfernt den aktiven Timeout eines Benutzers.",
+            "longDescription": "Entfernt den aktiven Timeout.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Mitglieder moderieren",
+            "userPermissions": "Mitglieder moderieren",
+            "userOption": "Benutzer.",
+            "examples": [
+                "/untimeout user:@user\nEntfernt den Timeout."
+            ]
+        },
+        "warn": {
+            "description": "Verwarnungsverwaltung: hinzufügen, auflisten, entfernen und löschen.",
+            "longDescription": "Vergeben, Anzeigen und Entfernen von Verwarnungen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Mitglieder moderieren",
+            "examples": [
+                "/warn add user:@user reason:spam\nVerwarnung geben.",
+                "/warn list user:@user\nListe der Verwarnungen.",
+                "/warn remove id:5\nVerwarnung entfernen.",
+                "/warn clear user:@user\nAlle Verwarnungen entfernen."
+            ],
+            "add": {
+                "description": "Verwarnung geben.",
+                "longDescription": "Fügt dem Benutzer eine Verwarnung hinzu.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Mitglieder moderieren",
+                "examples": [
+                    "/warn add user:@user reason:spam\nGibt eine Verwarnung."
+                ]
+            },
+            "list": {
+                "description": "Liste der Verwarnungen des Benutzers.",
+                "longDescription": "Zeigt alle Verwarnungen des Benutzers.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Mitglieder moderieren",
+                "examples": [
+                    "/warn list user:@user\nZeigt die Liste."
+                ]
+            },
+            "remove": {
+                "description": "Verwarnung per ID entfernen.",
+                "longDescription": "Entfernt eine bestimmte Verwarnung per ID.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Mitglieder moderieren",
+                "examples": [
+                    "/warn remove id:5\nEntfernt Verwarnung #5."
+                ]
+            },
+            "clear": {
+                "description": "Alle Verwarnungen des Benutzers entfernen.",
+                "longDescription": "Löscht alle Verwarnungen.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Mitglieder moderieren",
+                "examples": [
+                    "/warn clear user:@user\nLöscht alle Verwarnungen."
+                ]
+            }
+        },
+        "clear": {
+            "description": "Löscht Nachrichten im aktuellen Kanal (bis zu 100).",
+            "longDescription": "Löscht Nachrichten in Massen (bis zu 100).",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Nachrichten verwalten",
+            "userPermissions": "Nachrichten verwalten",
+            "amountOption": "Anzahl (1-100).",
+            "userOption": "Nur Nachrichten dieses Benutzers.",
+            "examples": [
+                "/clear amount:50\nLöscht 50 Nachrichten.",
+                "/clear amount:100\nLöscht 100 Nachrichten.",
+                "/clear amount:20 user:@user\nLöscht 20 Nachrichten des Benutzers."
+            ]
+        },
+        "slowmode": {
+            "description": "Slowmode im Kanal festlegen (0-21600 Sek.).",
+            "longDescription": "Legt das Intervall zwischen Nachrichten im Kanal fest.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Kanäle verwalten",
+            "userPermissions": "Kanäle verwalten",
+            "secondsOption": "Sekunden (0-21600).",
+            "channelOption": "Kanal.",
+            "examples": [
+                "/slowmode seconds:10\nLegt 10 Sekunden fest.",
+                "/slowmode seconds:60 channel:#general\nLegt 60 Sekunden in #general fest.",
+                "/slowmode seconds:0\nDeaktiviert den Slowmode."
+            ]
+        },
+        "nickname": {
+            "description": "Ändert oder setzt den Nicknamen eines Mitglieds zurück.",
+            "longDescription": "Setzt oder setzt den Nicknamen des Mitglieds zurück.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Nicknamen verwalten",
+            "userPermissions": "Nicknamen verwalten",
+            "userOption": "Benutzer.",
+            "nameOption": "Neuer Nickname (leer zum Zurücksetzen).",
+            "examples": [
+                "/nickname user:@user name:NeuerName\nÄndert den Nicknamen.",
+                "/nickname user:@user\nSetzt den Nicknamen zurück."
+            ]
+        },
+        "role": {
+            "description": "Vergibt oder entfernt eine Rolle bei einem Mitglied.",
+            "longDescription": "Vergeben und Entfernen von Rollen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Rollen verwalten",
+            "userPermissions": "Rollen verwalten",
+            "examples": [
+                "/role add user:@user role:@role\nVergibt die Rolle.",
+                "/role remove user:@user role:@role\nEntfernt die Rolle."
+            ],
+            "add": {
+                "description": "Rolle vergeben.",
+                "longDescription": "Fügt die Rolle dem Benutzer hinzu.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Rollen verwalten",
+                "userPermissions": "Rollen verwalten",
+                "examples": ["/role add user:@user role:@role\nVergibt die Rolle."]
+            },
+            "remove": {
+                "description": "Rolle entfernen.",
+                "longDescription": "Entfernt die Rolle vom Benutzer.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Rollen verwalten",
+                "userPermissions": "Rollen verwalten",
+                "examples": ["/role remove user:@user role:@role\nEntfernt die Rolle."]
+            }
+        },
+        "infrastructure": {
+            "description": "Server-Infrastruktur verwalten: Kanäle sperren/entsperren.",
+            "longDescription": "Operationen mit Kanälen und anderen Serverelementen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Kanäle verwalten",
+            "userPermissions": "Kanäle verwalten",
+            "examples": [
+                "/infrastructure channel lock\nSperrt den aktuellen Kanal.",
+                "/infrastructure channel unlock\nEntsperrt den aktuellen Kanal."
+            ],
+            "channel": {
+                "description": "Kanaloperationen.",
+                "lock": {
+                    "description": "Kanal sperren.",
+                    "longDescription": "Verhindert, dass @everyone im Kanal schreibt.",
+                    "cooldown": "3 Sekunden",
+                    "botPermissions": "Kanäle verwalten",
+                    "userPermissions": "Kanäle verwalten",
+                    "channelOption": "Kanal.",
+                    "reasonOption": "Grund.",
+                    "examples": [
+                        "/infrastructure channel lock\nSperrt den aktuellen Kanal.",
+                        "/infrastructure channel lock channel:#general reason:flood\nSperrt #general mit Grund."
+                    ]
+                },
+                "unlock": {
+                    "description": "Kanal entsperren.",
+                    "longDescription": "Hebt die Beschränkung zum Senden von Nachrichten auf.",
+                    "cooldown": "3 Sekunden",
+                    "botPermissions": "Kanäle verwalten",
+                    "userPermissions": "Kanäle verwalten",
+                    "channelOption": "Kanal.",
+                    "examples": [
+                        "/infrastructure channel unlock\nEntsperrt den aktuellen Kanal.",
+                        "/infrastructure channel unlock channel:#general\nEntsperrt #general."
+                    ]
+                }
+            }
+        },
+        "websearch": {
+            "description": "Informationen suchen: Wikipedia, Genshin, Steam, YouTube.",
+            "longDescription": "Suche auf Wikipedia, Genshin-, Steam- und YouTube-Profilen.",
+            "cooldown": "5 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/websearch wiki Discord\nSucht auf Wikipedia.",
+                "/websearch genshin 712345678\nGenshin-Profil.",
+                "/websearch steam 765611999199624578\nSteam-Profil.",
+                "/websearch youtube excepterr\nSucht einen YouTube-Kanal."
+            ],
+            "wiki": {
+                "description": "Auf Wikipedia suchen.",
+                "longDescription": "Sucht einen Artikel auf Wikipedia und zeigt eine Zusammenfassung.",
+                "cooldown": "5 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/websearch wiki Discord\nSucht den Artikel \"Discord\"."]
+            },
+            "genshin": {
+                "description": "Genshin Impact-Profil per UID.",
+                "longDescription": "Zeigt das Genshin Impact-Spielerprofil per UID.",
+                "cooldown": "5 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/websearch genshin 712345678\nZeigt das Spielerprofil."]
+            },
+            "steam": {
+                "description": "Steam-Profil.",
+                "longDescription": "Zeigt das Steam-Profil per SteamID64 oder Vanity-URL.",
+                "cooldown": "5 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": [
+                    "/websearch steam 765611999199624578\nPer SteamID64.",
+                    "/websearch steam excepterr\nPer Vanity-URL."
+                ]
+            },
+            "youtube": {
+                "description": "YouTube-Kanäle suchen.",
+                "longDescription": "Sucht YouTube-Kanäle und zeigt deren Statistiken.",
+                "cooldown": "5 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/websearch youtube excepterr\nSucht den Kanal \"excepterr\"."]
+            }
+        },
+        "balance": {
+            "description": "Guthaben, Level und verfügbare Belohnungen anzeigen.",
+            "longDescription": "Zeigt Guthaben, Level und verfügbare Belohnungen.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "userOption": "Benutzer.",
+            "examples": ["/balance", "/balance user:@user"]
+        },
+        "timely": {
+            "description": "Regelmäßigen Bonus alle 3 Stunden abholen.",
+            "longDescription": "Regelmäßiger Bonus alle 3 Stunden.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": ["/timely"]
+        },
+        "daily": {
+            "description": "Täglichen Bonus alle 24 Stunden abholen.",
+            "longDescription": "Täglicher Bonus alle 24 Stunden.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": ["/daily"]
+        },
+        "weekly": {
+            "description": "Wöchentlichen Bonus alle 7 Tage abholen.",
+            "longDescription": "Wöchentlicher Bonus alle 7 Tage.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": ["/weekly"]
+        },
+        "work": {
+            "description": "Arbeiten und Geld sowie Erfahrung verdienen (jede Stunde).",
+            "longDescription": "Arbeit jede Stunde. Gibt Geld und Erfahrung.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": ["/work"]
+        },
+        "currency": {
+            "description": "Serverwährung konfigurieren: Emoji und Name.",
+            "longDescription": "Ändert das Emoji und den Namen der Wirtschaftswährung.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Server verwalten",
+            "emojiOption": "Währungs-Emoji (z. B. 💎, 🪙).",
+            "nameOption": "Währungsname.",
+            "examples": [
+                "/currency\nAktuelle Einstellungen anzeigen.",
+                "/currency emoji:🪙 name:Münzen\nWährung ändern."
+            ]
+        },
+        "leaderboard": {
+            "description": "Top-Benutzer nach Guthaben (10 pro Seite, 5 Seiten).",
+            "longDescription": "Zeigt die Top 10 pro Seite, insgesamt 5 Seiten.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": ["/leaderboard"]
+        },
+        "bank": {
+            "description": "Bankverwaltung: Geld einzahlen oder abheben.",
+            "longDescription": "Geld einzahlen oder abheben.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "amountOption": "Betrag oder 0 für alles.",
+            "examples": [
+                "/bank deposit amount:1000",
+                "/bank deposit amount:0",
+                "/bank withdraw amount:500"
+            ],
+            "deposit": { "description": "In die Bank einzahlen." },
+            "withdraw": { "description": "Von der Bank abheben." }
+        },
+        "marriage": {
+            "description": "Familie: Antrag und Scheidung.",
+            "longDescription": "Antrag und Scheidung.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten, Nachrichten senden",
+            "userPermissions": "Keine",
+            "userOption": "Benutzer.",
+            "examples": ["/marriage propose user:@user", "/marriage divorce"],
+            "propose": { "description": "Einen Antrag machen." },
+            "divorce": { "description": "Sich scheiden lassen." }
+        },
+        "shop": {
+            "description": "Rollen-Shop: ansehen, kaufen, hinzufügen und entfernen.",
+            "longDescription": "Anzeigen, Kaufen und Verwalten des Rollen-Shops.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Rollen verwalten",
+            "userPermissions": "Server verwalten für add/remove",
+            "roleOption": "Rolle.",
+            "examples": [
+                "/shop list",
+                "/shop buy role:@role",
+                "/shop add role:@role price:5000",
+                "/shop remove role:@role"
+            ],
+            "list": { "description": "Shop anzeigen." },
+            "buy": { "description": "Rolle kaufen." },
+            "add": { "description": "Rolle zum Shop hinzufügen." },
+            "remove": { "description": "Rolle aus dem Shop entfernen." }
+        },
+        "music": {
+            "description": "Musikbefehle: Wiedergabe und Verwaltung von YouTube.",
+            "longDescription": "Musikwiedergabe und -verwaltung von YouTube.",
+            "cooldown": "2 Sekunden",
+            "botPermissions": "Verbinden, Sprechen, Links einbetten",
+            "userPermissions": "Keine",
+            "example": "/music play never gonna give you up",
+            "play": {
+                "description": "Einen Track von YouTube abspielen.",
+                "longDescription": "Sucht einen Track auf YouTube und fügt ihn zur Warteschlange hinzu.",
+                "cooldown": "3 Sekunden",
+                "botPermissions": "Verbinden, Sprechen",
+                "userPermissions": "Keine",
+                "queryOption": "Name oder Link.",
+                "examples": [
+                    "/music play never gonna give you up",
+                    "/music play https://youtu.be/dQw4w9WgXcQ"
+                ]
+            },
+            "skip": {
+                "description": "Track überspringen.",
+                "longDescription": "Überspringt den aktuellen Track.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "examples": ["/music skip"]
+            },
+            "pause": {
+                "description": "Pausieren.",
+                "longDescription": "Pausiert die Wiedergabe.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "examples": ["/music pause"]
+            },
+            "resume": {
+                "description": "Fortsetzen.",
+                "longDescription": "Setzt die Wiedergabe fort.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "examples": ["/music resume"]
+            },
+            "stop": {
+                "description": "Stoppen.",
+                "longDescription": "Stoppt die Wiedergabe und leert die Warteschlange.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "examples": ["/music stop"]
+            },
+            "nowplaying": {
+                "description": "Was gerade läuft.",
+                "longDescription": "Zeigt den aktuellen Track.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/music nowplaying"]
+            },
+            "queue": {
+                "description": "Track-Warteschlange.",
+                "longDescription": "Zeigt die Warteschlange.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Links einbetten",
+                "userPermissions": "Keine",
+                "examples": ["/music queue"]
+            },
+            "volume": {
+                "description": "Lautstärke.",
+                "longDescription": "Legt die Lautstärke des Players fest.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "valueOption": "Lautstärke (0-200).",
+                "examples": ["/music volume value:50"]
+            },
+            "loop": {
+                "description": "Wiederholungsmodus.",
+                "longDescription": "Aktiviert die Wiederholung von Track oder Warteschlange.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "modeOption": "Modus.",
+                "examples": ["/music loop mode:track", "/music loop mode:queue", "/music loop mode:off"]
+            },
+            "shuffle": {
+                "description": "Warteschlange mischen.",
+                "longDescription": "Mischt die Tracks in der Warteschlange.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "examples": ["/music shuffle"]
+            },
+            "seek": {
+                "description": "Track spulen.",
+                "longDescription": "Springt zur angegebenen Sekunde.",
+                "cooldown": "2 Sekunden",
+                "botPermissions": "Keine",
+                "userPermissions": "Keine",
+                "secondsOption": "Sekunden.",
+                "examples": ["/music seek seconds:30"]
+            }
+        },
+        "8ball": {
+            "description": "Stelle der magischen Kugel eine Frage und erhalte eine Antwort.",
+            "longDescription": "Die magische Kugel antwortet auf deine Frage.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "questionOption": "Deine Frage.",
+            "question": "Frage",
+            "answer": "Antwort",
+            "answers": [
+                "Zweifellos.", "Vorherbestimmt.", "Kein Zweifel.", "Definitiv ja.",
+                "Du kannst dich darauf verlassen.", "Ich denke ja.", "Wahrscheinlich.",
+                "Gute Aussichten.", "Die Zeichen stehen auf Ja.", "Ja.",
+                "Noch unklar, versuche es erneut.", "Frage später.", "Besser nicht erzählen.",
+                "Jetzt nicht vorhersehbar.", "Konzentriere dich und frage erneut.",
+                "Denk nicht mal daran.", "Meine Antwort ist nein.", "Meinen Daten zufolge nein.",
+                "Die Aussichten sind nicht sehr gut.", "Sehr zweifelhaft."
+            ]
+        },
+        "coinflip": {
+            "description": "Wirf eine Münze: Kopf oder Zahl.",
+            "longDescription": "Wirft eine Münze und gibt Kopf oder Zahl.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "heads": "🪙 Es ist **Kopf**!",
+            "tails": "🪙 Es ist **Zahl**!"
+        },
+        "dice": {
+            "description": "Wirf einen Würfel mit der angegebenen Anzahl an Seiten.",
+            "longDescription": "Wirft einen Würfel mit der angegebenen Anzahl an Seiten.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "sidesOption": "Anzahl der Seiten (Standard 6).",
+            "result": "🎲 Gewürfelt: **{{result}}**"
+        },
+        "rps": {
+            "description": "Spiele Schere, Stein, Papier mit dem Bot.",
+            "longDescription": "Spielt Schere, Stein, Papier mit dem Bot.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "choiceOption": "Deine Wahl.",
+            "rock": "Stein",
+            "paper": "Papier",
+            "scissors": "Schere",
+            "win": "🎉 Du hast gewonnen! Der Bot wählte **{{bot}}**.",
+            "lose": "😢 Du hast verloren. Der Bot wählte **{{bot}}**.",
+            "draw": "🤝 Unentschieden! Der Bot wählte **{{bot}}**."
+        },
+        "rate": {
+            "description": "Bewerte etwas auf einer Skala von 0 bis 10.",
+            "longDescription": "Bewertet einen Gegenstand oder eine Aktion auf einer Skala von 0 bis 10.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "thingOption": "Was bewertet werden soll.",
+            "result": "Ich bewerte **{{thing}}** mit **{{rating}}/10**."
+        },
+        "reverse": {
+            "description": "Text umkehren.",
+            "longDescription": "Kehrt den Text von hinten nach vorne um.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "textOption": "Umzukehrender Text.",
+            "result": "🔄 **Ergebnis:**\n```\n{{result}}\n```"
+        },
+        "uppercase": {
+            "description": "Text in Großbuchstaben umwandeln.",
+            "longDescription": "Macht alle Buchstaben groß.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "textOption": "Text.",
+            "result": "🔠 **Ergebnis:**\n```\n{{result}}\n```"
+        },
+        "lowercase": {
+            "description": "Text in Kleinbuchstaben umwandeln.",
+            "longDescription": "Macht alle Buchstaben klein.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "textOption": "Text.",
+            "result": "🔡 **Ergebnis:**\n```\n{{result}}\n```"
+        },
+        "length": {
+            "description": "Zeichen und Wörter im Text zählen.",
+            "longDescription": "Zeigt die Anzahl der Zeichen und Wörter im Text.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "textOption": "Zu analysierender Text.",
+            "title": "📊 Textstatistik",
+            "chars": "Zeichen",
+            "words": "Wörter",
+            "charsNoSpaces": "Zeichen ohne Leerzeichen"
+        },
+        "changelog": {
+            "description": "Zeigt die neuesten Änderungen und die aktuelle Version des Bots.",
+            "longDescription": "Zeigt die neuesten Änderungen und die aktuelle Version des Bots.",
+            "cooldown": "3 Sekunden",
+            "botPermissions": "Links einbetten",
+            "userPermissions": "Keine",
+            "examples": [
+                "/changelog\nZeigt das Änderungsprotokoll."
+            ]
+        }
+    }
+}

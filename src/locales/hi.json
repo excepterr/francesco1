@@ -1,0 +1,1488 @@
+{
+    "yes": "हाँ",
+    "no": "नहीं",
+
+    "modules": {
+        "config": "कॉन्फ़िगरेशन",
+        "info": "जानकारी",
+        "websearch": "खोज",
+        "interactions": "इंटरैक्शन",
+        "moderation": "मॉडरेशन",
+        "fun": "मनोरंजन",
+        "economy": "अर्थव्यवस्था",
+        "utilities": "उपयोगिताएँ",
+        "music": "संगीत",
+        "administrative": "प्रशासनिक",
+        "text": "टेक्स्ट"
+    },
+
+    "say": {
+        "sent": "भेज दिया गया!"
+    },
+
+    "music": {
+        "noVoiceChannel": "संगीत कमांड का उपयोग करने के लिए पहले वॉइस चैनल में शामिल हों।",
+        "noNode": "संगीत सर्वर उपलब्ध नहीं है। बाद में पुनः प्रयास करें या सहायता से संपर्क करें।",
+        "notFound": "ट्रैक नहीं मिला। नाम या लिंक जाँचें और पुनः प्रयास करें।",
+        "addedToQueue": "कतार में जोड़ा गया",
+        "author": "कलाकार",
+        "tracksAdded": "ट्रैक जोड़े गए",
+        "notPlaying": "अभी कुछ नहीं चल रहा है।",
+        "skipped": "ट्रैक स्किप किया गया।",
+        "paused": "रोका गया।",
+        "resumed": "जारी रखा गया।",
+        "stopped": "रोका गया, कतार साफ़ कर दी गई।",
+        "queueEmpty": "कतार खाली है।",
+        "queueTitle": "कतार",
+        "queue": "कतार",
+        "nowPlaying": "अभी चल रहा है",
+        "nowplayingTitle": "अभी चल रहा है",
+        "length": "अवधि",
+        "loop": "दोहराव",
+        "andMore": "और {{n}}",
+        "volumeSet": "वॉल्यूम **{{value}}** पर सेट किया गया।",
+        "loopSet": "दोहराव मोड: **{{mode}}**।",
+        "loopSame": "यह मोड पहले से सेट है।",
+        "queueTooSmall": "शफल करने के लिए पर्याप्त ट्रैक नहीं हैं।",
+        "shuffled": "**{{count}}** ट्रैक शफल किए गए।",
+        "seeked": "**{{seconds}}** सेकंड पर सीक किया गया।"
+    },
+
+    "currency": {
+        "title": "सर्वर मुद्रा",
+        "currentSettings": "वर्तमान सेटिंग्स",
+        "emojiLabel": "इमोजी",
+        "nameLabel": "नाम",
+        "changedInfo": "मुद्रा सेटिंग्स अपडेट की गईं।",
+        "saveError": "सेटिंग्स सहेजी नहीं जा सकीं। बाद में पुनः प्रयास करें।"
+    },
+
+    "changelog": {
+        "title": "परिवर्तन सूची — {{user}}",
+        "version": "बिल्ड संस्करण"
+    },
+
+    "economy": {
+        "balanceTitle": "सदस्य का बैलेंस — {{user}}",
+        "wallet": "नकद",
+        "bank": "बैंक में",
+        "total": "कुल बैलेंस",
+        "walletShort": "नकद",
+        "bankShort": "बैंक में",
+        "totalShort": "कुल",
+        "rank": "रैंक में स्थान",
+        "level": "स्तर",
+        "info": "जानकारी",
+        "rewards": "इनाम",
+        "donateCurrency": "डोनेट मुद्रा:",
+        "rewardsAvailable": "इनाम के लिए उपलब्ध कमांड: {{list}}",
+        "rewardsEmpty": "सभी इनाम पहले ही ले लिए गए हैं।",
+        "nextBonus": "अगला बोनस लिया जा सकता है",
+        "cooldown": "अगले प्रयास से पहले {{time}} प्रतीक्षा करें।",
+        "notEnough": "पर्याप्त धन नहीं है।",
+        "bankNothing": "स्थानांतरित करने के लिए कुछ नहीं है।",
+
+        "timelyTitle": "नियमित बोनस",
+        "timelyDescription": "**{{user}}** ने अपने **{{amount}}** {{currency}} लिए",
+
+        "dailyTitle": "दैनिक बोनस",
+        "dailyDescription": "**{{user}}** ने अपने **{{amount}}** {{currency}} लिए",
+
+        "weeklyTitle": "साप्ताहिक बोनस",
+        "weeklyDescription": "**{{user}}** ने अपने **{{amount}}** {{currency}} लिए",
+
+        "workTitle": "काम",
+        "workDescription": "**{{user}}**, आपने ***{{job}}*** के रूप में सफलतापूर्वक काम किया।",
+        "workIncome": "आय",
+        "workProgress": "प्रगति",
+
+        "leaderboardTitle": "बैलेंस लीडरबोर्ड",
+        "leaderboardEmpty": "अभी तक कोई शीर्ष पर नहीं है।",
+        "page": "पृष्ठ",
+
+        "bankDepositTitle": "बैंक जमा",
+        "bankDepositDescription": "**{{user}}**, आपने **{{amount}}** {{currency}} बैंक में जमा किए।",
+        "bankWithdrawTitle": "बैंक निकासी",
+        "bankWithdrawDescription": "**{{user}}**, आपने **{{amount}}** {{currency}} बैंक से निकाले।",
+
+        "shopTitle": "रोल शॉप",
+        "shopEmpty": "शॉप खाली है।",
+        "shopRoleNotFound": "यह रोल शॉप में नहीं है।",
+        "shopBuyTitle": "खरीद",
+        "shopBuyDescription": "**{{user}}**, आपने रोल **{{role}}** को **{{price}}** {{currency}} में खरीदा।",
+        "shopAddTitle": "रोल जोड़ा गया",
+        "shopAddDescription": "रोल **{{role}}** को **{{price}}** {{currency}} में शॉप में जोड़ा गया।",
+        "shopRemoveTitle": "रोल हटाया गया",
+        "shopRemoveDescription": "रोल **{{role}}** को शॉप से हटाया गया।",
+        "alreadyOwned": "आपके पास यह रोल पहले से है।"
+    },
+
+    "moderation": {
+        "cantSelf": "स्वयं पर कार्रवाई लागू नहीं की जा सकती।",
+        "hierarchyUser": "आपके पास अनुमति नहीं है: लक्ष्य आपके बराबर या ऊपर है।",
+        "hierarchyBot": "बॉट के पास अनुमति नहीं है: लक्ष्य बॉट से ऊपर है।",
+        "notOnServer": "उपयोगकर्ता सर्वर पर नहीं है।",
+        "notBanned": "यह उपयोगकर्ता बैन नहीं है।",
+        "notTimedOut": "उपयोगकर्ता का कोई सक्रिय टाइमआउट नहीं है।",
+        "invalidId": "अमान्य उपयोगकर्ता ID। सुनिश्चित करें कि ID में केवल अंक हैं।",
+        "invalidDuration": "अमान्य अवधि प्रारूप। उदाहरण: `5m`, `1h`, `2d`।",
+        "tooLong": "टाइमआउट की अधिकतम अवधि 28 दिन है।",
+        "roleTooHigh": "यह रोल बॉट के रोल से ऊपर है।",
+
+        "actionTitle": "सदस्य के साथ इंटरैक्शन — {{user}}",
+        "actionDescription": "{{moderator}}, सदस्य **{{user}}** {{action}}।",
+        "reasonLabel": "कारण",
+        "reasonNone": "निर्दिष्ट नहीं",
+
+        "actionBan": "सर्वर से बैन किया गया",
+        "actionUnban": "बैन हटाया गया",
+        "actionKick": "सर्वर से किक किया गया",
+        "actionTimeout": "**{{duration}}** का टाइमआउट मिला",
+        "actionUntimeout": "टाइमआउट से मुक्त किया गया",
+        "actionWarnAdd": "चेतावनी **#{{id}}** मिली",
+        "actionNicknameSet": "नया उपनाम **{{name}}** मिला",
+        "actionNicknameReset": "उपनाम रीसेट किया गया",
+        "actionRoleAdd": "रोल **{{role}}** मिला",
+        "actionRoleRemove": "रोल **{{role}}** हटाया गया",
+
+        "ban": { "success": "उपयोगकर्ता **{{user}}** (`{{id}}`) बैन किया गया।" },
+        "unban": { "success": "उपयोगकर्ता **{{user}}** (`{{id}}`) का बैन हटाया गया।" },
+        "kick": { "success": "उपयोगकर्ता **{{user}}** (`{{id}}`) किक किया गया।" },
+        "timeout": { "success": "उपयोगकर्ता **{{user}}** (`{{id}}`) **{{duration}}** के टाइमआउट में है।" },
+        "untimeout": { "success": "उपयोगकर्ता **{{user}}** (`{{id}}`) का टाइमआउट हटाया गया।" },
+
+        "warn": {
+            "added": "उपयोगकर्ता **{{user}}** (`{{id}}`) को चेतावनी **#{{warnId}}** दी गई।\nकारण: {{reason}}",
+            "removed": "चेतावनी **#{{id}}** हटाई गई।",
+            "cleared": "उपयोगकर्ता **{{user}}** की सभी चेतावनियाँ हटाई गईं।",
+            "empty": "उपयोगकर्ता **{{user}}** की कोई चेतावनी नहीं है।",
+            "listTitle": "चेतावनियाँ — {{user}}"
+        },
+
+        "clear": {
+            "title": "संदेश सफ़ाई — {{channel}}",
+            "description": "{{moderator}}, **{{count}}** संदेश हटाए गए।",
+            "success": "**{{count}}** संदेश हटाए गए।",
+            "none": "हटाने के लिए कुछ नहीं है।",
+            "tooOld": "हटाया नहीं जा सका — संदेश 14 दिन से पुराने हैं।"
+        },
+
+        "slowmode": {
+            "title": "स्लो मोड — {{channel}}",
+            "description": "{{moderator}}, स्लो मोड **{{seconds}}** सेकंड पर सेट किया गया।",
+            "titleOff": "स्लो मोड बंद — {{channel}}",
+            "descriptionOff": "{{moderator}}, चैनल में स्लो मोड बंद कर दिया गया।",
+            "success": "चैनल {{channel}} में स्लो मोड **{{seconds}}** सेकंड पर सेट किया गया।",
+            "off": "{{channel}} में स्लो मोड बंद कर दिया गया।"
+        },
+
+        "channelLock": {
+            "title": "चैनल लॉक — {{channel}}",
+            "description": "{{moderator}}, चैनल **{{channel}}** लॉक कर दिया गया।"
+        },
+        "channelUnlock": {
+            "title": "चैनल अनलॉक — {{channel}}",
+            "description": "{{moderator}}, चैनल **{{channel}}** अनलॉक कर दिया गया।"
+        },
+
+        "nickname": {
+            "success": "उपयोगकर्ता **{{user}}** का उपनाम **{{name}}** में बदला गया।",
+            "reset": "उपयोगकर्ता **{{user}}** का उपनाम रीसेट किया गया।"
+        },
+        "role": {
+            "added": "रोल **{{role}}** उपयोगकर्ता **{{user}}** को दिया गया।",
+            "removed": "रोल **{{role}}** उपयोगकर्ता **{{user}}** से हटाया गया।"
+        }
+    },
+
+    "confessions": {
+        "description": "AI मेमोरी कंटेनर का प्रबंधन।",
+        "notText": "कृपया एक टेक्स्ट चैनल निर्दिष्ट करें।",
+        "notFound": "कंटेनर नहीं मिला।",
+        "maxContainers": "कंटेनर की सीमा पूरी (प्रति सर्वर **{{max}}**)।",
+        "maxSize": "आकार की सीमा पूरी (**{{size}}**)।",
+        "noContainers": "सर्वर पर कोई कंटेनर नहीं है।",
+        "unknownError": "एक त्रुटि हुई।",
+        "create": {
+            "description": "चैनल के लिए मेमोरी कंटेनर बनाएँ।",
+            "option": "चैनल।",
+            "title": "कंटेनर बनाया गया",
+            "success": "चैनल: {{channel}}\nID: `{{id}}`"
+        },
+        "list": {
+            "description": "सर्वर के कंटेनर की सूची।",
+            "title": "AI मेमोरी कंटेनर"
+        },
+        "block": {
+            "description": "कंटेनर को स्थायी रूप से हटाएँ।",
+            "option": "कंटेनर ID।",
+            "title": "कंटेनर हटाया गया",
+            "confirm": "{{user}}, क्या आप **निश्चित** हैं कि आप कंटेनर को स्थायी रूप से हटाना चाहते हैं?\n```\nID: {{id}}\n{{count}} संदेश / {{size}}\n```",
+            "confirmBtn": "पुष्टि करें",
+            "cancelBtn": "रद्द करें",
+            "success": "कंटेनर `{{id}}` हटा दिया गया।"
+        },
+        "report": {
+            "description": "कंटेनर बॉट के मालिक को भेजें।",
+            "idOption": "कंटेनर ID।",
+            "reasonOption": "रिपोर्ट का कारण।",
+            "reasonLabel": "कारण",
+            "title": "रिपोर्ट भेजी गई",
+            "success": "कंटेनर `{{id}}` के बारे में आपकी रिपोर्ट मालिक को भेज दी गई।"
+        },
+        "regen": {
+            "expired": "संदर्भ पुराना हो गया। कृपया प्रश्न दोबारा पूछें।",
+            "limit": "प्रयासों की सीमा पूरी हो गई।",
+            "rateLimit": "बॉट के आज के अनुरोध समाप्त हो गए।",
+            "failed": "उत्तर उत्पन्न नहीं किया जा सका।"
+        }
+    },
+
+    "birthday": {
+        "description": "जन्मदिन का प्रबंधन।",
+        "invalidDate": "इस महीने में केवल **{{max}}** दिन हैं।",
+        "saveError": "जन्मदिन सहेजा नहीं जा सका।",
+        "set": {
+            "description": "अपना जन्मदिन सेट करें।",
+            "dayOption": "दिन (1-31)।",
+            "monthOption": "महीना (1-12)।",
+            "yearOption": "वर्ष (वैकल्पिक)।",
+            "title": "जन्मदिन सेट किया गया",
+            "success": "आपका जन्मदिन: **{{date}}**।"
+        },
+        "view": {
+            "description": "किसी का जन्मदिन देखें।",
+            "userOption": "उपयोगकर्ता।",
+            "title": "जन्मदिन",
+            "selfNotFound": "आपका जन्मदिन सेट नहीं है। `/birthday set` का उपयोग करें।",
+            "notFound": "उपयोगकर्ता **{{user}}** का जन्मदिन सेट नहीं है।"
+        },
+        "delete": {
+            "description": "अपना जन्मदिन हटाएँ।",
+            "title": "जन्मदिन हटाया गया",
+            "success": "आपका जन्मदिन हटा दिया गया।",
+            "notFound": "आपका कोई सहेजा हुआ जन्मदिन नहीं है।",
+            "error": "जन्मदिन हटाया नहीं जा सका।"
+        },
+        "congrats": {
+            "title": "🎉 जन्मदिन मुबारक!",
+            "message": "आज {{users}} का जन्मदिन है!\n\nबधाई हो! 🎂🎈"
+        }
+    },
+
+    "actions": {
+        "description": "GIF के साथ भावनाएँ और इंटरैक्शन।",
+        "actionOption": "क्या करें।",
+        "userOption": "उपयोगकर्ता।",
+        "unknown": "अज्ञात कार्रवाई।",
+        "targetRequired": "इस कार्रवाई के लिए उपयोगकर्ता निर्दिष्ट करें।",
+        "noGif": "GIF उपलब्ध नहीं है।",
+        "selfNotAllowed": "यह कार्रवाई स्वयं पर लागू नहीं की जा सकती।",
+        "list": {
+            "hug":      { "self": "**{user}** गले लगाता है",                       "other": "**{user}** **{target}** को गले लगाता है" },
+            "kiss":     { "self": "**{user}** चूमता है",                           "other": "**{user}** **{target}** को चूमता है" },
+            "slap":     { "self": "**{user}** थप्पड़ मारता है",                    "other": "**{user}** **{target}** को थप्पड़ मारता है" },
+            "pat":      { "self": "**{user}** सहलाता है",                          "other": "**{user}** **{target}** को सहलाता है" },
+            "cuddle":   { "self": "**{user}** सटकर बैठता है",                      "other": "**{user}** **{target}** से सटकर बैठता है" },
+            "poke":     { "self": "**{user}** कुहनी मारता है",                     "other": "**{user}** **{target}** को कुहनी मारता है" },
+            "tickle":   { "self": "**{user}** गुदगुदाता है",                      "other": "**{user}** **{target}** को गुदगुदाता है" },
+            "punch":    { "self": "**{user}** मुक्का मारता है",                    "other": "**{user}** **{target}** को मुक्का मारता है" },
+            "bite":     { "self": "**{user}** काटता है",                           "other": "**{user}** **{target}** को काटता है" },
+            "highfive": { "self": "**{user}** हाई फाइव करता है",                   "other": "**{user}** **{target}** से हाई फाइव करता है" },
+            "handhold": { "self": "**{user}** हाथ पकड़ता है",                      "other": "**{user}** **{target}** का हाथ पकड़ता है" },
+            "feed":     { "self": "**{user}** खिलाता है",                          "other": "**{user}** **{target}** को खिलाता है" },
+            "cry":      { "self": "**{user}** रोता है",                            "other": "" },
+            "laugh":    { "self": "**{user}** हँसता है",                           "other": "" },
+            "dance":    { "self": "**{user}** नाचता है",                           "other": "" },
+            "wave":     { "self": "**{user}** हाथ हिलाता है",                      "other": "" },
+            "blush":    { "self": "**{user}** शरमाता है",                          "other": "" },
+            "smile":    { "self": "**{user}** मुस्कुराता है",                      "other": "" },
+            "wink":     { "self": "**{user}** आँख मारता है",                       "other": "" },
+            "facepalm": { "self": "**{user}** माथा पकड़ता है",                     "other": "" },
+            "thumbsup": { "self": "**{user}** अंगूठा दिखाता है",                   "other": "" },
+            "smug":     { "self": "**{user}** घमंड से मुस्कुराता है",              "other": "" }
+        },
+        "labels": {
+            "hug":      "गले लगाना",
+            "kiss":     "चूमना",
+            "slap":     "थप्पड़ मारना",
+            "pat":      "सहलाना",
+            "cuddle":   "सटकर बैठना",
+            "poke":     "कुहनी मारना",
+            "tickle":   "गुदगुदाना",
+            "punch":    "मुक्का मारना",
+            "bite":     "काटना",
+            "highfive": "हाई फाइव",
+            "handhold": "हाथ पकड़ना",
+            "feed":     "खिलाना",
+            "cry":      "रोना",
+            "laugh":    "हँसना",
+            "dance":    "नाचना",
+            "wave":     "हाथ हिलाना",
+            "blush":    "शरमाना",
+            "smile":    "मुस्कुराना",
+            "wink":     "आँख मारना",
+            "facepalm": "माथा पकड़ना",
+            "thumbsup": "अंगूठा दिखाना",
+            "smug":     "घमंडी"
+        }
+    },
+
+    "ping": {
+        "cluster": "क्लस्टर",
+        "shards": "शार्ड्स",
+        "ws": "लेटेंसी",
+        "roundtrip": "कमांड प्रोसेसिंग",
+        "database": "डेटाबेस",
+        "error": "त्रुटि"
+    },
+
+    "about": {
+        "description": "बॉट के बारे में जानकारी दिखाता है।",
+        "title": "{{botName}} के बारे में जानकारी",
+        "botDesc": "बहुक्रियाशील, मनोरंजक बॉट ⭐\nरखरखाव या नई सुविधाओं के लिए अक्सर अपडेट किया जाता है!\n\n**डेवलपर:** {{dev}}",
+        "apiLatency": "API लेटेंसी",
+        "messageLatency": "संदेश लेटेंसी",
+        "started": "बॉट शुरू हुआ",
+        "buildHash": "बिल्ड हैश",
+        "ms": "ms",
+
+        "supportButton": "सहायता सर्वर",
+        "inviteButton": "बॉट को आमंत्रित करें",
+
+        "chartTitle": "प्रतिक्रिया समय",
+        "chartBadge": "Ping",
+        "chartAllRegions": "सभी क्षेत्र",
+        "chartDay": "दिन",
+        "chartWeek": "सप्ताह",
+        "chartMonth": "महीना",
+        "chartAverage": "औसत",
+        "chartUptime": "अपटाइम",
+        "chartRamLoad": "RAM लोड",
+        "chartCpuLoad": "CPU लोड",
+        "chartMs": "ms"
+    },
+
+    "avatar": { "title": "अवतार" },
+    "banner": {
+        "title": "बैनर",
+        "noBanner": "उपयोगकर्ता **{{user}}** का कोई बैनर नहीं है।"
+    },
+
+    "channel": {
+        "category": "श्रेणी",
+        "topic": "विषय",
+        "noTopic": "कोई नहीं",
+        "none": "कोई नहीं",
+        "invites": "आमंत्रण",
+        "created": "निर्माण तिथि"
+    },
+
+    "user": {
+        "joined": "शामिल हुए",
+        "created": "खाता बनाया गया",
+        "roles": "रोल",
+        "noRoles": "कोई नहीं",
+        "requestedBy": "अनुरोधकर्ता"
+    },
+
+    "roles": {
+        "infoLabel": "रोल जानकारी",
+        "color": "रंग",
+        "created": "निर्माण तिथि",
+        "id": "ID"
+    },
+
+    "guild": {
+        "subtitle": "सर्वर जानकारी",
+        "boosts": "बूस्ट",
+        "boostLevel": "स्तर",
+        "boostsWord": "बूस्ट",
+        "owner": "मालिक",
+        "members": "सदस्य",
+        "created": "निर्माण तिथि",
+        "moderation": "मॉडरेशन",
+        "features": "सुविधाएँ",
+        "emojis": "इमोजी",
+        "bitrate": "बिटरेट",
+        "kbps": "Kbps",
+        "filesize": "फ़ाइल आकार",
+        "iconTitle": "सर्वर आइकन",
+        "bannerTitle": "सर्वर बैनर",
+        "noIcon": "इस सर्वर का कोई आइकन नहीं है।",
+        "noBanner": "इस सर्वर का कोई बैनर नहीं है।"
+    },
+
+    "timestamp": {
+        "title": "Discord Timestamp",
+        "shortTime": "छोटा समय",
+        "longTime": "लंबा समय",
+        "shortDate": "छोटी तिथि",
+        "longDate": "लंबी तिथि",
+        "shortDateTime": "छोटी तिथि और समय",
+        "longDateTime": "लंबी तिथि और समय",
+        "relative": "सापेक्ष"
+    },
+
+    "emoji": {
+        "listTitle": "सर्वर इमोजी",
+        "listEmpty": "सर्वर पर कोई इमोजी नहीं है।",
+        "notFound": "इमोजी नहीं मिली।",
+        "id": "ID",
+        "animated": "एनिमेटेड",
+        "created": "निर्माण तिथि"
+    },
+
+    "websearch": {
+        "wikiNotFound": "कुछ नहीं मिला।",
+        "genshinTitle": "Genshin Impact — प्रोफ़ाइल",
+        "genshinInvalidUid": "अमान्य UID।",
+        "genshinNotFound": "प्रोफ़ाइल नहीं मिली।",
+        "steamTitle": "Steam — प्रोफ़ाइल",
+        "steamNotFound": "प्रोफ़ाइल नहीं मिली।",
+        "youtubeTitle": "YouTube",
+        "youtubeNotFound": "चैनल नहीं मिले।",
+        "youtubeUnavailable": "YouTube उपलब्ध नहीं है।"
+    },
+
+    "config": {
+        "description": "इस सर्वर के लिए बॉट कॉन्फ़िगरेशन।",
+        "title": "सर्वर कॉन्फ़िगरेशन",
+        "currentSettings": "वर्तमान सर्वर सेटिंग्स",
+        "info": "जानकारी",
+        "changedInfo": "आपने **{{changed}}** को **{{to}}** में बदला। ध्यान दें: परिवर्तन सर्वर के सभी उपयोगकर्ताओं पर तुरंत लागू होते हैं।",
+        "changedLanguage": "भाषा",
+        "language": {
+            "description": "सर्वर की भाषा बदलें।",
+            "selectPlaceholder": "भाषा चुनें",
+            "currentLang": "सेट भाषा: **{{lang}}**"
+        },
+        "modules": {
+            "description": "मॉड्यूल सक्षम या अक्षम करें।",
+            "selectPlaceholder": "सक्रिय मॉड्यूल चुनें",
+            "currentValue": "सक्रिय मॉड्यूल: **{{total}}** में से **{{active}}**",
+            "changedInfo": "आपने मॉड्यूल बदले। सक्रिय मॉड्यूल: **{{total}}** में से **{{active}}**। परिवर्तन सर्वर के सभी उपयोगकर्ताओं पर तुरंत लागू होते हैं।"
+        },
+        "birthdays": {
+            "description": "जन्मदिन की बधाई सेट करें।",
+            "channelOption": "बधाई के लिए चैनल।",
+            "enableOption": "सक्षम या अक्षम करें।",
+            "title": "जन्मदिन की बधाई",
+            "status": "स्थिति",
+            "on": "सक्षम",
+            "off": "अक्षम",
+            "channel": "चैनल",
+            "notSet": "चयनित नहीं",
+            "changedInfo": "सेटिंग्स अपडेट की गईं। बॉट हर दिन **09:00 UTC** पर जन्मदिन वालों को बधाई देगा।",
+            "channelRequired": "पहले एक चैनल चुनें।",
+            "notTextChannel": "चैनल टेक्स्ट होना चाहिए।",
+            "saveError": "सेटिंग्स सहेजी नहीं जा सकीं।"
+        },
+        "logging": {
+            "description": "सर्वर लॉग सेट करें।",
+            "channelOption": "लॉग के लिए चैनल।",
+            "enableOption": "सक्षम या अक्षम करें।",
+            "title": "सर्वर लॉग",
+            "status": "स्थिति",
+            "on": "सक्षम",
+            "off": "अक्षम",
+            "channel": "चैनल",
+            "notSet": "चयनित नहीं",
+            "changedInfo": "लॉग सेटिंग्स अपडेट की गईं। सर्वर इवेंट निर्दिष्ट चैनल में दर्ज किए जाएँगे।",
+            "channelRequired": "पहले एक चैनल चुनें।",
+            "notTextChannel": "चैनल टेक्स्ट होना चाहिए।",
+            "saveError": "सेटिंग्स सहेजी नहीं जा सकीं।"
+        },
+        "currency": {
+            "description": "सर्वर मुद्रा सेट करें।",
+            "emojiOption": "मुद्रा की इमोजी (जैसे 💎, 🪙)।",
+            "nameOption": "मुद्रा का नाम।",
+            "title": "सर्वर मुद्रा",
+            "emoji": "इमोजी",
+            "name": "नाम",
+            "changedInfo": "मुद्रा सेटिंग्स अपडेट की गईं।",
+            "saveError": "सेटिंग्स सहेजी नहीं जा सकीं।"
+        }
+    },
+
+    "help": {
+        "description": "उपलब्ध कमांड की सूची।",
+        "commandOption": "कमांड का नाम चुनें या दर्ज करें।",
+        "title": "उपलब्ध कमांड की सूची",
+        "selectPlaceholder": "श्रेणी चुनें",
+        "homeOption": "🏠 होम",
+        "moduleTitle": "मॉड्यूल",
+        "commandInfo": "कमांड जानकारी",
+        "commandNotFound": "कमांड `{{name}}` नहीं मिला।",
+        "fieldInfo": "जानकारी",
+        "fieldCooldown": "कूलडाउन",
+        "fieldBotPerms": "बॉट अनुमतियाँ",
+        "fieldUserPerms": "सदस्य अनुमतियाँ",
+        "fieldExampleN": "उदाहरण #{{n}}"
+    },
+
+    "errors": {
+        "generic": "एक अप्रत्याशित त्रुटि हुई। बाद में पुनः प्रयास करें या सहायता से संपर्क करें।",
+        "noPermission": "आपके पास इस कमांड का उपयोग करने की पर्याप्त अनुमति नहीं है। अनुमतियाँ जाँचें या व्यवस्थापक से संपर्क करें।",
+        "cooldown": "कमांड अभी तैयार नहीं है। **{{time}}** प्रतीक्षा करें और पुनः प्रयास करें।",
+        "notFound": "अनुरोधित संसाधन नहीं मिला। पैरामीटर जाँचें और पुनः प्रयास करें।",
+        "moduleDisabled": "यह मॉड्यूल इस सर्वर पर अक्षम है। इसे `/config modules` में सक्षम करें।",
+        "guildOnly": "यह कमांड केवल सर्वर पर उपलब्ध है, DM में उपयोग नहीं किया जा सकता।"
+    },
+
+    "components": {
+        "notOwner": "यह मेनू किसी अन्य उपयोगकर्ता ने खोला है। अपना कमांड उपयोग करें।"
+    },
+
+    "commands": {
+        "say": {
+            "description": "वर्तमान चैनल में बॉट के रूप में संदेश भेजें।",
+            "longDescription": "वर्तमान चैनल में बॉट के रूप में संदेश भेजता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "संदेश भेजें",
+            "userPermissions": "व्यवस्थापक",
+            "option": "संदेश टेक्स्ट।",
+            "examples": [
+                "/say message:सभी को नमस्ते!\nबॉट के रूप में संदेश भेजता है।",
+                "/say message:**बोल्ड** टेक्स्ट\nMarkdown का समर्थन करता है।"
+            ]
+        },
+        "birthday": {
+            "description": "जन्मदिन प्रबंधन: सेट, देखें और हटाएँ।",
+            "longDescription": "जन्मदिन सेट करना, देखना और हटाना।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/birthday set day:15 month:6\nजन्मदिन 15 जून को सेट करता है।",
+                "/birthday set day:15 month:6 year:2000\nवर्ष के साथ सेट करता है।",
+                "/birthday view\nआपका जन्मदिन दिखाता है।",
+                "/birthday view @user\nउपयोगकर्ता का जन्मदिन दिखाता है।",
+                "/birthday delete\nआपका जन्मदिन हटाता है।"
+            ],
+            "set": {
+                "description": "अपना जन्मदिन सेट करें।",
+                "longDescription": "आपके जन्मदिन का दिन, महीना और वैकल्पिक रूप से वर्ष सहेजता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/birthday set day:15 month:6\nजन्मदिन 15 जून को सेट करता है।",
+                    "/birthday set day:15 month:6 year:2000\nवर्ष के साथ सेट करता है।"
+                ]
+            },
+            "view": {
+                "description": "किसी का जन्मदिन देखें।",
+                "longDescription": "निर्दिष्ट उपयोगकर्ता का जन्मदिन दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/birthday view\nआपका जन्मदिन दिखाता है।",
+                    "/birthday view @user\nउपयोगकर्ता का जन्मदिन दिखाता है।"
+                ]
+            },
+            "delete": {
+                "description": "अपना जन्मदिन हटाएँ।",
+                "longDescription": "सहेजा गया जन्मदिन हटाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/birthday delete\nआपका जन्मदिन हटाता है।"
+                ]
+            }
+        },
+        "actions": {
+            "description": "GIF के साथ भावनाएँ और इंटरैक्शन: गले लगाना, चूमना आदि।",
+            "longDescription": "निर्दिष्ट उपयोगकर्ता के साथ या बिना GIF इंटरैक्शन भेजता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/actions action:hug user:@user\nउपयोगकर्ता को गले लगाता है।",
+                "/actions action:kiss user:@user\nउपयोगकर्ता को चूमता है।",
+                "/actions action:slap user:@user\nउपयोगकर्ता को थप्पड़ मारता है।",
+                "/actions action:cry\nरोता है।",
+                "/actions action:dance\nनाचता है।"
+            ]
+        },
+        "ping": {
+            "description": "बॉट, API, डेटाबेस और शार्ड्स की लेटेंसी दिखाता है।",
+            "longDescription": "वर्तमान प्रतिक्रिया समय और बॉट कनेक्शन स्थिति बताता है।",
+            "cooldown": "6 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/ping\nबॉट की लेटेंसी दिखाता है।"
+            ]
+        },
+        "help": {
+            "description": "विवरण, अनुमतियों और उदाहरणों के साथ उपलब्ध कमांड की सूची।",
+            "longDescription": "इस सर्वर पर उपलब्ध सभी मॉड्यूल और कमांड दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/help\nसहायता मेनू दिखाता है।",
+                "/help command:ban\nकमांड /ban के बारे में विस्तृत जानकारी।"
+            ]
+        },
+        "config": {
+            "description": "सर्वर के लिए बॉट कॉन्फ़िगरेशन: भाषा, मॉड्यूल, लॉग, जन्मदिन और मुद्रा।",
+            "longDescription": "सर्वर भाषा, मॉड्यूल, लॉग और बधाई बदलना।",
+            "cooldown": "5 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "सर्वर प्रबंधित करें",
+            "examples": [
+                "/config language\nसर्वर भाषा बदलता है।",
+                "/config modules\nमॉड्यूल सक्षम/अक्षम करता है।",
+                "/config birthdays channel:#general enable:true\nबधाई सेट करता है।",
+                "/config logging channel:#logs enable:true\nलॉग सेट करता है।"
+            ],
+            "language": {
+                "description": "सर्वर की भाषा बदलें।",
+                "longDescription": "पूरे सर्वर के लिए बॉट की भाषा बदलता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सर्वर प्रबंधित करें",
+                "examples": [
+                    "/config language\nभाषा चयन मेनू खोलता है।"
+                ]
+            },
+            "modules": {
+                "description": "मॉड्यूल सक्षम या अक्षम करें।",
+                "longDescription": "सर्वर पर बॉट के सक्रिय मॉड्यूल प्रबंधित करता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सर्वर प्रबंधित करें",
+                "examples": [
+                    "/config modules\nमॉड्यूल चयन मेनू खोलता है।"
+                ]
+            },
+            "birthdays": {
+                "description": "जन्मदिन की बधाई सेट करें।",
+                "longDescription": "चैनल चयन और स्वचालित बधाई सक्षम/अक्षम करना।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें, संदेश भेजें",
+                "userPermissions": "सर्वर प्रबंधित करें",
+                "examples": [
+                    "/config birthdays\nवर्तमान सेटिंग्स दिखाता है।",
+                    "/config birthdays channel:#general enable:true\n#general में बधाई सक्षम करता है।",
+                    "/config birthdays enable:false\nबधाई अक्षम करता है।"
+                ]
+            },
+            "logging": {
+                "description": "सर्वर लॉग सेट करें।",
+                "longDescription": "चैनल चयन और लॉग सिस्टम सक्षम/अक्षम करना।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें, संदेश भेजें",
+                "userPermissions": "सर्वर प्रबंधित करें",
+                "examples": [
+                    "/config logging\nवर्तमान सेटिंग्स दिखाता है।",
+                    "/config logging channel:#logs enable:true\n#logs में लॉग सक्षम करता है।",
+                    "/config logging enable:false\nलॉग अक्षम करता है।"
+                ]
+            },
+            "currency": {
+                "description": "सर्वर मुद्रा सेट करें।",
+                "longDescription": "अर्थव्यवस्था की मुद्रा की इमोजी और नाम बदलता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सर्वर प्रबंधित करें",
+                "examples": [
+                    "/config currency\nवर्तमान सेटिंग्स दिखाएँ।",
+                    "/config currency emoji:🪙 name:सिक्के"
+                ]
+            }
+        },
+        "confessions": {
+            "description": "सर्वर चैनल के लिए AI मेमोरी कंटेनर प्रबंधित करें।",
+            "longDescription": "इस सर्वर के चैनल के लिए AI मेमोरी कंटेनर प्रबंधित करता है।",
+            "cooldown": "5 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें, संदेश भेजें",
+            "userPermissions": "व्यवस्थापक",
+            "examples": [
+                "/confessions create channel:#general\nAI मेमोरी कंटेनर बनाएँ।",
+                "/confessions list\nसर्वर के कंटेनर की सूची।",
+                "/confessions block id:123\nID से कंटेनर हटाएँ।",
+                "/confessions report id:123 reason:स्पैम\nकंटेनर मालिक को भेजें।"
+            ],
+            "create": { "description": "चैनल के लिए मेमोरी कंटेनर बनाएँ।", "option": "चैनल।" },
+            "list": { "description": "सर्वर के कंटेनर की सूची।" },
+            "block": { "description": "कंटेनर को स्थायी रूप से हटाएँ।", "option": "कंटेनर ID।" },
+            "report": {
+                "description": "कंटेनर बॉट के मालिक को भेजें।",
+                "idOption": "कंटेनर ID।",
+                "reasonOption": "रिपोर्ट का कारण।"
+            }
+        },
+        "about": {
+            "description": "बॉट की जानकारी, आँकड़े और सिस्टम लोड दिखाता है।",
+            "longDescription": "आँकड़े, लोड और सिस्टम जानकारी दिखाता है।",
+            "cooldown": "5 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें, फ़ाइलें संलग्न करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/about\nबॉट की जानकारी दिखाता है।"
+            ]
+        },
+        "avatar": {
+            "description": "उपयोगकर्ता का अवतार अधिकतम आकार में दिखाता है।",
+            "longDescription": "उपयोगकर्ता का अवतार अधिकतम आकार में दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/avatar\nआपका अवतार दिखाता है।",
+                "/avatar user:@user\nउपयोगकर्ता का अवतार दिखाता है।"
+            ]
+        },
+        "banner": {
+            "description": "उपयोगकर्ता का बैनर अधिकतम आकार में दिखाता है।",
+            "longDescription": "उपयोगकर्ता का बैनर अधिकतम आकार में दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/banner\nआपका बैनर दिखाता है।",
+                "/banner user:@user\nउपयोगकर्ता का बैनर दिखाता है।"
+            ]
+        },
+        "guild": {
+            "description": "सर्वर जानकारी: सदस्य, बूस्ट, मालिक, सुविधाएँ।",
+            "longDescription": "सर्वर जानकारी प्राप्त करने के कमांड।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/guild info\nसर्वर जानकारी दिखाता है।",
+                "/guild icon\nसर्वर आइकन दिखाता है।",
+                "/guild banner\nसर्वर बैनर दिखाता है।"
+            ],
+            "icon": {
+                "description": "सर्वर आइकन दिखाता है।",
+                "longDescription": "वर्तमान सर्वर का आइकन दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/guild icon\nसर्वर आइकन दिखाता है।"]
+            },
+            "banner": {
+                "description": "सर्वर बैनर दिखाता है।",
+                "longDescription": "वर्तमान सर्वर का बैनर दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/guild banner\nसर्वर बैनर दिखाता है।"]
+            },
+            "info": {
+                "description": "सर्वर की विस्तृत जानकारी।",
+                "longDescription": "सर्वर के विस्तृत आँकड़े दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/guild info\nसर्वर जानकारी दिखाता है।"]
+            }
+        },
+        "channel": {
+            "description": "चैनल जानकारी: श्रेणी, विषय, निर्माण तिथि।",
+            "longDescription": "चैनल जानकारी प्राप्त करने के कमांड।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/channel info\nवर्तमान चैनल की जानकारी दिखाता है।",
+                "/channel info channel:#general\n#general चैनल की जानकारी दिखाता है।"
+            ],
+            "info": {
+                "description": "चैनल की जानकारी दिखाता है।",
+                "longDescription": "चैनल की श्रेणी, विषय और निर्माण तिथि दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें, चैनल प्रबंधित करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/channel info\nवर्तमान चैनल की जानकारी दिखाता है।",
+                    "/channel info channel:#general\n#general चैनल की जानकारी दिखाता है।"
+                ]
+            }
+        },
+        "user": {
+            "description": "उपयोगकर्ता जानकारी: पंजीकरण, शामिल होने की तिथि, रोल।",
+            "longDescription": "उपयोगकर्ता जानकारी प्राप्त करने के कमांड।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/user info\nआपकी जानकारी दिखाता है।",
+                "/user info user:@user\nउपयोगकर्ता की जानकारी दिखाता है।"
+            ],
+            "info": {
+                "description": "उपयोगकर्ता की जानकारी दिखाता है।",
+                "longDescription": "उपयोगकर्ता की पंजीकरण, शामिल होने की तिथि और रोल दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/user info\nआपकी जानकारी दिखाता है।",
+                    "/user info user:@user\nउपयोगकर्ता की जानकारी दिखाता है।"
+                ]
+            }
+        },
+        "roles": {
+            "description": "रोल जानकारी: रंग, निर्माण तिथि, ID।",
+            "longDescription": "रोल जानकारी प्राप्त करने के कमांड।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/roles info role:@role\nरोल की जानकारी दिखाता है।"
+            ],
+            "info": {
+                "description": "रोल की जानकारी दिखाता है।",
+                "longDescription": "रोल का रंग, निर्माण तिथि और ID दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/roles info role:@role\nरोल की जानकारी दिखाता है।"
+                ]
+            }
+        },
+        "timestamp": {
+            "description": "विभिन्न प्रारूपों में Discord टाइमस्टैम्प उत्पन्न करें।",
+            "longDescription": "निर्दिष्ट समय से सभी Discord टाइमस्टैम्प प्रारूप बनाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/timestamp\nवर्तमान समय सभी प्रारूपों में दिखाता है।",
+                "/timestamp time:5m\n5 मिनट बाद का समय दिखाता है।",
+                "/timestamp time:2026-01-01 12:00\nनिर्दिष्ट तिथि दिखाता है।"
+            ]
+        },
+        "emoji": {
+            "description": "सर्वर इमोजी का प्रदर्शन और जानकारी।",
+            "longDescription": "सर्वर इमोजी का प्रदर्शन और जानकारी।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/emoji list\nइमोजी की सूची दिखाता है।",
+                "/emoji info emoji:cat\nइमोजी की जानकारी।"
+            ],
+            "list": {
+                "description": "सर्वर इमोजी की सूची।",
+                "longDescription": "पेजिनेशन के साथ सर्वर की सभी इमोजी दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/emoji list\nइमोजी की सूची दिखाता है।"]
+            },
+            "info": {
+                "description": "इमोजी की जानकारी।",
+                "longDescription": "इमोजी का ID, एनिमेशन और निर्माण तिथि दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/emoji info emoji:cat\nनाम से जानकारी।",
+                    "/emoji info emoji:123456789012345678\nID से जानकारी।"
+                ]
+            }
+        },
+        "ban": {
+            "description": "कारण और संदेश हटाने के साथ उपयोगकर्ता को बैन करें।",
+            "longDescription": "वैकल्पिक संदेश सफ़ाई के साथ उपयोगकर्ता को सर्वर से ब्लॉक करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "सदस्यों को बैन करें",
+            "userPermissions": "सदस्यों को बैन करें",
+            "userOption": "बैन करने के लिए उपयोगकर्ता।",
+            "reasonOption": "कारण।",
+            "deleteOption": "पिछले N दिनों के संदेश हटाएँ (0-7)।",
+            "examples": [
+                "/ban user:@user reason:स्पैम\nउपयोगकर्ता को बैन करता है।",
+                "/ban user:@user reason:फ्लड delete_messages:7\nबैन करता है और 7 दिनों के संदेश हटाता है।",
+                "/ban user:@user\nकारण बिना बैन करता है।"
+            ]
+        },
+        "unban": {
+            "description": "कारण के साथ ID से उपयोगकर्ता का बैन हटाएँ।",
+            "longDescription": "ID से उपयोगकर्ता का बैन हटाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "सदस्यों को बैन करें",
+            "userPermissions": "सदस्यों को बैन करें",
+            "userIdOption": "उपयोगकर्ता ID।",
+            "reasonOption": "कारण।",
+            "examples": [
+                "/unban user_id:123456789012345678 reason:अपील\nउपयोगकर्ता का बैन हटाता है।",
+                "/unban user_id:123456789012345678\nकारण बिना बैन हटाता है।"
+            ]
+        },
+        "kick": {
+            "description": "कारण के साथ उपयोगकर्ता को सर्वर से किक करें।",
+            "longDescription": "सदस्य को सर्वर से निकालता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "सदस्यों को किक करें",
+            "userPermissions": "सदस्यों को किक करें",
+            "userOption": "उपयोगकर्ता।",
+            "reasonOption": "कारण।",
+            "examples": [
+                "/kick user:@user reason:फ्लड\nकारण के साथ उपयोगकर्ता को किक करता है।",
+                "/kick user:@user\nकारण बिना किक करता है।"
+            ]
+        },
+        "timeout": {
+            "description": "निर्दिष्ट समय के लिए उपयोगकर्ता पर टाइमआउट लगाएँ।",
+            "longDescription": "उपयोगकर्ता के संचार को अस्थायी रूप से ब्लॉक करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "सदस्यों को मॉडरेट करें",
+            "userPermissions": "सदस्यों को मॉडरेट करें",
+            "userOption": "उपयोगकर्ता।",
+            "durationOption": "अवधि (जैसे 5m, 1h, 2d)।",
+            "reasonOption": "कारण।",
+            "examples": [
+                "/timeout user:@user duration:5m reason:फ्लड\n5 मिनट का टाइमआउट।",
+                "/timeout user:@user duration:1h reason:स्पैम\nएक घंटे का टाइमआउट।",
+                "/timeout user:@user duration:2d\n2 दिन का टाइमआउट।"
+            ]
+        },
+        "untimeout": {
+            "description": "उपयोगकर्ता का सक्रिय टाइमआउट हटाएँ।",
+            "longDescription": "सक्रिय टाइमआउट हटाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "सदस्यों को मॉडरेट करें",
+            "userPermissions": "सदस्यों को मॉडरेट करें",
+            "userOption": "उपयोगकर्ता।",
+            "examples": [
+                "/untimeout user:@user\nटाइमआउट हटाता है।"
+            ]
+        },
+        "warn": {
+            "description": "चेतावनी प्रबंधन: देना, सूची, हटाना, साफ़ करना।",
+            "longDescription": "चेतावनी देना, देखना और हटाना।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "सदस्यों को मॉडरेट करें",
+            "examples": [
+                "/warn add user:@user reason:स्पैम\nचेतावनी दें।",
+                "/warn list user:@user\nचेतावनी सूची।",
+                "/warn remove id:5\nचेतावनी हटाएँ।",
+                "/warn clear user:@user\nसभी चेतावनियाँ हटाएँ।"
+            ],
+            "add": {
+                "description": "चेतावनी दें।",
+                "longDescription": "उपयोगकर्ता को चेतावनी जोड़ता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सदस्यों को मॉडरेट करें",
+                "examples": [
+                    "/warn add user:@user reason:स्पैम\nचेतावनी देता है।"
+                ]
+            },
+            "list": {
+                "description": "उपयोगकर्ता की चेतावनी सूची।",
+                "longDescription": "उपयोगकर्ता की सभी चेतावनियाँ दिखाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सदस्यों को मॉडरेट करें",
+                "examples": [
+                    "/warn list user:@user\nसूची दिखाता है।"
+                ]
+            },
+            "remove": {
+                "description": "ID से चेतावनी हटाएँ।",
+                "longDescription": "विशिष्ट चेतावनी को ID से हटाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सदस्यों को मॉडरेट करें",
+                "examples": [
+                    "/warn remove id:5\nचेतावनी #5 हटाता है।"
+                ]
+            },
+            "clear": {
+                "description": "उपयोगकर्ता की सभी चेतावनियाँ हटाएँ।",
+                "longDescription": "सभी चेतावनियाँ साफ़ करता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "सदस्यों को मॉडरेट करें",
+                "examples": [
+                    "/warn clear user:@user\nसभी चेतावनियाँ साफ़ करता है।"
+                ]
+            }
+        },
+        "clear": {
+            "description": "वर्तमान चैनल में संदेश हटाएँ (अधिकतम 100)।",
+            "longDescription": "संदेशों को थोक में हटाता है (अधिकतम 100)।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "संदेश प्रबंधित करें",
+            "userPermissions": "संदेश प्रबंधित करें",
+            "amountOption": "संख्या (1-100)।",
+            "userOption": "केवल इस उपयोगकर्ता के संदेश।",
+            "examples": [
+                "/clear amount:50\n50 संदेश हटाता है।",
+                "/clear amount:100\n100 संदेश हटाता है।",
+                "/clear amount:20 user:@user\nउपयोगकर्ता के 20 संदेश हटाता है।"
+            ]
+        },
+        "slowmode": {
+            "description": "चैनल में स्लो मोड सेट करें (0-21600 सेकंड)।",
+            "longDescription": "चैनल में संदेशों के बीच अंतराल सेट करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "चैनल प्रबंधित करें",
+            "userPermissions": "चैनल प्रबंधित करें",
+            "secondsOption": "सेकंड (0-21600)।",
+            "channelOption": "चैनल।",
+            "examples": [
+                "/slowmode seconds:10\n10 सेकंड सेट करता है।",
+                "/slowmode seconds:60 channel:#general\n#general में 60 सेकंड सेट करता है।",
+                "/slowmode seconds:0\nस्लो मोड बंद करता है।"
+            ]
+        },
+        "nickname": {
+            "description": "सदस्य का उपनाम बदलें या रीसेट करें।",
+            "longDescription": "सदस्य का उपनाम सेट या रीसेट करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "उपनाम प्रबंधित करें",
+            "userPermissions": "उपनाम प्रबंधित करें",
+            "userOption": "उपयोगकर्ता।",
+            "nameOption": "नया उपनाम (रीसेट के लिए खाली)।",
+            "examples": [
+                "/nickname user:@user name:नयानाम\nउपनाम बदलता है।",
+                "/nickname user:@user\nउपनाम रीसेट करता है।"
+            ]
+        },
+        "role": {
+            "description": "सदस्य का रोल दें या हटाएँ।",
+            "longDescription": "रोल देना और हटाना।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "रोल प्रबंधित करें",
+            "userPermissions": "रोल प्रबंधित करें",
+            "examples": [
+                "/role add user:@user role:@role\nरोल देता है।",
+                "/role remove user:@user role:@role\nरोल हटाता है।"
+            ],
+            "add": {
+                "description": "रोल दें।",
+                "longDescription": "उपयोगकर्ता को रोल जोड़ता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "रोल प्रबंधित करें",
+                "userPermissions": "रोल प्रबंधित करें",
+                "examples": ["/role add user:@user role:@role\nरोल देता है।"]
+            },
+            "remove": {
+                "description": "रोल हटाएँ।",
+                "longDescription": "उपयोगकर्ता से रोल हटाता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "रोल प्रबंधित करें",
+                "userPermissions": "रोल प्रबंधित करें",
+                "examples": ["/role remove user:@user role:@role\nरोल हटाता है।"]
+            }
+        },
+        "infrastructure": {
+            "description": "सर्वर इन्फ्रास्ट्रक्चर प्रबंधन: चैनल लॉक/अनलॉक।",
+            "longDescription": "चैनल और अन्य सर्वर तत्वों के साथ संचालन।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "चैनल प्रबंधित करें",
+            "userPermissions": "चैनल प्रबंधित करें",
+            "examples": [
+                "/infrastructure channel lock\nवर्तमान चैनल लॉक करता है।",
+                "/infrastructure channel unlock\nवर्तमान चैनल अनलॉक करता है।"
+            ],
+            "channel": {
+                "description": "चैनल संचालन।",
+                "lock": {
+                    "description": "चैनल लॉक करें।",
+                    "longDescription": "@everyone को लिखने से रोकता है।",
+                    "cooldown": "3 सेकंड",
+                    "botPermissions": "चैनल प्रबंधित करें",
+                    "userPermissions": "चैनल प्रबंधित करें",
+                    "channelOption": "चैनल।",
+                    "reasonOption": "कारण।",
+                    "examples": [
+                        "/infrastructure channel lock\nवर्तमान चैनल लॉक करता है।",
+                        "/infrastructure channel lock channel:#general reason:फ्लड\nकारण के साथ #general लॉक करता है।"
+                    ]
+                },
+                "unlock": {
+                    "description": "चैनल अनलॉक करें।",
+                    "longDescription": "संदेश भेजने की रोक हटाता है।",
+                    "cooldown": "3 सेकंड",
+                    "botPermissions": "चैनल प्रबंधित करें",
+                    "userPermissions": "चैनल प्रबंधित करें",
+                    "channelOption": "चैनल।",
+                    "examples": [
+                        "/infrastructure channel unlock\nवर्तमान चैनल अनलॉक करता है।",
+                        "/infrastructure channel unlock channel:#general\n#general अनलॉक करता है।"
+                    ]
+                }
+            }
+        },
+        "websearch": {
+            "description": "जानकारी खोजें: Wikipedia, Genshin, Steam, YouTube।",
+            "longDescription": "Wikipedia में खोज, Genshin, Steam और YouTube प्रोफ़ाइल।",
+            "cooldown": "5 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/websearch wiki Discord\nWikipedia में खोजता है।",
+                "/websearch genshin 712345678\nGenshin प्रोफ़ाइल।",
+                "/websearch steam 765611999199624578\nSteam प्रोफ़ाइल।",
+                "/websearch youtube excepterr\nYouTube चैनल खोजता है।"
+            ],
+            "wiki": {
+                "description": "Wikipedia में खोजें।",
+                "longDescription": "Wikipedia में लेख खोजता है और सारांश दिखाता है।",
+                "cooldown": "5 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/websearch wiki Discord\nलेख \"Discord\" खोजता है।"]
+            },
+            "genshin": {
+                "description": "UID से Genshin Impact प्रोफ़ाइल।",
+                "longDescription": "UID से Genshin Impact खिलाड़ी प्रोफ़ाइल दिखाता है।",
+                "cooldown": "5 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/websearch genshin 712345678\nखिलाड़ी प्रोफ़ाइल दिखाता है।"]
+            },
+            "steam": {
+                "description": "Steam प्रोफ़ाइल।",
+                "longDescription": "SteamID64 या vanity URL से Steam प्रोफ़ाइल दिखाता है।",
+                "cooldown": "5 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": [
+                    "/websearch steam 765611999199624578\nSteamID64 से।",
+                    "/websearch steam excepterr\nvanity URL से।"
+                ]
+            },
+            "youtube": {
+                "description": "YouTube चैनल खोजें।",
+                "longDescription": "YouTube चैनल खोजता है और उनके आँकड़े दिखाता है।",
+                "cooldown": "5 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/websearch youtube excepterr\nचैनल \"excepterr\" खोजता है।"]
+            }
+        },
+        "balance": {
+            "description": "बैलेंस, स्तर और उपलब्ध इनाम दिखाएँ।",
+            "longDescription": "बैलेंस, स्तर और उपलब्ध इनाम दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "userOption": "उपयोगकर्ता।",
+            "examples": ["/balance", "/balance user:@user"]
+        },
+        "timely": {
+            "description": "हर 3 घंटे में नियमित बोनस लें।",
+            "longDescription": "हर 3 घंटे में नियमित बोनस।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": ["/timely"]
+        },
+        "daily": {
+            "description": "हर 24 घंटे में दैनिक बोनस लें।",
+            "longDescription": "हर 24 घंटे में दैनिक बोनस।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": ["/daily"]
+        },
+        "weekly": {
+            "description": "हर 7 दिनों में साप्ताहिक बोनस लें।",
+            "longDescription": "हर 7 दिनों में साप्ताहिक बोनस।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": ["/weekly"]
+        },
+        "work": {
+            "description": "काम करें और पैसे व अनुभव कमाएँ (हर घंटे)।",
+            "longDescription": "हर घंटे काम। पैसे और अनुभव देता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": ["/work"]
+        },
+        "currency": {
+            "description": "सर्वर मुद्रा सेट करें: इमोजी और नाम।",
+            "longDescription": "अर्थव्यवस्था की मुद्रा की इमोजी और नाम बदलता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "सर्वर प्रबंधित करें",
+            "emojiOption": "मुद्रा की इमोजी (जैसे 💎, 🪙)।",
+            "nameOption": "मुद्रा का नाम।",
+            "examples": [
+                "/currency\nवर्तमान सेटिंग्स दिखाएँ।",
+                "/currency emoji:🪙 name:सिक्के\nमुद्रा बदलें।"
+            ]
+        },
+        "leaderboard": {
+            "description": "बैलेंस में शीर्ष उपयोगकर्ता (प्रति पृष्ठ 10, कुल 5 पृष्ठ)।",
+            "longDescription": "प्रति पृष्ठ शीर्ष 10, कुल 5 पृष्ठ दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": ["/leaderboard"]
+        },
+        "bank": {
+            "description": "बैंक प्रबंधन: जमा या निकासी।",
+            "longDescription": "पैसे जमा या निकालें।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "amountOption": "राशि या सब कुछ के लिए 0।",
+            "examples": [
+                "/bank deposit amount:1000",
+                "/bank deposit amount:0",
+                "/bank withdraw amount:500"
+            ],
+            "deposit": { "description": "बैंक में जमा करें।" },
+            "withdraw": { "description": "बैंक से निकालें।" }
+        },
+        "marriage": {
+            "description": "परिवार: प्रस्ताव और तलाक।",
+            "longDescription": "प्रस्ताव और तलाक।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें, संदेश भेजें",
+            "userPermissions": "कोई नहीं",
+            "userOption": "उपयोगकर्ता।",
+            "examples": ["/marriage propose user:@user", "/marriage divorce"],
+            "propose": { "description": "प्रस्ताव दें।" },
+            "divorce": { "description": "तलाक लें।" }
+        },
+        "shop": {
+            "description": "रोल शॉप: देखें, खरीदें, जोड़ें, हटाएँ।",
+            "longDescription": "रोल शॉप का प्रदर्शन, खरीद और प्रबंधन।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "रोल प्रबंधित करें",
+            "userPermissions": "add/remove के लिए सर्वर प्रबंधित करें",
+            "roleOption": "रोल।",
+            "examples": [
+                "/shop list",
+                "/shop buy role:@role",
+                "/shop add role:@role price:5000",
+                "/shop remove role:@role"
+            ],
+            "list": { "description": "शॉप दिखाएँ।" },
+            "buy": { "description": "रोल खरीदें।" },
+            "add": { "description": "शॉप में रोल जोड़ें।" },
+            "remove": { "description": "शॉप से रोल हटाएँ।" }
+        },
+        "music": {
+            "description": "संगीत कमांड: YouTube से प्लेबैक और प्रबंधन।",
+            "longDescription": "YouTube से संगीत प्लेबैक और प्रबंधन।",
+            "cooldown": "2 सेकंड",
+            "botPermissions": "कनेक्ट करें, बोलें, लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "example": "/music play never gonna give you up",
+            "play": {
+                "description": "YouTube से ट्रैक चलाएँ।",
+                "longDescription": "YouTube पर ट्रैक खोजता है और कतार में जोड़ता है।",
+                "cooldown": "3 सेकंड",
+                "botPermissions": "कनेक्ट करें, बोलें",
+                "userPermissions": "कोई नहीं",
+                "queryOption": "नाम या लिंक।",
+                "examples": [
+                    "/music play never gonna give you up",
+                    "/music play https://youtu.be/dQw4w9WgXcQ"
+                ]
+            },
+            "skip": {
+                "description": "ट्रैक स्किप करें।",
+                "longDescription": "वर्तमान ट्रैक स्किप करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music skip"]
+            },
+            "pause": {
+                "description": "रोकें।",
+                "longDescription": "प्लेबैक रोकता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music pause"]
+            },
+            "resume": {
+                "description": "जारी रखें।",
+                "longDescription": "प्लेबैक फिर से शुरू करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music resume"]
+            },
+            "stop": {
+                "description": "रोकें।",
+                "longDescription": "प्लेबैक रोकता है और कतार साफ़ करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music stop"]
+            },
+            "nowplaying": {
+                "description": "अभी क्या चल रहा है।",
+                "longDescription": "वर्तमान ट्रैक दिखाता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music nowplaying"]
+            },
+            "queue": {
+                "description": "ट्रैक कतार।",
+                "longDescription": "कतार दिखाता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "लिंक एम्बेड करें",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music queue"]
+            },
+            "volume": {
+                "description": "वॉल्यूम।",
+                "longDescription": "प्लेयर का वॉल्यूम सेट करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "valueOption": "वॉल्यूम (0-200)।",
+                "examples": ["/music volume value:50"]
+            },
+            "loop": {
+                "description": "दोहराव मोड।",
+                "longDescription": "ट्रैक या कतार का दोहराव सक्षम करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "modeOption": "मोड।",
+                "examples": ["/music loop mode:track", "/music loop mode:queue", "/music loop mode:off"]
+            },
+            "shuffle": {
+                "description": "कतार शफल करें।",
+                "longDescription": "कतार के ट्रैक शफल करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "examples": ["/music shuffle"]
+            },
+            "seek": {
+                "description": "ट्रैक सीक करें।",
+                "longDescription": "निर्दिष्ट सेकंड पर सीक करता है।",
+                "cooldown": "2 सेकंड",
+                "botPermissions": "कोई नहीं",
+                "userPermissions": "कोई नहीं",
+                "secondsOption": "सेकंड।",
+                "examples": ["/music seek seconds:30"]
+            }
+        },
+        "8ball": {
+            "description": "जादुई गेंद से प्रश्न पूछें और उत्तर पाएँ।",
+            "longDescription": "जादुई गेंद आपके प्रश्न का उत्तर देती है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "questionOption": "आपका प्रश्न।",
+            "question": "प्रश्न",
+            "answer": "उत्तर",
+            "answers": [
+                "निर्विवाद।", "नियति।", "कोई संदेह नहीं।", "निश्चित रूप से हाँ।",
+                "आप निश्चिंत रह सकते हैं।", "मुझे लगता है हाँ।", "संभवतः।",
+                "अच्छी संभावनाएँ।", "संकेत हाँ कहते हैं।", "हाँ।",
+                "अभी स्पष्ट नहीं, फिर पूछें।", "बाद में पूछें।", "बेहतर है न बताएँ।",
+                "अभी भविष्यवाणी नहीं की जा सकती।", "ध्यान केंद्रित करें और फिर पूछें।",
+                "सोचना भी नहीं।", "मेरा उत्तर नहीं है।", "मेरे डेटा के अनुसार नहीं।",
+                "संभावनाएँ बहुत अच्छी नहीं हैं।", "काफी संदिग्ध।"
+            ]
+        },
+        "coinflip": {
+            "description": "सिक्का उछालें: हेड्स या टेल्स।",
+            "longDescription": "सिक्का उछालता है और हेड्स या टेल्स देता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "heads": "🪙 **हेड्स** आया!",
+            "tails": "🪙 **टेल्स** आया!"
+        },
+        "dice": {
+            "description": "निर्दिष्ट फलकों वाला पासा रोल करें।",
+            "longDescription": "निर्दिष्ट फलकों वाला पासा रोल करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "sidesOption": "फलकों की संख्या (डिफ़ॉल्ट 6)।",
+            "result": "🎲 संख्या आई: **{{result}}**"
+        },
+        "rps": {
+            "description": "बॉट के साथ पत्थर, कैंची, कागज़ खेलें।",
+            "longDescription": "बॉट के साथ पत्थर, कैंची, कागज़ खेलता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "choiceOption": "आपकी पसंद।",
+            "rock": "पत्थर",
+            "paper": "कागज़",
+            "scissors": "कैंची",
+            "win": "🎉 आप जीत गए! बॉट ने **{{bot}}** चुना।",
+            "lose": "😢 आप हार गए। बॉट ने **{{bot}}** चुना।",
+            "draw": "🤝 बराबरी! बॉट ने **{{bot}}** चुना।"
+        },
+        "rate": {
+            "description": "किसी चीज़ को 0 से 10 के पैमाने पर रेट करें।",
+            "longDescription": "किसी वस्तु या कार्य को 0 से 10 के पैमाने पर रेट करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "thingOption": "क्या रेट करें।",
+            "result": "मैं **{{thing}}** को **{{rating}}/10** देता हूँ।"
+        },
+        "reverse": {
+            "description": "टेक्स्ट को उल्टा करें।",
+            "longDescription": "टेक्स्ट को पीछे से आगे उलटता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "textOption": "उलटने के लिए टेक्स्ट।",
+            "result": "🔄 **परिणाम:**\n```\n{{result}}\n```"
+        },
+        "uppercase": {
+            "description": "टेक्स्ट को अपरकेस में बदलें।",
+            "longDescription": "सभी अक्षरों को बड़ा करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "textOption": "टेक्स्ट।",
+            "result": "🔠 **परिणाम:**\n```\n{{result}}\n```"
+        },
+        "lowercase": {
+            "description": "टेक्स्ट को लोअरकेस में बदलें।",
+            "longDescription": "सभी अक्षरों को छोटा करता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "textOption": "टेक्स्ट।",
+            "result": "🔡 **परिणाम:**\n```\n{{result}}\n```"
+        },
+        "length": {
+            "description": "टेक्स्ट में अक्षर और शब्द गिनें।",
+            "longDescription": "टेक्स्ट में अक्षरों और शब्दों की संख्या दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "textOption": "विश्लेषण के लिए टेक्स्ट।",
+            "title": "📊 टेक्स्ट आँकड़े",
+            "chars": "अक्षर",
+            "words": "शब्द",
+            "charsNoSpaces": "बिना स्पेस के अक्षर"
+        },
+        "changelog": {
+            "description": "बॉट के नवीनतम परिवर्तन और वर्तमान संस्करण दिखाता है।",
+            "longDescription": "बॉट के नवीनतम परिवर्तन और वर्तमान संस्करण दिखाता है।",
+            "cooldown": "3 सेकंड",
+            "botPermissions": "लिंक एम्बेड करें",
+            "userPermissions": "कोई नहीं",
+            "examples": [
+                "/changelog\nपरिवर्तन सूची दिखाता है।"
+            ]
+        }
+    }
+}

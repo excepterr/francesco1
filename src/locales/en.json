@@ -1,0 +1,1488 @@
+{
+    "yes": "Yes",
+    "no": "No",
+
+    "modules": {
+        "config": "Configuration",
+        "info": "Information",
+        "websearch": "Search",
+        "interactions": "Interactions",
+        "moderation": "Moderation",
+        "fun": "Fun",
+        "economy": "Economy",
+        "utilities": "Utilities",
+        "music": "Music",
+        "administrative": "Administrative",
+        "text": "Text"
+    },
+
+    "say": {
+        "sent": "Sent!"
+    },
+
+    "music": {
+        "noVoiceChannel": "Join a voice channel first to use music commands.",
+        "noNode": "Music server unavailable. Try again later or contact support.",
+        "notFound": "Track not found. Check the name or link and try again.",
+        "addedToQueue": "Added to queue",
+        "author": "Author",
+        "tracksAdded": "Tracks added",
+        "notPlaying": "Nothing is playing right now.",
+        "skipped": "Track skipped.",
+        "paused": "Paused.",
+        "resumed": "Resumed.",
+        "stopped": "Stopped, queue cleared.",
+        "queueEmpty": "The queue is empty.",
+        "queueTitle": "Queue",
+        "queue": "Queue",
+        "nowPlaying": "Now playing",
+        "nowplayingTitle": "Now playing",
+        "length": "Length",
+        "loop": "Loop",
+        "andMore": "and {{n}} more",
+        "volumeSet": "Volume set to **{{value}}**.",
+        "loopSet": "Loop mode: **{{mode}}**.",
+        "loopSame": "This mode is already set.",
+        "queueTooSmall": "Not enough tracks to shuffle.",
+        "shuffled": "Shuffled **{{count}}** tracks.",
+        "seeked": "Seeked to **{{seconds}}** sec."
+    },
+
+    "currency": {
+        "title": "Server currency",
+        "currentSettings": "Current settings",
+        "emojiLabel": "Emoji",
+        "nameLabel": "Name",
+        "changedInfo": "Currency settings updated.",
+        "saveError": "Could not save the settings. Try again later."
+    },
+
+    "changelog": {
+        "title": "Changelog — {{user}}",
+        "version": "Build version"
+    },
+
+    "economy": {
+        "balanceTitle": "Member balance — {{user}}",
+        "wallet": "Cash",
+        "bank": "In bank",
+        "total": "Total balance",
+        "walletShort": "Cash",
+        "bankShort": "In bank",
+        "totalShort": "Total",
+        "rank": "Leaderboard rank",
+        "level": "Level",
+        "info": "Information",
+        "rewards": "Rewards",
+        "donateCurrency": "Donate currency:",
+        "rewardsAvailable": "Commands available for reward: {{list}}",
+        "rewardsEmpty": "All rewards have already been claimed.",
+        "nextBonus": "Next bonus can be claimed",
+        "cooldown": "Wait {{time}} before the next attempt.",
+        "notEnough": "Insufficient funds.",
+        "bankNothing": "Nothing to transfer.",
+
+        "timelyTitle": "Regular bonus",
+        "timelyDescription": "**{{user}}** claimed their **{{amount}}** {{currency}}",
+
+        "dailyTitle": "Daily bonus",
+        "dailyDescription": "**{{user}}** claimed their **{{amount}}** {{currency}}",
+
+        "weeklyTitle": "Weekly bonus",
+        "weeklyDescription": "**{{user}}** claimed their **{{amount}}** {{currency}}",
+
+        "workTitle": "Work",
+        "workDescription": "**{{user}}**, you successfully worked as ***{{job}}***.",
+        "workIncome": "Income",
+        "workProgress": "Progress",
+
+        "leaderboardTitle": "Balance leaderboard",
+        "leaderboardEmpty": "No one is on the leaderboard yet.",
+        "page": "Page",
+
+        "bankDepositTitle": "Bank deposit",
+        "bankDepositDescription": "**{{user}}**, you deposited **{{amount}}** {{currency}} into the bank.",
+        "bankWithdrawTitle": "Bank withdrawal",
+        "bankWithdrawDescription": "**{{user}}**, you withdrew **{{amount}}** {{currency}} from the bank.",
+
+        "shopTitle": "Role shop",
+        "shopEmpty": "The shop is empty.",
+        "shopRoleNotFound": "This role is not in the shop.",
+        "shopBuyTitle": "Purchase",
+        "shopBuyDescription": "**{{user}}**, you bought the role **{{role}}** for **{{price}}** {{currency}}.",
+        "shopAddTitle": "Role added",
+        "shopAddDescription": "The role **{{role}}** was added to the shop for **{{price}}** {{currency}}.",
+        "shopRemoveTitle": "Role removed",
+        "shopRemoveDescription": "The role **{{role}}** was removed from the shop.",
+        "alreadyOwned": "You already own this role."
+    },
+
+    "moderation": {
+        "cantSelf": "You cannot apply an action to yourself.",
+        "hierarchyUser": "You don't have permission: the target is equal to or higher than you.",
+        "hierarchyBot": "The bot doesn't have permission: the target is higher than the bot.",
+        "notOnServer": "The user is not on the server.",
+        "notBanned": "This user is not banned.",
+        "notTimedOut": "The user has no active timeout.",
+        "invalidId": "Invalid user ID. Make sure the ID contains only numbers.",
+        "invalidDuration": "Invalid duration format. Example: `5m`, `1h`, `2d`.",
+        "tooLong": "The maximum timeout duration is 28 days.",
+        "roleTooHigh": "This role is higher than the bot's role.",
+
+        "actionTitle": "Interaction with member — {{user}}",
+        "actionDescription": "{{moderator}}, member **{{user}}** {{action}}.",
+        "reasonLabel": "Reason",
+        "reasonNone": "Not specified",
+
+        "actionBan": "was banned from the server",
+        "actionUnban": "was unbanned",
+        "actionKick": "was kicked from the server",
+        "actionTimeout": "received a timeout for **{{duration}}**",
+        "actionUntimeout": "was released from timeout",
+        "actionWarnAdd": "received warning **#{{id}}**",
+        "actionNicknameSet": "received the new nickname **{{name}}**",
+        "actionNicknameReset": "had their nickname reset",
+        "actionRoleAdd": "received the role **{{role}}**",
+        "actionRoleRemove": "lost the role **{{role}}**",
+
+        "ban": { "success": "User **{{user}}** (`{{id}}`) banned." },
+        "unban": { "success": "User **{{user}}** (`{{id}}`) unbanned." },
+        "kick": { "success": "User **{{user}}** (`{{id}}`) kicked." },
+        "timeout": { "success": "User **{{user}}** (`{{id}}`) is timed out for **{{duration}}**." },
+        "untimeout": { "success": "Timeout removed from user **{{user}}** (`{{id}}`)." },
+
+        "warn": {
+            "added": "User **{{user}}** (`{{id}}`) received warning **#{{warnId}}**.\nReason: {{reason}}",
+            "removed": "Warning **#{{id}}** removed.",
+            "cleared": "All warnings for user **{{user}}** have been removed.",
+            "empty": "User **{{user}}** has no warnings.",
+            "listTitle": "Warnings — {{user}}"
+        },
+
+        "clear": {
+            "title": "Message cleanup — {{channel}}",
+            "description": "{{moderator}}, **{{count}}** messages deleted.",
+            "success": "Deleted **{{count}}** messages.",
+            "none": "Nothing to delete.",
+            "tooOld": "Could not delete — messages older than 14 days."
+        },
+
+        "slowmode": {
+            "title": "Slowmode — {{channel}}",
+            "description": "{{moderator}}, slowmode set to **{{seconds}}** sec.",
+            "titleOff": "Slowmode disabled — {{channel}}",
+            "descriptionOff": "{{moderator}}, slowmode in the channel has been disabled.",
+            "success": "In channel {{channel}}, slowmode set to **{{seconds}}** sec.",
+            "off": "Slowmode disabled in {{channel}}."
+        },
+
+        "channelLock": {
+            "title": "Channel locked — {{channel}}",
+            "description": "{{moderator}}, channel **{{channel}}** has been locked."
+        },
+        "channelUnlock": {
+            "title": "Channel unlocked — {{channel}}",
+            "description": "{{moderator}}, channel **{{channel}}** has been unlocked."
+        },
+
+        "nickname": {
+            "success": "User **{{user}}**'s nickname was changed to **{{name}}**.",
+            "reset": "User **{{user}}**'s nickname was reset."
+        },
+        "role": {
+            "added": "Role **{{role}}** was given to user **{{user}}**.",
+            "removed": "Role **{{role}}** was removed from user **{{user}}**."
+        }
+    },
+
+    "confessions": {
+        "description": "Manage AI memory containers.",
+        "notText": "Specify a text channel.",
+        "notFound": "Container not found.",
+        "maxContainers": "Container limit reached (**{{max}}** per server).",
+        "maxSize": "Size limit reached (**{{size}}**).",
+        "noContainers": "There are no containers on the server.",
+        "unknownError": "An error occurred.",
+        "create": {
+            "description": "Create a memory container for the channel.",
+            "option": "Channel.",
+            "title": "Container created",
+            "success": "Channel: {{channel}}\nID: `{{id}}`"
+        },
+        "list": {
+            "description": "List of server containers.",
+            "title": "AI memory containers"
+        },
+        "block": {
+            "description": "Delete the container permanently.",
+            "option": "Container ID.",
+            "title": "Container deleted",
+            "confirm": "{{user}}, are you **sure** you want to permanently delete the container?\n```\nID: {{id}}\n{{count}} messages / {{size}}\n```",
+            "confirmBtn": "Confirm",
+            "cancelBtn": "Cancel",
+            "success": "Container `{{id}}` deleted."
+        },
+        "report": {
+            "description": "Send the container to the bot owner.",
+            "idOption": "Container ID.",
+            "reasonOption": "Report reason.",
+            "reasonLabel": "Reason",
+            "title": "Report sent",
+            "success": "Your report about container `{{id}}` has been sent to the owner."
+        },
+        "regen": {
+            "expired": "The context has expired. Ask your question again.",
+            "limit": "Attempt limit reached.",
+            "rateLimit": "The bot has run out of requests for today.",
+            "failed": "Could not generate a response."
+        }
+    },
+
+    "birthday": {
+        "description": "Manage birthdays.",
+        "invalidDate": "This month only has **{{max}}** days.",
+        "saveError": "Could not save the birthday.",
+        "set": {
+            "description": "Set your birthday.",
+            "dayOption": "Day (1-31).",
+            "monthOption": "Month (1-12).",
+            "yearOption": "Year (optional).",
+            "title": "Birthday set",
+            "success": "Your birthday: **{{date}}**."
+        },
+        "view": {
+            "description": "View someone's birthday.",
+            "userOption": "User.",
+            "title": "Birthday",
+            "selfNotFound": "You haven't set your birthday. Use `/birthday set`.",
+            "notFound": "User **{{user}}** hasn't set a birthday."
+        },
+        "delete": {
+            "description": "Delete your birthday.",
+            "title": "Birthday deleted",
+            "success": "Your birthday has been deleted.",
+            "notFound": "You don't have a saved birthday.",
+            "error": "Could not delete the birthday."
+        },
+        "congrats": {
+            "title": "🎉 Happy birthday!",
+            "message": "Today is {{users}}'s birthday!\n\nCongratulations! 🎂🎈"
+        }
+    },
+
+    "actions": {
+        "description": "Emotions and interactions with GIFs.",
+        "actionOption": "What to do.",
+        "userOption": "User.",
+        "unknown": "Unknown action.",
+        "targetRequired": "Specify a user for this action.",
+        "noGif": "GIF unavailable.",
+        "selfNotAllowed": "This action cannot be applied to yourself.",
+        "list": {
+            "hug":      { "self": "**{user}** hugs",                       "other": "**{user}** hugs **{target}**" },
+            "kiss":     { "self": "**{user}** kisses",                     "other": "**{user}** kisses **{target}**" },
+            "slap":     { "self": "**{user}** slaps",                      "other": "**{user}** slaps **{target}**" },
+            "pat":      { "self": "**{user}** pats",                       "other": "**{user}** pats **{target}**" },
+            "cuddle":   { "self": "**{user}** cuddles",                    "other": "**{user}** cuddles with **{target}**" },
+            "poke":     { "self": "**{user}** pokes",                      "other": "**{user}** pokes **{target}**" },
+            "tickle":   { "self": "**{user}** tickles",                    "other": "**{user}** tickles **{target}**" },
+            "punch":    { "self": "**{user}** punches",                    "other": "**{user}** punches **{target}**" },
+            "bite":     { "self": "**{user}** bites",                      "other": "**{user}** bites **{target}**" },
+            "highfive": { "self": "**{user}** high-fives",                 "other": "**{user}** high-fives **{target}**" },
+            "handhold": { "self": "**{user}** holds hands",                "other": "**{user}** holds hands with **{target}**" },
+            "feed":     { "self": "**{user}** feeds",                      "other": "**{user}** feeds **{target}**" },
+            "cry":      { "self": "**{user}** cries",                      "other": "" },
+            "laugh":    { "self": "**{user}** laughs",                     "other": "" },
+            "dance":    { "self": "**{user}** dances",                     "other": "" },
+            "wave":     { "self": "**{user}** waves",                      "other": "" },
+            "blush":    { "self": "**{user}** blushes",                    "other": "" },
+            "smile":    { "self": "**{user}** smiles",                     "other": "" },
+            "wink":     { "self": "**{user}** winks",                      "other": "" },
+            "facepalm": { "self": "**{user}** facepalms",                  "other": "" },
+            "thumbsup": { "self": "**{user}** gives a thumbs up",          "other": "" },
+            "smug":     { "self": "**{user}** smirks smugly",              "other": "" }
+        },
+        "labels": {
+            "hug":      "Hug",
+            "kiss":     "Kiss",
+            "slap":     "Slap",
+            "pat":      "Pat",
+            "cuddle":   "Cuddle",
+            "poke":     "Poke",
+            "tickle":   "Tickle",
+            "punch":    "Punch",
+            "bite":     "Bite",
+            "highfive": "High five",
+            "handhold": "Hold hands",
+            "feed":     "Feed",
+            "cry":      "Cry",
+            "laugh":    "Laugh",
+            "dance":    "Dance",
+            "wave":     "Wave",
+            "blush":    "Blush",
+            "smile":    "Smile",
+            "wink":     "Wink",
+            "facepalm": "Facepalm",
+            "thumbsup": "Thumbs up",
+            "smug":     "Smug"
+        }
+    },
+
+    "ping": {
+        "cluster": "Cluster",
+        "shards": "Shards",
+        "ws": "Latency",
+        "roundtrip": "Command processing",
+        "database": "Database",
+        "error": "Error"
+    },
+
+    "about": {
+        "description": "Shows information about the bot.",
+        "title": "Information about {{botName}}",
+        "botDesc": "Multifunctional, entertaining bot ⭐\nUpdated frequently for maintenance or to add new features!\n\n**Developer:** {{dev}}",
+        "apiLatency": "API latency",
+        "messageLatency": "Message latency",
+        "started": "Bot started",
+        "buildHash": "Build hash",
+        "ms": "ms",
+
+        "supportButton": "Support server",
+        "inviteButton": "Invite bot",
+
+        "chartTitle": "Response time",
+        "chartBadge": "Ping",
+        "chartAllRegions": "All regions",
+        "chartDay": "Day",
+        "chartWeek": "Week",
+        "chartMonth": "Month",
+        "chartAverage": "Average",
+        "chartUptime": "Uptime",
+        "chartRamLoad": "RAM load",
+        "chartCpuLoad": "CPU load",
+        "chartMs": "ms"
+    },
+
+    "avatar": { "title": "Avatar" },
+    "banner": {
+        "title": "Banner",
+        "noBanner": "User **{{user}}** has no banner."
+    },
+
+    "channel": {
+        "category": "Category",
+        "topic": "Topic",
+        "noTopic": "None",
+        "none": "None",
+        "invites": "Invites",
+        "created": "Creation date"
+    },
+
+    "user": {
+        "joined": "Joined",
+        "created": "Account created",
+        "roles": "Roles",
+        "noRoles": "None",
+        "requestedBy": "Requested by"
+    },
+
+    "roles": {
+        "infoLabel": "Role information",
+        "color": "Color",
+        "created": "Creation date",
+        "id": "ID"
+    },
+
+    "guild": {
+        "subtitle": "Server information",
+        "boosts": "Boosts",
+        "boostLevel": "Level",
+        "boostsWord": "boosts",
+        "owner": "Owner",
+        "members": "Members",
+        "created": "Creation date",
+        "moderation": "Moderation",
+        "features": "Features",
+        "emojis": "Emojis",
+        "bitrate": "Bitrate",
+        "kbps": "Kbps",
+        "filesize": "File size",
+        "iconTitle": "Server icon",
+        "bannerTitle": "Server banner",
+        "noIcon": "This server has no icon.",
+        "noBanner": "This server has no banner."
+    },
+
+    "timestamp": {
+        "title": "Discord Timestamp",
+        "shortTime": "short time",
+        "longTime": "long time",
+        "shortDate": "short date",
+        "longDate": "long date",
+        "shortDateTime": "short date and time",
+        "longDateTime": "long date and time",
+        "relative": "relative"
+    },
+
+    "emoji": {
+        "listTitle": "Server emojis",
+        "listEmpty": "The server has no emojis.",
+        "notFound": "Emoji not found.",
+        "id": "ID",
+        "animated": "Animated",
+        "created": "Creation date"
+    },
+
+    "websearch": {
+        "wikiNotFound": "Nothing found.",
+        "genshinTitle": "Genshin Impact — profile",
+        "genshinInvalidUid": "Invalid UID.",
+        "genshinNotFound": "Profile not found.",
+        "steamTitle": "Steam — profile",
+        "steamNotFound": "Profile not found.",
+        "youtubeTitle": "YouTube",
+        "youtubeNotFound": "Channels not found.",
+        "youtubeUnavailable": "YouTube unavailable."
+    },
+
+    "config": {
+        "description": "Bot configuration for this server.",
+        "title": "Server configuration",
+        "currentSettings": "Current server settings",
+        "info": "Information",
+        "changedInfo": "You changed **{{changed}}** to **{{to}}**. Note: changes apply immediately to all users on the server.",
+        "changedLanguage": "language",
+        "language": {
+            "description": "Change the server language.",
+            "selectPlaceholder": "Select language",
+            "currentLang": "Set language: **{{lang}}**"
+        },
+        "modules": {
+            "description": "Enable or disable modules.",
+            "selectPlaceholder": "Select active modules",
+            "currentValue": "Active modules: **{{active}}** of **{{total}}**",
+            "changedInfo": "You changed the modules. Active modules: **{{active}}** of **{{total}}**. Changes apply immediately to all users on the server."
+        },
+        "birthdays": {
+            "description": "Configure birthday greetings.",
+            "channelOption": "Channel for greetings.",
+            "enableOption": "Enable or disable.",
+            "title": "Birthday greetings",
+            "status": "Status",
+            "on": "Enabled",
+            "off": "Disabled",
+            "channel": "Channel",
+            "notSet": "not selected",
+            "changedInfo": "Settings updated. The bot will greet birthday users every day at **09:00 UTC**.",
+            "channelRequired": "Select a channel first.",
+            "notTextChannel": "The channel must be a text channel.",
+            "saveError": "Could not save the settings."
+        },
+        "logging": {
+            "description": "Configure server logs.",
+            "channelOption": "Channel for logs.",
+            "enableOption": "Enable or disable.",
+            "title": "Server logs",
+            "status": "Status",
+            "on": "Enabled",
+            "off": "Disabled",
+            "channel": "Channel",
+            "notSet": "not selected",
+            "changedInfo": "Log settings updated. Server events will be recorded in the specified channel.",
+            "channelRequired": "Select a channel first.",
+            "notTextChannel": "The channel must be a text channel.",
+            "saveError": "Could not save the settings."
+        },
+        "currency": {
+            "description": "Configure the server currency.",
+            "emojiOption": "Currency emoji (e.g., 💎, 🪙).",
+            "nameOption": "Currency name.",
+            "title": "Server currency",
+            "emoji": "Emoji",
+            "name": "Name",
+            "changedInfo": "Currency settings updated.",
+            "saveError": "Could not save the settings."
+        }
+    },
+
+    "help": {
+        "description": "List of available commands.",
+        "commandOption": "Select or enter the command name.",
+        "title": "List of available commands",
+        "selectPlaceholder": "Select category",
+        "homeOption": "🏠 Home",
+        "moduleTitle": "Module",
+        "commandInfo": "Command information",
+        "commandNotFound": "Command `{{name}}` not found.",
+        "fieldInfo": "Information",
+        "fieldCooldown": "Cooldown",
+        "fieldBotPerms": "Bot permissions",
+        "fieldUserPerms": "Member permissions",
+        "fieldExampleN": "Example #{{n}}"
+    },
+
+    "errors": {
+        "generic": "An unexpected error occurred. Try again later or contact support.",
+        "noPermission": "You don't have enough permissions to use this command. Check your permissions or contact an administrator.",
+        "cooldown": "The command isn't ready yet. Wait **{{time}}** and try again.",
+        "notFound": "The requested resource was not found. Check the parameters and try again.",
+        "moduleDisabled": "This module is disabled on this server. Enable it in `/config modules`.",
+        "guildOnly": "This command is only available on a server, not in direct messages."
+    },
+
+    "components": {
+        "notOwner": "This menu was opened by another user. Use your own command."
+    },
+
+    "commands": {
+        "say": {
+            "description": "Send a message as the bot in the current channel.",
+            "longDescription": "Sends a message as the bot in the current channel.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Send messages",
+            "userPermissions": "Administrator",
+            "option": "Message text.",
+            "examples": [
+                "/say message:Hello everyone!\nSends a message as the bot.",
+                "/say message:**Bold** text\nSupports markdown."
+            ]
+        },
+        "birthday": {
+            "description": "Manage birthdays: set, view, and delete.",
+            "longDescription": "Setting, viewing, and deleting birthdays.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/birthday set day:15 month:6\nSets the birthday to June 15.",
+                "/birthday set day:15 month:6 year:2000\nSets the date with a year.",
+                "/birthday view\nShows your birthday.",
+                "/birthday view @user\nShows the user's birthday.",
+                "/birthday delete\nDeletes your birthday."
+            ],
+            "set": {
+                "description": "Set your birthday.",
+                "longDescription": "Saves the day, month, and optionally the year of your birthday.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/birthday set day:15 month:6\nSets the birthday to June 15.",
+                    "/birthday set day:15 month:6 year:2000\nSets it with a year."
+                ]
+            },
+            "view": {
+                "description": "View someone's birthday.",
+                "longDescription": "Shows the specified user's birthday.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/birthday view\nShows your birthday.",
+                    "/birthday view @user\nShows the user's birthday."
+                ]
+            },
+            "delete": {
+                "description": "Delete your birthday.",
+                "longDescription": "Deletes the saved birthday.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/birthday delete\nDeletes your birthday."
+                ]
+            }
+        },
+        "actions": {
+            "description": "Emotions and GIF interactions: hug, kiss, and more.",
+            "longDescription": "Sends a GIF interaction with the specified user or without one.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/actions action:hug user:@user\nHugs the user.",
+                "/actions action:kiss user:@user\nKisses the user.",
+                "/actions action:slap user:@user\nSlaps the user.",
+                "/actions action:cry\nCries.",
+                "/actions action:dance\nDances."
+            ]
+        },
+        "ping": {
+            "description": "Shows bot, API, database, and shard latency.",
+            "longDescription": "Reports the current response time and the bot's connection state.",
+            "cooldown": "6 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/ping\nShows the bot's latency."
+            ]
+        },
+        "help": {
+            "description": "List of available commands with description, permissions, and examples.",
+            "longDescription": "Shows all modules and commands available on this server.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/help\nShows the help menu.",
+                "/help command:ban\nDetailed information about the /ban command."
+            ]
+        },
+        "config": {
+            "description": "Bot configuration for the server: language, modules, logs, birthdays, and currency.",
+            "longDescription": "Changing the server language, modules, logs, and greetings.",
+            "cooldown": "5 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "Manage server",
+            "examples": [
+                "/config language\nChanges the server language.",
+                "/config modules\nEnables/disables modules.",
+                "/config birthdays channel:#general enable:true\nConfigures birthday greetings.",
+                "/config logging channel:#logs enable:true\nConfigures logs."
+            ],
+            "language": {
+                "description": "Change the server language.",
+                "longDescription": "Changes the bot's language for the entire server.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Manage server",
+                "examples": [
+                    "/config language\nOpens the language selection menu."
+                ]
+            },
+            "modules": {
+                "description": "Enable or disable modules.",
+                "longDescription": "Manages the bot's active modules on the server.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Manage server",
+                "examples": [
+                    "/config modules\nOpens the module selection menu."
+                ]
+            },
+            "birthdays": {
+                "description": "Configure birthday greetings.",
+                "longDescription": "Channel selection and enabling/disabling automatic greetings.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links, Send messages",
+                "userPermissions": "Manage server",
+                "examples": [
+                    "/config birthdays\nShows the current settings.",
+                    "/config birthdays channel:#general enable:true\nEnables greetings in #general.",
+                    "/config birthdays enable:false\nDisables greetings."
+                ]
+            },
+            "logging": {
+                "description": "Configure server logs.",
+                "longDescription": "Channel selection and enabling/disabling the logging system.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links, Send messages",
+                "userPermissions": "Manage server",
+                "examples": [
+                    "/config logging\nShows the current settings.",
+                    "/config logging channel:#logs enable:true\nEnables logs in #logs.",
+                    "/config logging enable:false\nDisables logs."
+                ]
+            },
+            "currency": {
+                "description": "Configure the server currency.",
+                "longDescription": "Changes the emoji and name of the economy currency.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Manage server",
+                "examples": [
+                    "/config currency\nShow the current settings.",
+                    "/config currency emoji:🪙 name:Coins"
+                ]
+            }
+        },
+        "confessions": {
+            "description": "Manage AI memory containers for the server's channels.",
+            "longDescription": "Manages AI memory containers for channels on this server.",
+            "cooldown": "5 seconds",
+            "botPermissions": "Embed links, Send messages",
+            "userPermissions": "Administrator",
+            "examples": [
+                "/confessions create channel:#general\nCreate an AI memory container.",
+                "/confessions list\nList of server containers.",
+                "/confessions block id:123\nDelete a container by ID.",
+                "/confessions report id:123 reason:spam\nSend the container to the owner."
+            ],
+            "create": { "description": "Create a memory container for the channel.", "option": "Channel." },
+            "list": { "description": "List of server containers." },
+            "block": { "description": "Delete the container permanently.", "option": "Container ID." },
+            "report": {
+                "description": "Send the container to the bot owner.",
+                "idOption": "Container ID.",
+                "reasonOption": "Report reason."
+            }
+        },
+        "about": {
+            "description": "Shows information about the bot, statistics, and system load.",
+            "longDescription": "Shows statistics, load, and system information.",
+            "cooldown": "5 seconds",
+            "botPermissions": "Embed links, Attach files",
+            "userPermissions": "None",
+            "examples": [
+                "/about\nShows information about the bot."
+            ]
+        },
+        "avatar": {
+            "description": "Shows the user's avatar at maximum size.",
+            "longDescription": "Shows the user's avatar at maximum size.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/avatar\nShows your avatar.",
+                "/avatar user:@user\nShows the user's avatar."
+            ]
+        },
+        "banner": {
+            "description": "Shows the user's banner at maximum size.",
+            "longDescription": "Shows the user's banner at maximum size.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/banner\nShows your banner.",
+                "/banner user:@user\nShows the user's banner."
+            ]
+        },
+        "guild": {
+            "description": "Server information: members, boosts, owner, features.",
+            "longDescription": "Commands to get server information.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/guild info\nShows server information.",
+                "/guild icon\nShows the server icon.",
+                "/guild banner\nShows the server banner."
+            ],
+            "icon": {
+                "description": "Shows the server icon.",
+                "longDescription": "Shows the current server's icon.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/guild icon\nShows the server icon."]
+            },
+            "banner": {
+                "description": "Shows the server banner.",
+                "longDescription": "Shows the current server's banner.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/guild banner\nShows the server banner."]
+            },
+            "info": {
+                "description": "Detailed server information.",
+                "longDescription": "Shows detailed server statistics.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/guild info\nShows server information."]
+            }
+        },
+        "channel": {
+            "description": "Channel information: category, topic, creation date.",
+            "longDescription": "Commands to get channel information.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/channel info\nShows information about the current channel.",
+                "/channel info channel:#general\nShows information about the #general channel."
+            ],
+            "info": {
+                "description": "Shows channel information.",
+                "longDescription": "Shows the channel's category, topic, and creation date.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links, Manage channels",
+                "userPermissions": "None",
+                "examples": [
+                    "/channel info\nShows information about the current channel.",
+                    "/channel info channel:#general\nShows information about the #general channel."
+                ]
+            }
+        },
+        "user": {
+            "description": "User information: registration date, join date, roles.",
+            "longDescription": "Commands to get user information.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/user info\nShows information about you.",
+                "/user info user:@user\nShows information about the user."
+            ],
+            "info": {
+                "description": "Shows user information.",
+                "longDescription": "Shows the user's registration date, join date, and roles.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/user info\nShows information about you.",
+                    "/user info user:@user\nShows information about the user."
+                ]
+            }
+        },
+        "roles": {
+            "description": "Role information: color, creation date, ID.",
+            "longDescription": "Commands to get role information.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/roles info role:@role\nShows information about the role."
+            ],
+            "info": {
+                "description": "Shows role information.",
+                "longDescription": "Shows the role's color, creation date, and ID.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/roles info role:@role\nShows information about the role."
+                ]
+            }
+        },
+        "timestamp": {
+            "description": "Generate Discord timestamps in various formats.",
+            "longDescription": "Creates all Discord timestamp formats from the specified time.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/timestamp\nShows the current time in all formats.",
+                "/timestamp time:5m\nShows the time in 5 minutes.",
+                "/timestamp time:2026-01-01 12:00\nShows the specified date."
+            ]
+        },
+        "emoji": {
+            "description": "View and get information about server emojis.",
+            "longDescription": "View and get information about server emojis.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/emoji list\nShows the list of emojis.",
+                "/emoji info emoji:cat\nInformation about the emoji."
+            ],
+            "list": {
+                "description": "List of server emojis.",
+                "longDescription": "Shows all server emojis with pagination.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/emoji list\nShows the list of emojis."]
+            },
+            "info": {
+                "description": "Emoji information.",
+                "longDescription": "Shows the emoji's ID, animation, and creation date.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/emoji info emoji:cat\nInformation by name.",
+                    "/emoji info emoji:123456789012345678\nInformation by ID."
+                ]
+            }
+        },
+        "ban": {
+            "description": "Ban a user from the server with a reason and message deletion.",
+            "longDescription": "Blocks a user on the server with optional message cleanup.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Ban members",
+            "userPermissions": "Ban members",
+            "userOption": "User to ban.",
+            "reasonOption": "Reason.",
+            "deleteOption": "Delete messages from the last N days (0-7).",
+            "examples": [
+                "/ban user:@user reason:spam\nBans the user.",
+                "/ban user:@user reason:flood delete_messages:7\nBans and deletes messages from the last 7 days.",
+                "/ban user:@user\nBans without specifying a reason."
+            ]
+        },
+        "unban": {
+            "description": "Unban a user by their ID with a reason.",
+            "longDescription": "Removes the ban from a user by their ID.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Ban members",
+            "userPermissions": "Ban members",
+            "userIdOption": "User ID.",
+            "reasonOption": "Reason.",
+            "examples": [
+                "/unban user_id:123456789012345678 reason:appeal\nUnbans the user.",
+                "/unban user_id:123456789012345678\nUnbans without a reason."
+            ]
+        },
+        "kick": {
+            "description": "Kick a user from the server with a reason.",
+            "longDescription": "Removes a member from the server.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Kick members",
+            "userPermissions": "Kick members",
+            "userOption": "User.",
+            "reasonOption": "Reason.",
+            "examples": [
+                "/kick user:@user reason:flood\nKicks the user with a reason.",
+                "/kick user:@user\nKicks without a reason."
+            ]
+        },
+        "timeout": {
+            "description": "Apply a timeout to a user for the specified time.",
+            "longDescription": "Temporarily blocks the user's communication.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Moderate members",
+            "userPermissions": "Moderate members",
+            "userOption": "User.",
+            "durationOption": "Duration (e.g., 5m, 1h, 2d).",
+            "reasonOption": "Reason.",
+            "examples": [
+                "/timeout user:@user duration:5m reason:flood\nTimeout for 5 minutes.",
+                "/timeout user:@user duration:1h reason:spam\nTimeout for one hour.",
+                "/timeout user:@user duration:2d\nTimeout for 2 days."
+            ]
+        },
+        "untimeout": {
+            "description": "Remove a user's active timeout.",
+            "longDescription": "Removes the active timeout.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Moderate members",
+            "userPermissions": "Moderate members",
+            "userOption": "User.",
+            "examples": [
+                "/untimeout user:@user\nRemoves the timeout."
+            ]
+        },
+        "warn": {
+            "description": "Warning management: add, list, remove, and clear.",
+            "longDescription": "Assigning, viewing, and removing warnings.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "Moderate members",
+            "examples": [
+                "/warn add user:@user reason:spam\nGive a warning.",
+                "/warn list user:@user\nList of warnings.",
+                "/warn remove id:5\nRemove a warning.",
+                "/warn clear user:@user\nRemove all warnings."
+            ],
+            "add": {
+                "description": "Give a warning.",
+                "longDescription": "Adds a warning to the user.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Moderate members",
+                "examples": [
+                    "/warn add user:@user reason:spam\nGives a warning."
+                ]
+            },
+            "list": {
+                "description": "List of the user's warnings.",
+                "longDescription": "Shows all of the user's warnings.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Moderate members",
+                "examples": [
+                    "/warn list user:@user\nShows the list."
+                ]
+            },
+            "remove": {
+                "description": "Remove a warning by ID.",
+                "longDescription": "Removes a specific warning by ID.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Moderate members",
+                "examples": [
+                    "/warn remove id:5\nRemoves warning #5."
+                ]
+            },
+            "clear": {
+                "description": "Remove all of the user's warnings.",
+                "longDescription": "Clears all warnings.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "Moderate members",
+                "examples": [
+                    "/warn clear user:@user\nClears all warnings."
+                ]
+            }
+        },
+        "clear": {
+            "description": "Delete messages in the current channel (up to 100).",
+            "longDescription": "Deletes messages in bulk (up to 100).",
+            "cooldown": "3 seconds",
+            "botPermissions": "Manage messages",
+            "userPermissions": "Manage messages",
+            "amountOption": "Amount (1-100).",
+            "userOption": "Only this user's messages.",
+            "examples": [
+                "/clear amount:50\nDeletes 50 messages.",
+                "/clear amount:100\nDeletes 100 messages.",
+                "/clear amount:20 user:@user\nDeletes 20 messages from the user."
+            ]
+        },
+        "slowmode": {
+            "description": "Set slowmode in the channel (0-21600 sec).",
+            "longDescription": "Sets the interval between messages in the channel.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Manage channels",
+            "userPermissions": "Manage channels",
+            "secondsOption": "Seconds (0-21600).",
+            "channelOption": "Channel.",
+            "examples": [
+                "/slowmode seconds:10\nSets 10 seconds.",
+                "/slowmode seconds:60 channel:#general\nSets 60 seconds in #general.",
+                "/slowmode seconds:0\nDisables slowmode."
+            ]
+        },
+        "nickname": {
+            "description": "Change or reset a member's nickname.",
+            "longDescription": "Sets or resets the member's nickname.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Manage nicknames",
+            "userPermissions": "Manage nicknames",
+            "userOption": "User.",
+            "nameOption": "New nickname (empty to reset).",
+            "examples": [
+                "/nickname user:@user name:NewNickname\nChanges the nickname.",
+                "/nickname user:@user\nResets the nickname."
+            ]
+        },
+        "role": {
+            "description": "Give or remove a role from a member.",
+            "longDescription": "Giving and removing roles.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Manage roles",
+            "userPermissions": "Manage roles",
+            "examples": [
+                "/role add user:@user role:@role\nGives the role.",
+                "/role remove user:@user role:@role\nRemoves the role."
+            ],
+            "add": {
+                "description": "Give a role.",
+                "longDescription": "Adds the role to the user.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Manage roles",
+                "userPermissions": "Manage roles",
+                "examples": ["/role add user:@user role:@role\nGives the role."]
+            },
+            "remove": {
+                "description": "Remove a role.",
+                "longDescription": "Removes the role from the user.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Manage roles",
+                "userPermissions": "Manage roles",
+                "examples": ["/role remove user:@user role:@role\nRemoves the role."]
+            }
+        },
+        "infrastructure": {
+            "description": "Manage server infrastructure: lock/unlock channels.",
+            "longDescription": "Operations with channels and other server elements.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Manage channels",
+            "userPermissions": "Manage channels",
+            "examples": [
+                "/infrastructure channel lock\nLocks the current channel.",
+                "/infrastructure channel unlock\nUnlocks the current channel."
+            ],
+            "channel": {
+                "description": "Channel operations.",
+                "lock": {
+                    "description": "Lock the channel.",
+                    "longDescription": "Prevents @everyone from writing in the channel.",
+                    "cooldown": "3 seconds",
+                    "botPermissions": "Manage channels",
+                    "userPermissions": "Manage channels",
+                    "channelOption": "Channel.",
+                    "reasonOption": "Reason.",
+                    "examples": [
+                        "/infrastructure channel lock\nLocks the current channel.",
+                        "/infrastructure channel lock channel:#general reason:flood\nLocks #general with a reason."
+                    ]
+                },
+                "unlock": {
+                    "description": "Unlock the channel.",
+                    "longDescription": "Removes the restriction on sending messages.",
+                    "cooldown": "3 seconds",
+                    "botPermissions": "Manage channels",
+                    "userPermissions": "Manage channels",
+                    "channelOption": "Channel.",
+                    "examples": [
+                        "/infrastructure channel unlock\nUnlocks the current channel.",
+                        "/infrastructure channel unlock channel:#general\nUnlocks #general."
+                    ]
+                }
+            }
+        },
+        "websearch": {
+            "description": "Search for information: Wikipedia, Genshin, Steam, YouTube.",
+            "longDescription": "Search on Wikipedia, Genshin, Steam, and YouTube profiles.",
+            "cooldown": "5 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/websearch wiki Discord\nSearches on Wikipedia.",
+                "/websearch genshin 712345678\nGenshin profile.",
+                "/websearch steam 765611999199624578\nSteam profile.",
+                "/websearch youtube excepterr\nSearches for a YouTube channel."
+            ],
+            "wiki": {
+                "description": "Search on Wikipedia.",
+                "longDescription": "Searches for an article on Wikipedia and shows a summary.",
+                "cooldown": "5 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/websearch wiki Discord\nSearches for the article \"Discord\"."]
+            },
+            "genshin": {
+                "description": "Genshin Impact profile by UID.",
+                "longDescription": "Shows the Genshin Impact player profile by UID.",
+                "cooldown": "5 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/websearch genshin 712345678\nShows the player profile."]
+            },
+            "steam": {
+                "description": "Steam profile.",
+                "longDescription": "Shows the Steam profile by SteamID64 or vanity URL.",
+                "cooldown": "5 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": [
+                    "/websearch steam 765611999199624578\nBy SteamID64.",
+                    "/websearch steam excepterr\nBy vanity URL."
+                ]
+            },
+            "youtube": {
+                "description": "Search for YouTube channels.",
+                "longDescription": "Searches for YouTube channels and shows their statistics.",
+                "cooldown": "5 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/websearch youtube excepterr\nSearches for the channel \"excepterr\"."]
+            }
+        },
+        "balance": {
+            "description": "Show balance, level, and available rewards.",
+            "longDescription": "Shows balance, level, and available rewards.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "userOption": "User.",
+            "examples": ["/balance", "/balance user:@user"]
+        },
+        "timely": {
+            "description": "Claim the regular bonus every 3 hours.",
+            "longDescription": "Regular bonus every 3 hours.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": ["/timely"]
+        },
+        "daily": {
+            "description": "Claim the daily bonus every 24 hours.",
+            "longDescription": "Daily bonus every 24 hours.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": ["/daily"]
+        },
+        "weekly": {
+            "description": "Claim the weekly bonus every 7 days.",
+            "longDescription": "Weekly bonus every 7 days.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": ["/weekly"]
+        },
+        "work": {
+            "description": "Work and earn money and experience (every hour).",
+            "longDescription": "Work every hour. Gives money and experience.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": ["/work"]
+        },
+        "currency": {
+            "description": "Configure the server currency: emoji and name.",
+            "longDescription": "Changes the emoji and name of the economy currency.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "Manage server",
+            "emojiOption": "Currency emoji (e.g., 💎, 🪙).",
+            "nameOption": "Currency name.",
+            "examples": [
+                "/currency\nShow the current settings.",
+                "/currency emoji:🪙 name:Coins\nChange the currency."
+            ]
+        },
+        "leaderboard": {
+            "description": "Top users by balance (10 per page, 5 pages).",
+            "longDescription": "Shows the top 10 per page, 5 pages in total.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": ["/leaderboard"]
+        },
+        "bank": {
+            "description": "Bank management: deposit or withdraw money.",
+            "longDescription": "Deposit or withdraw money.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "amountOption": "Amount or 0 for everything.",
+            "examples": [
+                "/bank deposit amount:1000",
+                "/bank deposit amount:0",
+                "/bank withdraw amount:500"
+            ],
+            "deposit": { "description": "Deposit into the bank." },
+            "withdraw": { "description": "Withdraw from the bank." }
+        },
+        "marriage": {
+            "description": "Family: proposal and divorce.",
+            "longDescription": "Proposal and divorce.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links, Send messages",
+            "userPermissions": "None",
+            "userOption": "User.",
+            "examples": ["/marriage propose user:@user", "/marriage divorce"],
+            "propose": { "description": "Make a proposal." },
+            "divorce": { "description": "Get a divorce." }
+        },
+        "shop": {
+            "description": "Role shop: view, buy, add, and remove.",
+            "longDescription": "Viewing, buying, and managing the role shop.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Manage roles",
+            "userPermissions": "Manage server for add/remove",
+            "roleOption": "Role.",
+            "examples": [
+                "/shop list",
+                "/shop buy role:@role",
+                "/shop add role:@role price:5000",
+                "/shop remove role:@role"
+            ],
+            "list": { "description": "Show the shop." },
+            "buy": { "description": "Buy a role." },
+            "add": { "description": "Add a role to the shop." },
+            "remove": { "description": "Remove a role from the shop." }
+        },
+        "music": {
+            "description": "Music commands: playback and management from YouTube.",
+            "longDescription": "Music playback and management from YouTube.",
+            "cooldown": "2 seconds",
+            "botPermissions": "Connect, Speak, Embed links",
+            "userPermissions": "None",
+            "example": "/music play never gonna give you up",
+            "play": {
+                "description": "Play a track from YouTube.",
+                "longDescription": "Searches for a track on YouTube and adds it to the queue.",
+                "cooldown": "3 seconds",
+                "botPermissions": "Connect, Speak",
+                "userPermissions": "None",
+                "queryOption": "Name or link.",
+                "examples": [
+                    "/music play never gonna give you up",
+                    "/music play https://youtu.be/dQw4w9WgXcQ"
+                ]
+            },
+            "skip": {
+                "description": "Skip the track.",
+                "longDescription": "Skips the current track.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "examples": ["/music skip"]
+            },
+            "pause": {
+                "description": "Pause.",
+                "longDescription": "Pauses playback.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "examples": ["/music pause"]
+            },
+            "resume": {
+                "description": "Resume.",
+                "longDescription": "Resumes playback.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "examples": ["/music resume"]
+            },
+            "stop": {
+                "description": "Stop.",
+                "longDescription": "Stops playback and clears the queue.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "examples": ["/music stop"]
+            },
+            "nowplaying": {
+                "description": "What's playing now.",
+                "longDescription": "Shows the current track.",
+                "cooldown": "2 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/music nowplaying"]
+            },
+            "queue": {
+                "description": "Track queue.",
+                "longDescription": "Shows the queue.",
+                "cooldown": "2 seconds",
+                "botPermissions": "Embed links",
+                "userPermissions": "None",
+                "examples": ["/music queue"]
+            },
+            "volume": {
+                "description": "Volume.",
+                "longDescription": "Sets the player volume.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "valueOption": "Volume (0-200).",
+                "examples": ["/music volume value:50"]
+            },
+            "loop": {
+                "description": "Loop mode.",
+                "longDescription": "Enables track or queue looping.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "modeOption": "Mode.",
+                "examples": ["/music loop mode:track", "/music loop mode:queue", "/music loop mode:off"]
+            },
+            "shuffle": {
+                "description": "Shuffle the queue.",
+                "longDescription": "Shuffles the tracks in the queue.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "examples": ["/music shuffle"]
+            },
+            "seek": {
+                "description": "Seek the track.",
+                "longDescription": "Seeks to the specified second.",
+                "cooldown": "2 seconds",
+                "botPermissions": "None",
+                "userPermissions": "None",
+                "secondsOption": "Seconds.",
+                "examples": ["/music seek seconds:30"]
+            }
+        },
+        "8ball": {
+            "description": "Ask the magic 8-ball a question and get an answer.",
+            "longDescription": "The magic 8-ball answers your question.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "questionOption": "Your question.",
+            "question": "Question",
+            "answer": "Answer",
+            "answers": [
+                "It is certain.", "It is decidedly so.", "Without a doubt.", "Yes definitely.",
+                "You may rely on it.", "As I see it, yes.", "Most likely.",
+                "Outlook good.", "Signs point to yes.", "Yes.",
+                "Reply hazy, try again.", "Ask again later.", "Better not tell you now.",
+                "Cannot predict now.", "Concentrate and ask again.",
+                "Don't count on it.", "My reply is no.", "My sources say no.",
+                "Outlook not so good.", "Very doubtful."
+            ]
+        },
+        "coinflip": {
+            "description": "Flip a coin: heads or tails.",
+            "longDescription": "Flips a coin and gives heads or tails.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "heads": "🪙 It's **Heads**!",
+            "tails": "🪙 It's **Tails**!"
+        },
+        "dice": {
+            "description": "Roll a die with the specified number of sides.",
+            "longDescription": "Rolls a die with the specified number of sides.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "sidesOption": "Number of sides (default 6).",
+            "result": "🎲 Rolled: **{{result}}**"
+        },
+        "rps": {
+            "description": "Play rock, paper, scissors with the bot.",
+            "longDescription": "Plays rock, paper, scissors with the bot.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "choiceOption": "Your choice.",
+            "rock": "Rock",
+            "paper": "Paper",
+            "scissors": "Scissors",
+            "win": "🎉 You won! The bot chose **{{bot}}**.",
+            "lose": "😢 You lost. The bot chose **{{bot}}**.",
+            "draw": "🤝 It's a draw! The bot chose **{{bot}}**."
+        },
+        "rate": {
+            "description": "Rate something on a scale from 0 to 10.",
+            "longDescription": "Rates an item or action on a scale from 0 to 10.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "thingOption": "What to rate.",
+            "result": "I rate **{{thing}}** a **{{rating}}/10**."
+        },
+        "reverse": {
+            "description": "Reverse the text.",
+            "longDescription": "Reverses the text backwards.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "textOption": "Text to reverse.",
+            "result": "🔄 **Result:**\n```\n{{result}}\n```"
+        },
+        "uppercase": {
+            "description": "Convert text to uppercase.",
+            "longDescription": "Makes all letters uppercase.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "textOption": "Text.",
+            "result": "🔠 **Result:**\n```\n{{result}}\n```"
+        },
+        "lowercase": {
+            "description": "Convert text to lowercase.",
+            "longDescription": "Makes all letters lowercase.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "textOption": "Text.",
+            "result": "🔡 **Result:**\n```\n{{result}}\n```"
+        },
+        "length": {
+            "description": "Count characters and words in the text.",
+            "longDescription": "Shows the number of characters and words in the text.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "textOption": "Text to analyze.",
+            "title": "📊 Text statistics",
+            "chars": "Characters",
+            "words": "Words",
+            "charsNoSpaces": "Characters without spaces"
+        },
+        "changelog": {
+            "description": "Shows the bot's latest changes and current version.",
+            "longDescription": "Shows the bot's latest changes and current version.",
+            "cooldown": "3 seconds",
+            "botPermissions": "Embed links",
+            "userPermissions": "None",
+            "examples": [
+                "/changelog\nShows the changelog."
+            ]
+        }
+    }
+}

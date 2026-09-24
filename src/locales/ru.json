@@ -1,0 +1,1488 @@
+{
+    "yes": "Да",
+    "no": "Нет",
+
+    "modules": {
+        "config": "Конфигурация",
+        "info": "Информация",
+        "websearch": "Поиск",
+        "interactions": "Взаимодействия",
+        "moderation": "Модерация",
+        "fun": "Развлечения",
+        "economy": "Экономика",
+        "utilities": "Утилиты",
+        "music": "Музыка",
+        "administrative": "Административные",
+        "text": "Текст"
+    },
+
+    "say": {
+        "sent": "Отправлено!"
+    },
+
+    "music": {
+        "noVoiceChannel": "Сначала зайди в голосовой канал, чтобы использовать музыкальные команды.",
+        "noNode": "Музыкальный сервер недоступен. Попробуйте позже или обратитесь в поддержку.",
+        "notFound": "Трек не найден. Проверьте название или ссылку и попробуйте снова.",
+        "addedToQueue": "Добавлено в очередь",
+        "author": "Автор",
+        "tracksAdded": "Треков добавлено",
+        "notPlaying": "Сейчас ничего не играет.",
+        "skipped": "Трек пропущен.",
+        "paused": "Пауза.",
+        "resumed": "Продолжаем.",
+        "stopped": "Остановлено, очередь очищена.",
+        "queueEmpty": "Очередь пуста.",
+        "queueTitle": "Очередь",
+        "queue": "Очередь",
+        "nowPlaying": "Сейчас играет",
+        "nowplayingTitle": "Сейчас играет",
+        "length": "Длительность",
+        "loop": "Повтор",
+        "andMore": "и ещё {{n}}",
+        "volumeSet": "Громкость установлена на **{{value}}**.",
+        "loopSet": "Режим повтора: **{{mode}}**.",
+        "loopSame": "Этот режим уже установлен.",
+        "queueTooSmall": "Недостаточно треков для перемешивания.",
+        "shuffled": "Перемешано **{{count}}** треков.",
+        "seeked": "Перемотано на **{{seconds}}** сек."
+    },
+
+    "currency": {
+        "title": "Валюта сервера",
+        "currentSettings": "Текущие настройки",
+        "emojiLabel": "Эмодзи",
+        "nameLabel": "Название",
+        "changedInfo": "Настройки валюты обновлены.",
+        "saveError": "Не удалось сохранить настройки. Попробуйте позже."
+    },
+
+    "changelog": {
+        "title": "Список изменений — {{user}}",
+        "version": "Версия билда"
+    },
+
+    "economy": {
+        "balanceTitle": "Баланс участника — {{user}}",
+        "wallet": "Наличные",
+        "bank": "В банке",
+        "total": "Общий баланс",
+        "walletShort": "Наличные",
+        "bankShort": "В банке",
+        "totalShort": "Всего",
+        "rank": "Место в топе",
+        "level": "Уровень",
+        "info": "Информация",
+        "rewards": "Награды",
+        "donateCurrency": "Донат валюта:",
+        "rewardsAvailable": "Доступные для вознаграждения команды: {{list}}",
+        "rewardsEmpty": "Все награды уже забраны.",
+        "nextBonus": "Следующий бонус можно забрать",
+        "cooldown": "Подожди {{time}} перед следующей попыткой.",
+        "notEnough": "Недостаточно средств.",
+        "bankNothing": "Нечего переводить.",
+
+        "timelyTitle": "Регулярный бонус",
+        "timelyDescription": "**{{user}}**, забрал свои **{{amount}}** {{currency}}",
+
+        "dailyTitle": "Ежедневный бонус",
+        "dailyDescription": "**{{user}}**, забрал свои **{{amount}}** {{currency}}",
+
+        "weeklyTitle": "Еженедельный бонус",
+        "weeklyDescription": "**{{user}}**, забрал свои **{{amount}}** {{currency}}",
+
+        "workTitle": "Работа",
+        "workDescription": "**{{user}}**, вы успешно поработали как ***{{job}}***.",
+        "workIncome": "Доход",
+        "workProgress": "Прогресс",
+
+        "leaderboardTitle": "Таблица лидеров по балансу",
+        "leaderboardEmpty": "Пока никого нет в топе.",
+        "page": "Страница",
+
+        "bankDepositTitle": "Пополнение банка",
+        "bankDepositDescription": "**{{user}}**, вы положили **{{amount}}** {{currency}} в банк.",
+        "bankWithdrawTitle": "Снятие из банка",
+        "bankWithdrawDescription": "**{{user}}**, вы сняли **{{amount}}** {{currency}} из банка.",
+
+        "shopTitle": "Магазин ролей",
+        "shopEmpty": "Магазин пуст.",
+        "shopRoleNotFound": "Этой роли нет в магазине.",
+        "shopBuyTitle": "Покупка",
+        "shopBuyDescription": "**{{user}}**, вы купили роль **{{role}}** за **{{price}}** {{currency}}.",
+        "shopAddTitle": "Роль добавлена",
+        "shopAddDescription": "Роль **{{role}}** добавлена в магазин за **{{price}}** {{currency}}.",
+        "shopRemoveTitle": "Роль удалена",
+        "shopRemoveDescription": "Роль **{{role}}** убрана из магазина.",
+        "alreadyOwned": "У тебя уже есть эта роль."
+    },
+
+    "moderation": {
+        "cantSelf": "Нельзя применить действие к самому себе.",
+        "hierarchyUser": "У вас нет прав: цель выше или равна вам по роли.",
+        "hierarchyBot": "У бота нет прав: цель выше бота по роли.",
+        "notOnServer": "Пользователя нет на сервере.",
+        "notBanned": "Этот пользователь не забанен.",
+        "notTimedOut": "У пользователя нет активного таймаута.",
+        "invalidId": "Неверный ID пользователя. Убедитесь, что ID состоит только из цифр.",
+        "invalidDuration": "Неверный формат длительности. Пример: `5m`, `1h`, `2d`.",
+        "tooLong": "Максимальная длительность таймаута — 28 дней.",
+        "roleTooHigh": "Эта роль выше роли бота.",
+
+        "actionTitle": "Взаимодействие с участником — {{user}}",
+        "actionDescription": "{{moderator}}, участник **{{user}}** {{action}}.",
+        "reasonLabel": "Причина",
+        "reasonNone": "Не указана",
+
+        "actionBan": "забанен на сервере",
+        "actionUnban": "разбанен",
+        "actionKick": "кикнут с сервера",
+        "actionTimeout": "получил тайм-аут на **{{duration}}**",
+        "actionUntimeout": "освобождён от тайм-аута",
+        "actionWarnAdd": "получил предупреждение **#{{id}}**",
+        "actionNicknameSet": "получил новый ник **{{name}}**",
+        "actionNicknameReset": "лишился ника",
+        "actionRoleAdd": "получил роль **{{role}}**",
+        "actionRoleRemove": "лишился роли **{{role}}**",
+
+        "ban": { "success": "Пользователь **{{user}}** (`{{id}}`) забанен." },
+        "unban": { "success": "Пользователь **{{user}}** (`{{id}}`) разбанен." },
+        "kick": { "success": "Пользователь **{{user}}** (`{{id}}`) кикнут." },
+        "timeout": { "success": "Пользователь **{{user}}** (`{{id}}`) в таймауте на **{{duration}}**." },
+        "untimeout": { "success": "С пользователя **{{user}}** (`{{id}}`) снят таймаут." },
+
+        "warn": {
+            "added": "Пользователю **{{user}}** (`{{id}}`) выдано предупреждение **#{{warnId}}**.\nПричина: {{reason}}",
+            "removed": "Предупреждение **#{{id}}** удалено.",
+            "cleared": "Все предупреждения пользователя **{{user}}** удалены.",
+            "empty": "У пользователя **{{user}}** нет предупреждений.",
+            "listTitle": "Предупреждения — {{user}}"
+        },
+
+        "clear": {
+            "title": "Очистка сообщений — {{channel}}",
+            "description": "{{moderator}}, удалено **{{count}}** сообщений.",
+            "success": "Удалено **{{count}}** сообщений.",
+            "none": "Нечего удалять.",
+            "tooOld": "Не удалось удалить — сообщения старше 14 дней."
+        },
+
+        "slowmode": {
+            "title": "Медленный режим — {{channel}}",
+            "description": "{{moderator}}, установлен медленный режим **{{seconds}}** сек.",
+            "titleOff": "Медленный режим отключён — {{channel}}",
+            "descriptionOff": "{{moderator}}, медленный режим в канале отключён.",
+            "success": "В канале {{channel}} установлен медленный режим **{{seconds}}** сек.",
+            "off": "Медленный режим в {{channel}} отключён."
+        },
+
+        "channelLock": {
+            "title": "Канал заблокирован — {{channel}}",
+            "description": "{{moderator}}, канал **{{channel}}** заблокирован."
+        },
+        "channelUnlock": {
+            "title": "Канал разблокирован — {{channel}}",
+            "description": "{{moderator}}, канал **{{channel}}** разблокирован."
+        },
+
+        "nickname": {
+            "success": "Ник пользователя **{{user}}** изменён на **{{name}}**.",
+            "reset": "Ник пользователя **{{user}}** сброшен."
+        },
+        "role": {
+            "added": "Роль **{{role}}** выдана пользователю **{{user}}**.",
+            "removed": "Роль **{{role}}** снята с пользователя **{{user}}**."
+        }
+    },
+
+    "confessions": {
+        "description": "Управление контейнерами памяти ИИ.",
+        "notText": "Укажите текстовый канал.",
+        "notFound": "Контейнер не найден.",
+        "maxContainers": "Достигнут лимит контейнеров (**{{max}}** на сервер).",
+        "maxSize": "Достигнут лимит размера (**{{size}}**).",
+        "noContainers": "На сервере нет контейнеров.",
+        "unknownError": "Произошла ошибка.",
+        "create": {
+            "description": "Создать контейнер памяти для канала.",
+            "option": "Канал.",
+            "title": "Контейнер создан",
+            "success": "Канал: {{channel}}\nID: `{{id}}`"
+        },
+        "list": {
+            "description": "Список контейнеров сервера.",
+            "title": "Контейнеры памяти ИИ"
+        },
+        "block": {
+            "description": "Удалить контейнер безвозвратно.",
+            "option": "ID контейнера.",
+            "title": "Контейнер удалён",
+            "confirm": "{{user}}, вы **уверены**, что хотите безвозвратно удалить контейнер?\n```\nID: {{id}}\n{{count}} сообщ. / {{size}}\n```",
+            "confirmBtn": "Подтвердить",
+            "cancelBtn": "Отмена",
+            "success": "Контейнер `{{id}}` удалён."
+        },
+        "report": {
+            "description": "Отправить контейнер владельцу бота.",
+            "idOption": "ID контейнера.",
+            "reasonOption": "Причина репорта.",
+            "reasonLabel": "Причина",
+            "title": "Репорт отправлен",
+            "success": "Ваш репорт на контейнер `{{id}}` отправлен владельцу."
+        },
+        "regen": {
+            "expired": "Контекст устарел. Задайте вопрос заново.",
+            "limit": "Достигнут лимит попыток.",
+            "rateLimit": "У бота закончились запросы на сегодня.",
+            "failed": "Не удалось сгенерировать ответ."
+        }
+    },
+
+    "birthday": {
+        "description": "Управление днями рождения.",
+        "invalidDate": "В этом месяце только **{{max}}** дней.",
+        "saveError": "Не удалось сохранить день рождения.",
+        "set": {
+            "description": "Установить свой день рождения.",
+            "dayOption": "День (1-31).",
+            "monthOption": "Месяц (1-12).",
+            "yearOption": "Год (необязательно).",
+            "title": "День рождения установлен",
+            "success": "Ваш день рождения: **{{date}}**."
+        },
+        "view": {
+            "description": "Посмотреть чей-то день рождения.",
+            "userOption": "Пользователь.",
+            "title": "День рождения",
+            "selfNotFound": "У вас не установлен день рождения. Используйте `/birthday set`.",
+            "notFound": "У пользователя **{{user}}** не установлен день рождения."
+        },
+        "delete": {
+            "description": "Удалить свой день рождения.",
+            "title": "День рождения удалён",
+            "success": "Ваш день рождения удалён.",
+            "notFound": "У вас нет сохранённого дня рождения.",
+            "error": "Не удалось удалить день рождения."
+        },
+        "congrats": {
+            "title": "🎉 С днём рождения!",
+            "message": "Сегодня свой день рождения празднует {{users}}!\n\nПоздравляем! 🎂🎈"
+        }
+    },
+
+    "actions": {
+        "description": "Эмоции и взаимодействия с гифками.",
+        "actionOption": "Что сделать.",
+        "userOption": "Пользователь.",
+        "unknown": "Неизвестное действие.",
+        "targetRequired": "Укажите пользователя для этого действия.",
+        "noGif": "Гифка недоступна.",
+        "selfNotAllowed": "Это действие нельзя применить к самому себе.",
+        "list": {
+            "hug":      { "self": "**{user}** обнимает",                       "other": "**{user}** обнимает **{target}**" },
+            "kiss":     { "self": "**{user}** целует",                        "other": "**{user}** целует **{target}**" },
+            "slap":     { "self": "**{user}** шлёпает",                       "other": "**{user}** шлёпает **{target}**" },
+            "pat":      { "self": "**{user}** гладит",                        "other": "**{user}** гладит **{target}**" },
+            "cuddle":   { "self": "**{user}** прижимается",                   "other": "**{user}** прижимается к **{target}**" },
+            "poke":     { "self": "**{user}** тыкает",                        "other": "**{user}** тыкает **{target}**" },
+            "tickle":   { "self": "**{user}** щекочет",                       "other": "**{user}** щекочет **{target}**" },
+            "punch":    { "self": "**{user}** бьёт",                          "other": "**{user}** бьёт **{target}**" },
+            "bite":     { "self": "**{user}** кусает",                        "other": "**{user}** кусает **{target}**" },
+            "highfive": { "self": "**{user}** даёт пять",                     "other": "**{user}** даёт пять **{target}**" },
+            "handhold": { "self": "**{user}** держит за руку",                "other": "**{user}** держит за руку **{target}**" },
+            "feed":     { "self": "**{user}** кормит",                        "other": "**{user}** кормит **{target}**" },
+            "cry":      { "self": "**{user}** плачет",                        "other": "" },
+            "laugh":    { "self": "**{user}** смеётся",                       "other": "" },
+            "dance":    { "self": "**{user}** танцует",                       "other": "" },
+            "wave":     { "self": "**{user}** машет",                         "other": "" },
+            "blush":    { "self": "**{user}** краснеет",                      "other": "" },
+            "smile":    { "self": "**{user}** улыбается",                     "other": "" },
+            "wink":     { "self": "**{user}** подмигивает",                   "other": "" },
+            "facepalm": { "self": "**{user}** делает фейспалм",               "other": "" },
+            "thumbsup": { "self": "**{user}** показывает палец вверх",        "other": "" },
+            "smug":     { "self": "**{user}** самодовольно ухмыляется",       "other": "" }
+        },
+        "labels": {
+            "hug":      "Обнять",
+            "kiss":     "Поцеловать",
+            "slap":     "Шлёпнуть",
+            "pat":      "Погладить",
+            "cuddle":   "Прижаться",
+            "poke":     "Ткнуть",
+            "tickle":   "Пощекотать",
+            "punch":    "Ударить",
+            "bite":     "Укусить",
+            "highfive": "Дать пять",
+            "handhold": "Держаться за руки",
+            "feed":     "Покормить",
+            "cry":      "Плакать",
+            "laugh":    "Смеяться",
+            "dance":    "Танцевать",
+            "wave":     "Помахать",
+            "blush":    "Краснеть",
+            "smile":    "Улыбаться",
+            "wink":     "Подмигнуть",
+            "facepalm": "Фейспалм",
+            "thumbsup": "Палец вверх",
+            "smug":     "Самодовольный"
+        }
+    },
+
+    "ping": {
+        "cluster": "Кластер",
+        "shards": "Сегменты",
+        "ws": "Задержка",
+        "roundtrip": "Обработка команд",
+        "database": "База данных",
+        "error": "Ошибка"
+    },
+
+    "about": {
+        "description": "Показывает информацию о боте.",
+        "title": "Информация о {{botName}}",
+        "botDesc": "Многофункциональный, развлекательный бот ⭐\nОбновляется часто для технического обслуживания или добавления новых функций!\n\n**Разработчик:** {{dev}}",
+        "apiLatency": "Задержка API",
+        "messageLatency": "Задержка сообщения",
+        "started": "Бот запустился",
+        "buildHash": "Хеш-билда",
+        "ms": "мс",
+
+        "supportButton": "Сервер поддержки",
+        "inviteButton": "Пригласить бота",
+
+        "chartTitle": "Время отклика",
+        "chartBadge": "Ping",
+        "chartAllRegions": "Все регионы",
+        "chartDay": "День",
+        "chartWeek": "Неделя",
+        "chartMonth": "Месяц",
+        "chartAverage": "Среднее",
+        "chartUptime": "Аптайм",
+        "chartRamLoad": "Нагрузка ОЗУ",
+        "chartCpuLoad": "Нагрузка процессора",
+        "chartMs": "мс"
+    },
+
+    "avatar": { "title": "Аватар" },
+    "banner": {
+        "title": "Баннер",
+        "noBanner": "У пользователя **{{user}}** нет баннера."
+    },
+
+    "channel": {
+        "category": "Категория",
+        "topic": "Тема",
+        "noTopic": "Нет",
+        "none": "Нет",
+        "invites": "Приглашения",
+        "created": "Дата создания"
+    },
+
+    "user": {
+        "joined": "Присоединился",
+        "created": "Аккаунт создан",
+        "roles": "Роли",
+        "noRoles": "Нет",
+        "requestedBy": "Запрос от"
+    },
+
+    "roles": {
+        "infoLabel": "Информация о роли",
+        "color": "Цвет",
+        "created": "Дата создания",
+        "id": "ID"
+    },
+
+    "guild": {
+        "subtitle": "Информация о сервере",
+        "boosts": "Бусты",
+        "boostLevel": "Уровень",
+        "boostsWord": "бустов",
+        "owner": "Владелец",
+        "members": "Участники",
+        "created": "Дата создания",
+        "moderation": "Модерация",
+        "features": "Функции",
+        "emojis": "Эмодзи",
+        "bitrate": "Битрейт",
+        "kbps": "Кбит/с",
+        "filesize": "Размер файла",
+        "iconTitle": "Иконка сервера",
+        "bannerTitle": "Баннер сервера",
+        "noIcon": "У этого сервера нет иконки.",
+        "noBanner": "У этого сервера нет баннера."
+    },
+
+    "timestamp": {
+        "title": "Discord Timestamp",
+        "shortTime": "короткое время",
+        "longTime": "длинное время",
+        "shortDate": "короткая дата",
+        "longDate": "длинная дата",
+        "shortDateTime": "короткая дата и время",
+        "longDateTime": "длинная дата и время",
+        "relative": "относительно"
+    },
+
+    "emoji": {
+        "listTitle": "Эмодзи сервера",
+        "listEmpty": "На сервере нет эмодзи.",
+        "notFound": "Эмодзи не найдено.",
+        "id": "ID",
+        "animated": "Анимированный",
+        "created": "Дата создания"
+    },
+
+    "websearch": {
+        "wikiNotFound": "Ничего не найдено.",
+        "genshinTitle": "Genshin Impact — профиль",
+        "genshinInvalidUid": "Неверный UID.",
+        "genshinNotFound": "Профиль не найден.",
+        "steamTitle": "Steam — профиль",
+        "steamNotFound": "Профиль не найден.",
+        "youtubeTitle": "YouTube",
+        "youtubeNotFound": "Каналы не найдены.",
+        "youtubeUnavailable": "YouTube недоступен."
+    },
+
+    "config": {
+        "description": "Настройка бота для этого сервера.",
+        "title": "Конфигурация сервера",
+        "currentSettings": "Текущие настройки сервера",
+        "info": "Информация",
+        "changedInfo": "Вы изменили **{{changed}}** на **{{to}}**. Будьте внимательны: изменения действуют сразу для всех пользователей сервера.",
+        "changedLanguage": "язык",
+        "language": {
+            "description": "Изменить язык сервера.",
+            "selectPlaceholder": "Выберите язык",
+            "currentLang": "Установленный язык: **{{lang}}**"
+        },
+        "modules": {
+            "description": "Включить или отключить модули.",
+            "selectPlaceholder": "Выберите активные модули",
+            "currentValue": "Активно модулей: **{{active}}** из **{{total}}**",
+            "changedInfo": "Вы изменили модули. Активно модулей: **{{active}}** из **{{total}}**. Изменения действуют сразу для всех пользователей сервера."
+        },
+        "birthdays": {
+            "description": "Настроить поздравления с днём рождения.",
+            "channelOption": "Канал для поздравлений.",
+            "enableOption": "Включить или выключить.",
+            "title": "Поздравления с ДР",
+            "status": "Статус",
+            "on": "Включено",
+            "off": "Выключено",
+            "channel": "Канал",
+            "notSet": "не выбран",
+            "changedInfo": "Настройки обновлены. Бот будет поздравлять именинников каждый день в **09:00 UTC**.",
+            "channelRequired": "Сначала выберите канал.",
+            "notTextChannel": "Канал должен быть текстовым.",
+            "saveError": "Не удалось сохранить настройки."
+        },
+        "logging": {
+            "description": "Настроить логи сервера.",
+            "channelOption": "Канал для логов.",
+            "enableOption": "Включить или выключить.",
+            "title": "Логи сервера",
+            "status": "Статус",
+            "on": "Включено",
+            "off": "Выключено",
+            "channel": "Канал",
+            "notSet": "не выбран",
+            "changedInfo": "Настройки логов обновлены. События сервера будут записываться в указанный канал.",
+            "channelRequired": "Сначала выберите канал.",
+            "notTextChannel": "Канал должен быть текстовым.",
+            "saveError": "Не удалось сохранить настройки."
+        },
+        "currency": {
+            "description": "Настроить валюту сервера.",
+            "emojiOption": "Эмодзи валюты (например, 💎, 🪙).",
+            "nameOption": "Название валюты.",
+            "title": "Валюта сервера",
+            "emoji": "Эмодзи",
+            "name": "Название",
+            "changedInfo": "Настройки валюты обновлены.",
+            "saveError": "Не удалось сохранить настройки."
+        }
+    },
+
+    "help": {
+        "description": "Список доступных команд.",
+        "commandOption": "Выберите или введите название команды.",
+        "title": "Список доступных команд",
+        "selectPlaceholder": "Выберите категорию",
+        "homeOption": "🏠 Главная",
+        "moduleTitle": "Модуль",
+        "commandInfo": "Информация о команде",
+        "commandNotFound": "Команда `{{name}}` не найдена.",
+        "fieldInfo": "Информация",
+        "fieldCooldown": "Кулдаун",
+        "fieldBotPerms": "Права бота",
+        "fieldUserPerms": "Права участника",
+        "fieldExampleN": "Пример №{{n}}"
+    },
+
+    "errors": {
+        "generic": "Произошла непредвиденная ошибка. Попробуйте позже или обратитесь в поддержку.",
+        "noPermission": "У вас недостаточно прав для использования этой команды. Проверьте права или обратитесь к администратору.",
+        "cooldown": "Команда ещё не готова. Подождите **{{time}}** и попробуйте снова.",
+        "notFound": "Запрашиваемый ресурс не найден. Проверьте параметры и повторите попытку.",
+        "moduleDisabled": "Этот модуль отключён на данном сервере. Включите его в настройках `/config modules`.",
+        "guildOnly": "Эта команда доступна только на сервере, в личных сообщениях её использовать нельзя."
+    },
+
+    "components": {
+        "notOwner": "Это меню вызвано другим пользователем. Используйте свою команду."
+    },
+
+    "commands": {
+        "say": {
+            "description": "Отправить сообщение от имени бота в текущий канал.",
+            "longDescription": "Отправляет сообщение от имени бота в текущий канал.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Отправлять сообщения",
+            "userPermissions": "Администратор",
+            "option": "Текст сообщения.",
+            "examples": [
+                "/say message:Привет всем!\nОтправляет сообщение от имени бота.",
+                "/say message:**Жирный** текст\nПоддерживает markdown."
+            ]
+        },
+        "birthday": {
+            "description": "Управление днями рождения: установка, просмотр и удаление.",
+            "longDescription": "Установка, просмотр и удаление дня рождения.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/birthday set day:15 month:6\nУстанавливает день рождения на 15 июня.",
+                "/birthday set day:15 month:6 year:2000\nУстанавливает дату с годом.",
+                "/birthday view\nПоказывает ваш день рождения.",
+                "/birthday view @user\nПоказывает день рождения пользователя.",
+                "/birthday delete\nУдаляет ваш день рождения."
+            ],
+            "set": {
+                "description": "Установить свой день рождения.",
+                "longDescription": "Сохраняет день, месяц и опционально год вашего дня рождения.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/birthday set day:15 month:6\nУстанавливает день рождения на 15 июня.",
+                    "/birthday set day:15 month:6 year:2000\nУстанавливает с годом."
+                ]
+            },
+            "view": {
+                "description": "Посмотреть чей-то день рождения.",
+                "longDescription": "Показывает день рождения указанного пользователя.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/birthday view\nПоказывает ваш день рождения.",
+                    "/birthday view @user\nПоказывает день рождения пользователя."
+                ]
+            },
+            "delete": {
+                "description": "Удалить свой день рождения.",
+                "longDescription": "Удаляет сохранённый день рождения.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/birthday delete\nУдаляет ваш день рождения."
+                ]
+            }
+        },
+        "actions": {
+            "description": "Эмоции и взаимодействия с гифками: обнять, поцеловать и др.",
+            "longDescription": "Отправляет гифку-взаимодействие с указанным пользователем или без него.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/actions action:hug user:@user\nОбнимает пользователя.",
+                "/actions action:kiss user:@user\nЦелует пользователя.",
+                "/actions action:slap user:@user\nШлёпает пользователя.",
+                "/actions action:cry\nПлачет.",
+                "/actions action:dance\nТанцует."
+            ]
+        },
+        "ping": {
+            "description": "Показывает задержку бота, API, базы данных и сегментов.",
+            "longDescription": "Сообщает текущее время отклика и состояние соединения бота.",
+            "cooldown": "6 секунд",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/ping\nПоказывает задержку бота."
+            ]
+        },
+        "help": {
+            "description": "Список доступных команд с описанием, правами и примерами.",
+            "longDescription": "Показывает все модули и команды, доступные на этом сервере.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/help\nПоказывает меню помощи.",
+                "/help command:ban\nПодробная информация о команде /ban."
+            ]
+        },
+        "config": {
+            "description": "Настройка бота для сервера: язык, модули, логи, ДР и валюта.",
+            "longDescription": "Изменение языка сервера, модулей, логов и поздравлений.",
+            "cooldown": "5 секунд",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Управлять сервером",
+            "examples": [
+                "/config language\nИзменяет язык сервера.",
+                "/config modules\nВключает/отключает модули.",
+                "/config birthdays channel:#general enable:true\nНастраивает поздравления.",
+                "/config logging channel:#logs enable:true\nНастраивает логи."
+            ],
+            "language": {
+                "description": "Изменить язык сервера.",
+                "longDescription": "Меняет язык бота для всего сервера.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Управлять сервером",
+                "examples": [
+                    "/config language\nОткрывает меню выбора языка."
+                ]
+            },
+            "modules": {
+                "description": "Включить или отключить модули.",
+                "longDescription": "Управляет активными модулями бота на сервере.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Управлять сервером",
+                "examples": [
+                    "/config modules\nОткрывает меню выбора модулей."
+                ]
+            },
+            "birthdays": {
+                "description": "Настроить поздравления с днём рождения.",
+                "longDescription": "Выбор канала и включение/отключение автоматических поздравлений.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки, Отправлять сообщения",
+                "userPermissions": "Управлять сервером",
+                "examples": [
+                    "/config birthdays\nПоказывает текущие настройки.",
+                    "/config birthdays channel:#general enable:true\nВключает поздравления в #general.",
+                    "/config birthdays enable:false\nВыключает поздравления."
+                ]
+            },
+            "logging": {
+                "description": "Настроить логи сервера.",
+                "longDescription": "Выбор канала и включение/отключение системы логирования.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки, Отправлять сообщения",
+                "userPermissions": "Управлять сервером",
+                "examples": [
+                    "/config logging\nПоказывает текущие настройки.",
+                    "/config logging channel:#logs enable:true\nВключает логи в #logs.",
+                    "/config logging enable:false\nВыключает логи."
+                ]
+            },
+            "currency": {
+                "description": "Настроить валюту сервера.",
+                "longDescription": "Меняет эмодзи и название валюты экономики.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Управлять сервером",
+                "examples": [
+                    "/config currency\nПоказать текущие настройки.",
+                    "/config currency emoji:🪙 name:Монеты"
+                ]
+            }
+        },
+        "confessions": {
+            "description": "Управление контейнерами памяти ИИ для каналов сервера.",
+            "longDescription": "Управляет контейнерами памяти ИИ для каналов на этом сервере.",
+            "cooldown": "5 секунд",
+            "botPermissions": "Встраивать ссылки, Отправлять сообщения",
+            "userPermissions": "Администратор",
+            "examples": [
+                "/confessions create channel:#general\nСоздать контейнер памяти ИИ.",
+                "/confessions list\nСписок контейнеров сервера.",
+                "/confessions block id:123\nУдалить контейнер по ID.",
+                "/confessions report id:123 reason:спам\nОтправить контейнер владельцу."
+            ],
+            "create": { "description": "Создать контейнер памяти для канала.", "option": "Канал." },
+            "list": { "description": "Список контейнеров сервера." },
+            "block": { "description": "Удалить контейнер безвозвратно.", "option": "ID контейнера." },
+            "report": {
+                "description": "Отправить контейнер владельцу бота.",
+                "idOption": "ID контейнера.",
+                "reasonOption": "Причина репорта."
+            }
+        },
+        "about": {
+            "description": "Показывает информацию о боте, статистику и системную нагрузку.",
+            "longDescription": "Показывает статистику, нагрузку и системную информацию.",
+            "cooldown": "5 секунд",
+            "botPermissions": "Встраивать ссылки, Прикреплять файлы",
+            "userPermissions": "Нет",
+            "examples": [
+                "/about\nПоказывает информацию о боте."
+            ]
+        },
+        "avatar": {
+            "description": "Показывает аватар пользователя в максимальном размере.",
+            "longDescription": "Показывает аватар пользователя в максимальном размере.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/avatar\nПоказывает ваш аватар.",
+                "/avatar user:@user\nПоказывает аватар пользователя."
+            ]
+        },
+        "banner": {
+            "description": "Показывает баннер пользователя в максимальном размере.",
+            "longDescription": "Показывает баннер пользователя в максимальном размере.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/banner\nПоказывает ваш баннер.",
+                "/banner user:@user\nПоказывает баннер пользователя."
+            ]
+        },
+        "guild": {
+            "description": "Информация о сервере: участники, бусты, владелец, функции.",
+            "longDescription": "Команды для получения информации о сервере.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/guild info\nПоказывает информацию о сервере.",
+                "/guild icon\nПоказывает иконку сервера.",
+                "/guild banner\nПоказывает баннер сервера."
+            ],
+            "icon": {
+                "description": "Показывает иконку сервера.",
+                "longDescription": "Показывает иконку текущего сервера.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/guild icon\nПоказывает иконку сервера."]
+            },
+            "banner": {
+                "description": "Показывает баннер сервера.",
+                "longDescription": "Показывает баннер текущего сервера.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/guild banner\nПоказывает баннер сервера."]
+            },
+            "info": {
+                "description": "Подробная информация о сервере.",
+                "longDescription": "Показывает подробную статистику сервера.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/guild info\nПоказывает информацию о сервере."]
+            }
+        },
+        "channel": {
+            "description": "Информация о канале: категория, тема, дата создания.",
+            "longDescription": "Команды для получения информации о канале.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/channel info\nПоказывает информацию о текущем канале.",
+                "/channel info channel:#general\nПоказывает информацию о канале #general."
+            ],
+            "info": {
+                "description": "Показывает информацию о канале.",
+                "longDescription": "Показывает категорию, тему и дату создания канала.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки, Управлять каналами",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/channel info\nПоказывает информацию о текущем канале.",
+                    "/channel info channel:#general\nПоказывает информацию о канале #general."
+                ]
+            }
+        },
+        "user": {
+            "description": "Информация о пользователе: дата регистрации, присоединения, роли.",
+            "longDescription": "Команды для получения информации о пользователе.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/user info\nПоказывает информацию о вас.",
+                "/user info user:@user\nПоказывает информацию о пользователе."
+            ],
+            "info": {
+                "description": "Показывает информацию о пользователе.",
+                "longDescription": "Показывает дату регистрации, присоединения и роли пользователя.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/user info\nПоказывает информацию о вас.",
+                    "/user info user:@user\nПоказывает информацию о пользователе."
+                ]
+            }
+        },
+        "roles": {
+            "description": "Информация о роли: цвет, дата создания, ID.",
+            "longDescription": "Команды для получения информации о роли.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/roles info role:@role\nПоказывает информацию о роли."
+            ],
+            "info": {
+                "description": "Показывает информацию о роли.",
+                "longDescription": "Показывает цвет, дату создания и ID роли.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/roles info role:@role\nПоказывает информацию о роли."
+                ]
+            }
+        },
+        "timestamp": {
+            "description": "Сгенерировать Discord-таймстампы в разных форматах.",
+            "longDescription": "Создаёт все форматы Discord-таймстампов из указанного времени.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/timestamp\nПоказывает текущее время во всех форматах.",
+                "/timestamp time:5m\nПоказывает время через 5 минут.",
+                "/timestamp time:2026-01-01 12:00\nПоказывает указанную дату."
+            ]
+        },
+        "emoji": {
+            "description": "Просмотр и информация об эмодзи сервера.",
+            "longDescription": "Просмотр и информация об эмодзи сервера.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/emoji list\nПоказывает список эмодзи.",
+                "/emoji info emoji:cat\nИнформация об эмодзи."
+            ],
+            "list": {
+                "description": "Список эмодзи сервера.",
+                "longDescription": "Показывает все эмодзи сервера с пагинацией.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/emoji list\nПоказывает список эмодзи."]
+            },
+            "info": {
+                "description": "Информация об эмодзи.",
+                "longDescription": "Показывает ID, анимацию и дату создания эмодзи.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/emoji info emoji:cat\nИнформация по имени.",
+                    "/emoji info emoji:123456789012345678\nИнформация по ID."
+                ]
+            }
+        },
+        "ban": {
+            "description": "Забанить пользователя на сервере с указанием причины и удалением сообщений.",
+            "longDescription": "Блокирует пользователя на сервере с опциональной очисткой сообщений.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Банить участников",
+            "userPermissions": "Банить участников",
+            "userOption": "Пользователь для бана.",
+            "reasonOption": "Причина.",
+            "deleteOption": "Удалить сообщения за N дней (0-7).",
+            "examples": [
+                "/ban user:@user reason:спам\nБанит пользователя.",
+                "/ban user:@user reason:флуд delete_messages:7\nБанит и удаляет сообщения за 7 дней.",
+                "/ban user:@user\nБанит без указания причины."
+            ]
+        },
+        "unban": {
+            "description": "Разбанить пользователя по ID с указанием причины.",
+            "longDescription": "Снимает бан с пользователя по его ID.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Банить участников",
+            "userPermissions": "Банить участников",
+            "userIdOption": "ID пользователя.",
+            "reasonOption": "Причина.",
+            "examples": [
+                "/unban user_id:123456789012345678 reason:обжалование\nРазбанивает пользователя.",
+                "/unban user_id:123456789012345678\nРазбанивает без причины."
+            ]
+        },
+        "kick": {
+            "description": "Кикнуть пользователя с сервера с указанием причины.",
+            "longDescription": "Выгоняет участника с сервера.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Выгонять участников",
+            "userPermissions": "Выгонять участников",
+            "userOption": "Пользователь.",
+            "reasonOption": "Причина.",
+            "examples": [
+                "/kick user:@user reason:флуд\nКикает пользователя с причиной.",
+                "/kick user:@user\nКикает без причины."
+            ]
+        },
+        "timeout": {
+            "description": "Выдать тайм-аут пользователю на указанное время.",
+            "longDescription": "Временно блокирует общение пользователя.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Модерировать участников",
+            "userPermissions": "Модерировать участников",
+            "userOption": "Пользователь.",
+            "durationOption": "Длительность (например, 5m, 1h, 2d).",
+            "reasonOption": "Причина.",
+            "examples": [
+                "/timeout user:@user duration:5m reason:флуд\nТайм-аут на 5 минут.",
+                "/timeout user:@user duration:1h reason:спам\nТайм-аут на час.",
+                "/timeout user:@user duration:2d\nТайм-аут на 2 дня."
+            ]
+        },
+        "untimeout": {
+            "description": "Снять активный тайм-аут с пользователя.",
+            "longDescription": "Снимает активный тайм-аут.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Модерировать участников",
+            "userPermissions": "Модерировать участников",
+            "userOption": "Пользователь.",
+            "examples": [
+                "/untimeout user:@user\nСнимает тайм-аут."
+            ]
+        },
+        "warn": {
+            "description": "Управление предупреждениями: выдача, список, удаление, очистка.",
+            "longDescription": "Выдача, просмотр и удаление предупреждений.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Модерировать участников",
+            "examples": [
+                "/warn add user:@user reason:спам\nВыдать предупреждение.",
+                "/warn list user:@user\nСписок предупреждений.",
+                "/warn remove id:5\nУдалить предупреждение.",
+                "/warn clear user:@user\nУдалить все предупреждения."
+            ],
+            "add": {
+                "description": "Выдать предупреждение.",
+                "longDescription": "Добавляет предупреждение пользователю.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Модерировать участников",
+                "examples": [
+                    "/warn add user:@user reason:спам\nВыдаёт предупреждение."
+                ]
+            },
+            "list": {
+                "description": "Список предупреждений пользователя.",
+                "longDescription": "Показывает все предупреждения пользователя.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Модерировать участников",
+                "examples": [
+                    "/warn list user:@user\nПоказывает список."
+                ]
+            },
+            "remove": {
+                "description": "Удалить предупреждение по ID.",
+                "longDescription": "Удаляет конкретное предупреждение по ID.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Модерировать участников",
+                "examples": [
+                    "/warn remove id:5\nУдаляет предупреждение #5."
+                ]
+            },
+            "clear": {
+                "description": "Удалить все предупреждения пользователя.",
+                "longDescription": "Очищает все предупреждения.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Модерировать участников",
+                "examples": [
+                    "/warn clear user:@user\nОчищает все предупреждения."
+                ]
+            }
+        },
+        "clear": {
+            "description": "Удалить сообщения в текущем канале (до 100).",
+            "longDescription": "Массово удаляет сообщения (до 100).",
+            "cooldown": "3 секунды",
+            "botPermissions": "Управлять сообщениями",
+            "userPermissions": "Управлять сообщениями",
+            "amountOption": "Количество (1-100).",
+            "userOption": "Только сообщения этого пользователя.",
+            "examples": [
+                "/clear amount:50\nУдаляет 50 сообщений.",
+                "/clear amount:100\nУдаляет 100 сообщений.",
+                "/clear amount:20 user:@user\nУдаляет 20 сообщений от пользователя."
+            ]
+        },
+        "slowmode": {
+            "description": "Установить медленный режим в канале (0-21600 сек).",
+            "longDescription": "Устанавливает задержку между сообщениями в канале.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Управлять каналами",
+            "userPermissions": "Управлять каналами",
+            "secondsOption": "Секунды (0-21600).",
+            "channelOption": "Канал.",
+            "examples": [
+                "/slowmode seconds:10\nУстанавливает 10 секунд.",
+                "/slowmode seconds:60 channel:#general\nУстанавливает 60 секунд в #general.",
+                "/slowmode seconds:0\nОтключает медленный режим."
+            ]
+        },
+        "nickname": {
+            "description": "Изменить или сбросить никнейм участника.",
+            "longDescription": "Устанавливает или сбрасывает ник участника.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Управлять никнеймами",
+            "userPermissions": "Управлять никнеймами",
+            "userOption": "Пользователь.",
+            "nameOption": "Новый никнейм (пусто для сброса).",
+            "examples": [
+                "/nickname user:@user name:НовыйНик\nМеняет ник.",
+                "/nickname user:@user\nСбрасывает ник."
+            ]
+        },
+        "role": {
+            "description": "Выдать или снять роль у участника.",
+            "longDescription": "Выдача и снятие ролей.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Управлять ролями",
+            "userPermissions": "Управлять ролями",
+            "examples": [
+                "/role add user:@user role:@role\nВыдаёт роль.",
+                "/role remove user:@user role:@role\nСнимает роль."
+            ],
+            "add": {
+                "description": "Выдать роль.",
+                "longDescription": "Добавляет роль пользователю.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Управлять ролями",
+                "userPermissions": "Управлять ролями",
+                "examples": ["/role add user:@user role:@role\nВыдаёт роль."]
+            },
+            "remove": {
+                "description": "Снять роль.",
+                "longDescription": "Убирает роль у пользователя.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Управлять ролями",
+                "userPermissions": "Управлять ролями",
+                "examples": ["/role remove user:@user role:@role\nСнимает роль."]
+            }
+        },
+        "infrastructure": {
+            "description": "Управление инфраструктурой сервера: блокировка/разблокировка каналов.",
+            "longDescription": "Операции с каналами и другими элементами сервера.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Управлять каналами",
+            "userPermissions": "Управлять каналами",
+            "examples": [
+                "/infrastructure channel lock\nБлокирует текущий канал.",
+                "/infrastructure channel unlock\nРазблокирует текущий канал."
+            ],
+            "channel": {
+                "description": "Операции с каналами.",
+                "lock": {
+                    "description": "Заблокировать канал.",
+                    "longDescription": "Запрещает @everyone писать в канал.",
+                    "cooldown": "3 секунды",
+                    "botPermissions": "Управлять каналами",
+                    "userPermissions": "Управлять каналами",
+                    "channelOption": "Канал.",
+                    "reasonOption": "Причина.",
+                    "examples": [
+                        "/infrastructure channel lock\nБлокирует текущий канал.",
+                        "/infrastructure channel lock channel:#general reason:флуд\nБлокирует #general с причиной."
+                    ]
+                },
+                "unlock": {
+                    "description": "Разблокировать канал.",
+                    "longDescription": "Снимает запрет на отправку сообщений.",
+                    "cooldown": "3 секунды",
+                    "botPermissions": "Управлять каналами",
+                    "userPermissions": "Управлять каналами",
+                    "channelOption": "Канал.",
+                    "examples": [
+                        "/infrastructure channel unlock\nРазблокирует текущий канал.",
+                        "/infrastructure channel unlock channel:#general\nРазблокирует #general."
+                    ]
+                }
+            }
+        },
+        "websearch": {
+            "description": "Поиск информации: Википедия, Genshin, Steam, YouTube.",
+            "longDescription": "Поиск в Википедии, профили Genshin, Steam и YouTube.",
+            "cooldown": "5 секунд",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/websearch wiki Discord\nПоиск в Википедии.",
+                "/websearch genshin 712345678\nПрофиль Genshin.",
+                "/websearch steam 765611999199624578\nПрофиль Steam.",
+                "/websearch youtube excepterr\nПоиск канала на YouTube."
+            ],
+            "wiki": {
+                "description": "Поиск в Википедии.",
+                "longDescription": "Ищет статью в Википедии и показывает краткое содержание.",
+                "cooldown": "5 секунд",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/websearch wiki Discord\nИщет статью \"Discord\"."]
+            },
+            "genshin": {
+                "description": "Профиль Genshin Impact по UID.",
+                "longDescription": "Показывает профиль игрока Genshin Impact по UID.",
+                "cooldown": "5 секунд",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/websearch genshin 712345678\nПоказывает профиль игрока."]
+            },
+            "steam": {
+                "description": "Профиль Steam.",
+                "longDescription": "Показывает профиль Steam по SteamID64 или vanity URL.",
+                "cooldown": "5 секунд",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": [
+                    "/websearch steam 765611999199624578\nПо SteamID64.",
+                    "/websearch steam excepterr\nПо vanity URL."
+                ]
+            },
+            "youtube": {
+                "description": "Поиск каналов на YouTube.",
+                "longDescription": "Ищет каналы на YouTube и показывает их статистику.",
+                "cooldown": "5 секунд",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/websearch youtube excepterr\nИщет канал \"excepterr\"."]
+            }
+        },
+        "balance": {
+            "description": "Показать баланс, уровень и доступные награды.",
+            "longDescription": "Показывает баланс, уровень и доступные награды.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "userOption": "Пользователь.",
+            "examples": ["/balance", "/balance user:@user"]
+        },
+        "timely": {
+            "description": "Забрать регулярный бонус раз в 3 часа.",
+            "longDescription": "Регулярный бонус раз в 3 часа.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": ["/timely"]
+        },
+        "daily": {
+            "description": "Забрать ежедневный бонус раз в 24 часа.",
+            "longDescription": "Ежедневный бонус раз в 24 часа.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": ["/daily"]
+        },
+        "weekly": {
+            "description": "Забрать еженедельный бонус раз в 7 дней.",
+            "longDescription": "Еженедельный бонус раз в 7 дней.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": ["/weekly"]
+        },
+        "work": {
+            "description": "Поработать и заработать деньги и опыт (раз в час).",
+            "longDescription": "Работа раз в час. Даёт деньги и опыт.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": ["/work"]
+        },
+        "currency": {
+            "description": "Настроить валюту сервера: эмодзи и название.",
+            "longDescription": "Меняет эмодзи и название валюты экономики.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Управлять сервером",
+            "emojiOption": "Эмодзи валюты (например, 💎, 🪙).",
+            "nameOption": "Название валюты.",
+            "examples": [
+                "/currency\nПоказать текущие настройки.",
+                "/currency emoji:🪙 name:Монеты\nПоменять валюту."
+            ]
+        },
+        "leaderboard": {
+            "description": "Топ пользователей по балансу (10 на страницу, 5 страниц).",
+            "longDescription": "Показывает топ-10 на страницу, всего 5 страниц.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": ["/leaderboard"]
+        },
+        "bank": {
+            "description": "Управление банком: положить или снять деньги.",
+            "longDescription": "Положить или снять деньги.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "amountOption": "Сумма или 0 для всего.",
+            "examples": [
+                "/bank deposit amount:1000",
+                "/bank deposit amount:0",
+                "/bank withdraw amount:500"
+            ],
+            "deposit": { "description": "Положить в банк." },
+            "withdraw": { "description": "Снять из банка." }
+        },
+        "marriage": {
+            "description": "Семья: предложение и развод.",
+            "longDescription": "Предложение и развод.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки, Отправлять сообщения",
+            "userPermissions": "Нет",
+            "userOption": "Пользователь.",
+            "examples": ["/marriage propose user:@user", "/marriage divorce"],
+            "propose": { "description": "Сделать предложение." },
+            "divorce": { "description": "Развестись." }
+        },
+        "shop": {
+            "description": "Магазин ролей: просмотр, покупка, добавление, удаление.",
+            "longDescription": "Просмотр, покупка и управление магазином ролей.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Управлять ролями",
+            "userPermissions": "Управлять сервером для add/remove",
+            "roleOption": "Роль.",
+            "examples": [
+                "/shop list",
+                "/shop buy role:@role",
+                "/shop add role:@role price:5000",
+                "/shop remove role:@role"
+            ],
+            "list": { "description": "Показать магазин." },
+            "buy": { "description": "Купить роль." },
+            "add": { "description": "Добавить роль в магазин." },
+            "remove": { "description": "Убрать роль из магазина." }
+        },
+        "music": {
+            "description": "Музыкальные команды: воспроизведение и управление с YouTube.",
+            "longDescription": "Воспроизведение и управление музыкой с YouTube.",
+            "cooldown": "2 секунды",
+            "botPermissions": "Подключаться, Говорить, Встраивать ссылки",
+            "userPermissions": "Нет",
+            "example": "/music play never gonna give you up",
+            "play": {
+                "description": "Включить трек с YouTube.",
+                "longDescription": "Ищет трек на YouTube и добавляет в очередь.",
+                "cooldown": "3 секунды",
+                "botPermissions": "Подключаться, Говорить",
+                "userPermissions": "Нет",
+                "queryOption": "Название или ссылка.",
+                "examples": [
+                    "/music play never gonna give you up",
+                    "/music play https://youtu.be/dQw4w9WgXcQ"
+                ]
+            },
+            "skip": {
+                "description": "Пропустить трек.",
+                "longDescription": "Пропускает текущий трек.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "examples": ["/music skip"]
+            },
+            "pause": {
+                "description": "Пауза.",
+                "longDescription": "Ставит воспроизведение на паузу.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "examples": ["/music pause"]
+            },
+            "resume": {
+                "description": "Продолжить.",
+                "longDescription": "Возобновляет воспроизведение.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "examples": ["/music resume"]
+            },
+            "stop": {
+                "description": "Остановить.",
+                "longDescription": "Останавливает воспроизведение и очищает очередь.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "examples": ["/music stop"]
+            },
+            "nowplaying": {
+                "description": "Что играет сейчас.",
+                "longDescription": "Показывает текущий трек.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/music nowplaying"]
+            },
+            "queue": {
+                "description": "Очередь треков.",
+                "longDescription": "Показывает очередь.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Встраивать ссылки",
+                "userPermissions": "Нет",
+                "examples": ["/music queue"]
+            },
+            "volume": {
+                "description": "Громкость.",
+                "longDescription": "Устанавливает громкость плеера.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "valueOption": "Громкость (0-200).",
+                "examples": ["/music volume value:50"]
+            },
+            "loop": {
+                "description": "Режим повтора.",
+                "longDescription": "Включает повтор трека или очереди.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "modeOption": "Режим.",
+                "examples": ["/music loop mode:track", "/music loop mode:queue", "/music loop mode:off"]
+            },
+            "shuffle": {
+                "description": "Перемешать очередь.",
+                "longDescription": "Перемешивает треки в очереди.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "examples": ["/music shuffle"]
+            },
+            "seek": {
+                "description": "Перемотать трек.",
+                "longDescription": "Перематывает на указанную секунду.",
+                "cooldown": "2 секунды",
+                "botPermissions": "Нет",
+                "userPermissions": "Нет",
+                "secondsOption": "Секунды.",
+                "examples": ["/music seek seconds:30"]
+            }
+        },
+         "8ball": {
+            "description": "Задать вопрос магическому шару и получить ответ.",
+            "longDescription": "Магический шар отвечает на ваш вопрос.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "questionOption": "Ваш вопрос.",
+            "question": "Вопрос",
+            "answer": "Ответ",
+            "answers": [
+                "Бесспорно.", "Предрешено.", "Никаких сомнений.", "Определённо да.",
+                "Можешь быть уверен в этом.", "Мне кажется — да.", "Вероятнее всего.",
+                "Хорошие перспективы.", "Знаки говорят — да.", "Да.",
+                "Пока не ясно, попробуй снова.", "Спроси позже.", "Лучше не рассказывать.",
+                "Сейчас нельзя предсказать.", "Сконцентрируйся и спроси опять.",
+                "Даже не думай.", "Мой ответ — нет.", "По моим данным — нет.",
+                "Перспективы не очень хорошие.", "Весьма сомнительно."
+            ]
+        },
+        "coinflip": {
+            "description": "Подбросить монетку: орёл или решка.",
+            "longDescription": "Подбрасывает монетку и выдает орёл или решка.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "heads": "🪙 Выпал **Орёл**!",
+            "tails": "🪙 Выпала **Решка**!"
+        },
+        "dice": {
+            "description": "Бросить кубик с указанным количеством граней.",
+            "longDescription": "Бросает кубик с указанным количеством граней.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "sidesOption": "Количество граней (по умолчанию 6).",
+            "result": "🎲 Выпало число: **{{result}}**"
+        },
+        "rps": {
+            "description": "Играть с ботом в камень, ножницы, бумага.",
+            "longDescription": "Играет с ботом в камень, ножницы, бумага.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "choiceOption": "Ваш выбор.",
+            "rock": "Камень",
+            "paper": "Бумага",
+            "scissors": "Ножницы",
+            "win": "🎉 Вы победили! Бот выбрал **{{bot}}**.",
+            "lose": "😢 Вы проиграли. Бот выбрал **{{bot}}**.",
+            "draw": "🤝 Ничья! Бот выбрал **{{bot}}**."
+        },
+        "rate": {
+            "description": "Оценить что-либо по шкале от 0 до 10.",
+            "longDescription": "Оценивает предмет или действие по шкале от 0 до 10.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "thingOption": "Что оценить.",
+            "result": "Я оцениваю **{{thing}}** на **{{rating}}/10**."
+        },
+        "reverse": {
+            "description": "Перевернуть текст задом наперёд.",
+            "longDescription": "Переворачивает текст задом наперёд.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "textOption": "Текст для переворота.",
+            "result": "🔄 **Результат:**\n```\n{{result}}\n```"
+        },
+        "uppercase": {
+            "description": "Перевести текст в верхний регистр.",
+            "longDescription": "Делает все буквы заглавными.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "textOption": "Текст.",
+            "result": "🔠 **Результат:**\n```\n{{result}}\n```"
+        },
+        "lowercase": {
+            "description": "Перевести текст в нижний регистр.",
+            "longDescription": "Делает все буквы строчными.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "textOption": "Текст.",
+            "result": "🔡 **Результат:**\n```\n{{result}}\n```"
+        },
+        "length": {
+            "description": "Посчитать символы и слова в тексте.",
+            "longDescription": "Показывает количество символов и слов в тексте.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "textOption": "Текст для анализа.",
+            "title": "📊 Статистика текста",
+            "chars": "Символов",
+            "words": "Слов",
+            "charsNoSpaces": "Символов без пробелов"
+        },
+        "changelog": {
+            "description": "Показывает последние изменения и текущую версию бота.",
+            "longDescription": "Показывает последние изменения и текущую версию бота.",
+            "cooldown": "3 секунды",
+            "botPermissions": "Встраивать ссылки",
+            "userPermissions": "Нет",
+            "examples": [
+                "/changelog\nПоказывает список изменений."
+            ]
+        }
+    }
+}

@@ -1,0 +1,1488 @@
+{
+    "yes": "はい",
+    "no": "いいえ",
+
+    "modules": {
+        "config": "設定",
+        "info": "情報",
+        "websearch": "検索",
+        "interactions": "インタラクション",
+        "moderation": "モデレーション",
+        "fun": "お楽しみ",
+        "economy": "経済",
+        "utilities": "ユーティリティ",
+        "music": "音楽",
+        "administrative": "管理",
+        "text": "テキスト"
+    },
+
+    "say": {
+        "sent": "送信しました！"
+    },
+
+    "music": {
+        "noVoiceChannel": "音楽コマンドを使うには、まずボイスチャンネルに参加してください。",
+        "noNode": "音楽サーバーが利用できません。後でもう一度試すか、サポートにお問い合わせください。",
+        "notFound": "トラックが見つかりません。名前またはリンクを確認して、もう一度お試しください。",
+        "addedToQueue": "キューに追加しました",
+        "author": "アーティスト",
+        "tracksAdded": "追加されたトラック",
+        "notPlaying": "現在何も再生していません。",
+        "skipped": "トラックをスキップしました。",
+        "paused": "一時停止しました。",
+        "resumed": "再開しました。",
+        "stopped": "停止しました。キューをクリアしました。",
+        "queueEmpty": "キューは空です。",
+        "queueTitle": "キュー",
+        "queue": "キュー",
+        "nowPlaying": "再生中",
+        "nowplayingTitle": "再生中",
+        "length": "長さ",
+        "loop": "リピート",
+        "andMore": "他 {{n}} 件",
+        "volumeSet": "音量を **{{value}}** に設定しました。",
+        "loopSet": "リピートモード: **{{mode}}**。",
+        "loopSame": "このモードはすでに設定されています。",
+        "queueTooSmall": "シャッフルするにはトラックが足りません。",
+        "shuffled": "**{{count}}** 曲をシャッフルしました。",
+        "seeked": "**{{seconds}}** 秒にシークしました。"
+    },
+
+    "currency": {
+        "title": "サーバー通貨",
+        "currentSettings": "現在の設定",
+        "emojiLabel": "絵文字",
+        "nameLabel": "名前",
+        "changedInfo": "通貨設定を更新しました。",
+        "saveError": "設定を保存できませんでした。後でもう一度お試しください。"
+    },
+
+    "changelog": {
+        "title": "変更履歴 — {{user}}",
+        "version": "ビルドバージョン"
+    },
+
+    "economy": {
+        "balanceTitle": "メンバーの残高 — {{user}}",
+        "wallet": "現金",
+        "bank": "銀行",
+        "total": "総残高",
+        "walletShort": "現金",
+        "bankShort": "銀行",
+        "totalShort": "合計",
+        "rank": "ランキング順位",
+        "level": "レベル",
+        "info": "情報",
+        "rewards": "報酬",
+        "donateCurrency": "ドネート通貨:",
+        "rewardsAvailable": "報酬対象のコマンド: {{list}}",
+        "rewardsEmpty": "すべての報酬はすでに受け取り済みです。",
+        "nextBonus": "次のボーナスを受け取れる時間",
+        "cooldown": "次の試行まで {{time}} お待ちください。",
+        "notEnough": "所持金が足りません。",
+        "bankNothing": "送金するものがありません。",
+
+        "timelyTitle": "定期ボーナス",
+        "timelyDescription": "**{{user}}** は **{{amount}}** {{currency}} を受け取りました",
+
+        "dailyTitle": "デイリーボーナス",
+        "dailyDescription": "**{{user}}** は **{{amount}}** {{currency}} を受け取りました",
+
+        "weeklyTitle": "ウィークリーボーナス",
+        "weeklyDescription": "**{{user}}** は **{{amount}}** {{currency}} を受け取りました",
+
+        "workTitle": "仕事",
+        "workDescription": "**{{user}}** は ***{{job}}*** として無事に働きました。",
+        "workIncome": "収入",
+        "workProgress": "進捗",
+
+        "leaderboardTitle": "残高ランキング",
+        "leaderboardEmpty": "まだランキングに誰もいません。",
+        "page": "ページ",
+
+        "bankDepositTitle": "銀行への入金",
+        "bankDepositDescription": "**{{user}}** は **{{amount}}** {{currency}} を銀行に入金しました。",
+        "bankWithdrawTitle": "銀行からの引き出し",
+        "bankWithdrawDescription": "**{{user}}** は **{{amount}}** {{currency}} を銀行から引き出しました。",
+
+        "shopTitle": "ロールショップ",
+        "shopEmpty": "ショップは空です。",
+        "shopRoleNotFound": "このロールはショップにありません。",
+        "shopBuyTitle": "購入",
+        "shopBuyDescription": "**{{user}}** はロール **{{role}}** を **{{price}}** {{currency}} で購入しました。",
+        "shopAddTitle": "ロールを追加しました",
+        "shopAddDescription": "ロール **{{role}}** を **{{price}}** {{currency}} でショップに追加しました。",
+        "shopRemoveTitle": "ロールを削除しました",
+        "shopRemoveDescription": "ロール **{{role}}** をショップから削除しました。",
+        "alreadyOwned": "あなたはすでにこのロールを持っています。"
+    },
+
+    "moderation": {
+        "cantSelf": "自分自身にアクションを実行することはできません。",
+        "hierarchyUser": "権限がありません: 対象はあなた以上のロールです。",
+        "hierarchyBot": "Botに権限がありません: 対象はBot以上のロールです。",
+        "notOnServer": "ユーザーはサーバーにいません。",
+        "notBanned": "このユーザーはBANされていません。",
+        "notTimedOut": "ユーザーに有効なタイムアウトはありません。",
+        "invalidId": "ユーザーIDが無効です。IDが数字のみで構成されていることを確認してください。",
+        "invalidDuration": "期間の形式が無効です。例: `5m`、`1h`、`2d`。",
+        "tooLong": "タイムアウトの最大期間は28日です。",
+        "roleTooHigh": "このロールはBotのロールより上位です。",
+
+        "actionTitle": "メンバーへのアクション — {{user}}",
+        "actionDescription": "{{moderator}}、メンバー **{{user}}** は{{action}}。",
+        "reasonLabel": "理由",
+        "reasonNone": "未指定",
+
+        "actionBan": "サーバーからBANされました",
+        "actionUnban": "BANを解除されました",
+        "actionKick": "サーバーからキックされました",
+        "actionTimeout": "**{{duration}}** のタイムアウトを受けました",
+        "actionUntimeout": "タイムアウトを解除されました",
+        "actionWarnAdd": "警告 **#{{id}}** を受けました",
+        "actionNicknameSet": "新しいニックネーム **{{name}}** を設定されました",
+        "actionNicknameReset": "ニックネームをリセットされました",
+        "actionRoleAdd": "ロール **{{role}}** を付与されました",
+        "actionRoleRemove": "ロール **{{role}}** を剥奪されました",
+
+        "ban": { "success": "ユーザー **{{user}}** (`{{id}}`) をBANしました。" },
+        "unban": { "success": "ユーザー **{{user}}** (`{{id}}`) のBANを解除しました。" },
+        "kick": { "success": "ユーザー **{{user}}** (`{{id}}`) をキックしました。" },
+        "timeout": { "success": "ユーザー **{{user}}** (`{{id}}`) は **{{duration}}** のタイムアウト中です。" },
+        "untimeout": { "success": "ユーザー **{{user}}** (`{{id}}`) のタイムアウトを解除しました。" },
+
+        "warn": {
+            "added": "ユーザー **{{user}}** (`{{id}}`) に警告 **#{{warnId}}** を付与しました。\n理由: {{reason}}",
+            "removed": "警告 **#{{id}}** を削除しました。",
+            "cleared": "ユーザー **{{user}}** のすべての警告を削除しました。",
+            "empty": "ユーザー **{{user}}** に警告はありません。",
+            "listTitle": "警告 — {{user}}"
+        },
+
+        "clear": {
+            "title": "メッセージ削除 — {{channel}}",
+            "description": "{{moderator}}、**{{count}}** 件のメッセージを削除しました。",
+            "success": "**{{count}}** 件のメッセージを削除しました。",
+            "none": "削除するものがありません。",
+            "tooOld": "削除できませんでした — 14日以上前のメッセージです。"
+        },
+
+        "slowmode": {
+            "title": "スローモード — {{channel}}",
+            "description": "{{moderator}}、スローモードを **{{seconds}}** 秒に設定しました。",
+            "titleOff": "スローモードを無効化 — {{channel}}",
+            "descriptionOff": "{{moderator}}、チャンネルのスローモードを無効化しました。",
+            "success": "チャンネル {{channel}} でスローモードを **{{seconds}}** 秒に設定しました。",
+            "off": "{{channel}} のスローモードを無効化しました。"
+        },
+
+        "channelLock": {
+            "title": "チャンネルをロック — {{channel}}",
+            "description": "{{moderator}}、チャンネル **{{channel}}** をロックしました。"
+        },
+        "channelUnlock": {
+            "title": "チャンネルをロック解除 — {{channel}}",
+            "description": "{{moderator}}、チャンネル **{{channel}}** をロック解除しました。"
+        },
+
+        "nickname": {
+            "success": "ユーザー **{{user}}** のニックネームを **{{name}}** に変更しました。",
+            "reset": "ユーザー **{{user}}** のニックネームをリセットしました。"
+        },
+        "role": {
+            "added": "ロール **{{role}}** をユーザー **{{user}}** に付与しました。",
+            "removed": "ロール **{{role}}** をユーザー **{{user}}** から剥奪しました。"
+        }
+    },
+
+    "confessions": {
+        "description": "AIメモリコンテナの管理。",
+        "notText": "テキストチャンネルを指定してください。",
+        "notFound": "コンテナが見つかりません。",
+        "maxContainers": "コンテナの上限に達しました (サーバーあたり **{{max}}**)。",
+        "maxSize": "サイズの上限に達しました (**{{size}}**)。",
+        "noContainers": "サーバーにコンテナがありません。",
+        "unknownError": "エラーが発生しました。",
+        "create": {
+            "description": "チャンネル用のメモリコンテナを作成します。",
+            "option": "チャンネル。",
+            "title": "コンテナを作成しました",
+            "success": "チャンネル: {{channel}}\nID: `{{id}}`"
+        },
+        "list": {
+            "description": "サーバーのコンテナ一覧。",
+            "title": "AIメモリコンテナ"
+        },
+        "block": {
+            "description": "コンテナを完全に削除します。",
+            "option": "コンテナID。",
+            "title": "コンテナを削除しました",
+            "confirm": "{{user}}、コンテナを完全に削除しても**本当によろしいですか**？\n```\nID: {{id}}\n{{count}} メッセージ / {{size}}\n```",
+            "confirmBtn": "確認",
+            "cancelBtn": "キャンセル",
+            "success": "コンテナ `{{id}}` を削除しました。"
+        },
+        "report": {
+            "description": "コンテナをBotのオーナーに送信します。",
+            "idOption": "コンテナID。",
+            "reasonOption": "報告理由。",
+            "reasonLabel": "理由",
+            "title": "報告を送信しました",
+            "success": "コンテナ `{{id}}` に関する報告をオーナーに送信しました。"
+        },
+        "regen": {
+            "expired": "コンテキストが古くなりました。もう一度質問してください。",
+            "limit": "試行回数の上限に達しました。",
+            "rateLimit": "Botの本日のリクエスト上限に達しました。",
+            "failed": "応答を生成できませんでした。"
+        }
+    },
+
+    "birthday": {
+        "description": "誕生日の管理。",
+        "invalidDate": "この月は **{{max}}** 日までです。",
+        "saveError": "誕生日を保存できませんでした。",
+        "set": {
+            "description": "自分の誕生日を設定します。",
+            "dayOption": "日 (1-31)。",
+            "monthOption": "月 (1-12)。",
+            "yearOption": "年 (任意)。",
+            "title": "誕生日を設定しました",
+            "success": "あなたの誕生日: **{{date}}**。"
+        },
+        "view": {
+            "description": "誰かの誕生日を表示します。",
+            "userOption": "ユーザー。",
+            "title": "誕生日",
+            "selfNotFound": "誕生日が設定されていません。`/birthday set` を使用してください。",
+            "notFound": "ユーザー **{{user}}** は誕生日を設定していません。"
+        },
+        "delete": {
+            "description": "自分の誕生日を削除します。",
+            "title": "誕生日を削除しました",
+            "success": "あなたの誕生日を削除しました。",
+            "notFound": "保存された誕生日がありません。",
+            "error": "誕生日を削除できませんでした。"
+        },
+        "congrats": {
+            "title": "🎉 お誕生日おめでとう！",
+            "message": "今日は {{users}} の誕生日です！\n\nおめでとう！ 🎂🎈"
+        }
+    },
+
+    "actions": {
+        "description": "GIFを使った感情とインタラクション。",
+        "actionOption": "何をするか。",
+        "userOption": "ユーザー。",
+        "unknown": "不明なアクションです。",
+        "targetRequired": "このアクションにはユーザーを指定してください。",
+        "noGif": "GIFが利用できません。",
+        "selfNotAllowed": "このアクションは自分自身には実行できません。",
+        "list": {
+            "hug":      { "self": "**{user}** が抱きしめる",                       "other": "**{user}** が **{target}** を抱きしめる" },
+            "kiss":     { "self": "**{user}** がキスする",                        "other": "**{user}** が **{target}** にキスする" },
+            "slap":     { "self": "**{user}** が叩く",                            "other": "**{user}** が **{target}** を叩く" },
+            "pat":      { "self": "**{user}** がなでる",                          "other": "**{user}** が **{target}** をなでる" },
+            "cuddle":   { "self": "**{user}** が寄り添う",                        "other": "**{user}** が **{target}** に寄り添う" },
+            "poke":     { "self": "**{user}** がつつく",                          "other": "**{user}** が **{target}** をつつく" },
+            "tickle":   { "self": "**{user}** がくすぐる",                        "other": "**{user}** が **{target}** をくすぐる" },
+            "punch":    { "self": "**{user}** が殴る",                            "other": "**{user}** が **{target}** を殴る" },
+            "bite":     { "self": "**{user}** が噛む",                            "other": "**{user}** が **{target}** を噛む" },
+            "highfive": { "self": "**{user}** がハイタッチする",                  "other": "**{user}** が **{target}** とハイタッチする" },
+            "handhold": { "self": "**{user}** が手をつなぐ",                      "other": "**{user}** が **{target}** と手をつなぐ" },
+            "feed":     { "self": "**{user}** が食べさせる",                      "other": "**{user}** が **{target}** に食べさせる" },
+            "cry":      { "self": "**{user}** が泣く",                            "other": "" },
+            "laugh":    { "self": "**{user}** が笑う",                            "other": "" },
+            "dance":    { "self": "**{user}** が踊る",                            "other": "" },
+            "wave":     { "self": "**{user}** が手を振る",                        "other": "" },
+            "blush":    { "self": "**{user}** が赤くなる",                        "other": "" },
+            "smile":    { "self": "**{user}** が微笑む",                          "other": "" },
+            "wink":     { "self": "**{user}** がウインクする",                    "other": "" },
+            "facepalm": { "self": "**{user}** が顔を覆う",                        "other": "" },
+            "thumbsup": { "self": "**{user}** がサムズアップする",                "other": "" },
+            "smug":     { "self": "**{user}** が得意げに笑う",                    "other": "" }
+        },
+        "labels": {
+            "hug":      "抱きしめる",
+            "kiss":     "キスする",
+            "slap":     "叩く",
+            "pat":      "なでる",
+            "cuddle":   "寄り添う",
+            "poke":     "つつく",
+            "tickle":   "くすぐる",
+            "punch":    "殴る",
+            "bite":     "噛む",
+            "highfive": "ハイタッチ",
+            "handhold": "手をつなぐ",
+            "feed":     "食べさせる",
+            "cry":      "泣く",
+            "laugh":    "笑う",
+            "dance":    "踊る",
+            "wave":     "手を振る",
+            "blush":    "赤くなる",
+            "smile":    "微笑む",
+            "wink":     "ウインク",
+            "facepalm": "顔を覆う",
+            "thumbsup": "サムズアップ",
+            "smug":     "得意げ"
+        }
+    },
+
+    "ping": {
+        "cluster": "クラスター",
+        "shards": "シャード",
+        "ws": "遅延",
+        "roundtrip": "コマンド処理",
+        "database": "データベース",
+        "error": "エラー"
+    },
+
+    "about": {
+        "description": "Botの情報を表示します。",
+        "title": "{{botName}} の情報",
+        "botDesc": "多機能で楽しいBot ⭐\nメンテナンスや新機能追加のため頻繁に更新されます！\n\n**開発者:** {{dev}}",
+        "apiLatency": "API遅延",
+        "messageLatency": "メッセージ遅延",
+        "started": "Bot起動",
+        "buildHash": "ビルドハッシュ",
+        "ms": "ms",
+
+        "supportButton": "サポートサーバー",
+        "inviteButton": "Botを招待",
+
+        "chartTitle": "応答時間",
+        "chartBadge": "Ping",
+        "chartAllRegions": "全地域",
+        "chartDay": "日",
+        "chartWeek": "週",
+        "chartMonth": "月",
+        "chartAverage": "平均",
+        "chartUptime": "稼働時間",
+        "chartRamLoad": "RAM負荷",
+        "chartCpuLoad": "CPU負荷",
+        "chartMs": "ms"
+    },
+
+    "avatar": { "title": "アバター" },
+    "banner": {
+        "title": "バナー",
+        "noBanner": "ユーザー **{{user}}** にはバナーがありません。"
+    },
+
+    "channel": {
+        "category": "カテゴリ",
+        "topic": "トピック",
+        "noTopic": "なし",
+        "none": "なし",
+        "invites": "招待",
+        "created": "作成日"
+    },
+
+    "user": {
+        "joined": "参加日",
+        "created": "アカウント作成日",
+        "roles": "ロール",
+        "noRoles": "なし",
+        "requestedBy": "リクエスト元"
+    },
+
+    "roles": {
+        "infoLabel": "ロール情報",
+        "color": "色",
+        "created": "作成日",
+        "id": "ID"
+    },
+
+    "guild": {
+        "subtitle": "サーバー情報",
+        "boosts": "ブースト",
+        "boostLevel": "レベル",
+        "boostsWord": "ブースト",
+        "owner": "オーナー",
+        "members": "メンバー",
+        "created": "作成日",
+        "moderation": "モデレーション",
+        "features": "機能",
+        "emojis": "絵文字",
+        "bitrate": "ビットレート",
+        "kbps": "Kbps",
+        "filesize": "ファイルサイズ",
+        "iconTitle": "サーバーアイコン",
+        "bannerTitle": "サーバーバナー",
+        "noIcon": "このサーバーにはアイコンがありません。",
+        "noBanner": "このサーバーにはバナーがありません。"
+    },
+
+    "timestamp": {
+        "title": "Discord Timestamp",
+        "shortTime": "短い時刻",
+        "longTime": "長い時刻",
+        "shortDate": "短い日付",
+        "longDate": "長い日付",
+        "shortDateTime": "短い日時",
+        "longDateTime": "長い日時",
+        "relative": "相対"
+    },
+
+    "emoji": {
+        "listTitle": "サーバー絵文字",
+        "listEmpty": "サーバーに絵文字がありません。",
+        "notFound": "絵文字が見つかりません。",
+        "id": "ID",
+        "animated": "アニメーション",
+        "created": "作成日"
+    },
+
+    "websearch": {
+        "wikiNotFound": "何も見つかりませんでした。",
+        "genshinTitle": "Genshin Impact — プロフィール",
+        "genshinInvalidUid": "UIDが無効です。",
+        "genshinNotFound": "プロフィールが見つかりません。",
+        "steamTitle": "Steam — プロフィール",
+        "steamNotFound": "プロフィールが見つかりません。",
+        "youtubeTitle": "YouTube",
+        "youtubeNotFound": "チャンネルが見つかりません。",
+        "youtubeUnavailable": "YouTubeが利用できません。"
+    },
+
+    "config": {
+        "description": "このサーバー向けのBot設定。",
+        "title": "サーバー設定",
+        "currentSettings": "現在のサーバー設定",
+        "info": "情報",
+        "changedInfo": "**{{changed}}** を **{{to}}** に変更しました。注意: 変更はサーバー内の全ユーザーにすぐに適用されます。",
+        "changedLanguage": "言語",
+        "language": {
+            "description": "サーバーの言語を変更します。",
+            "selectPlaceholder": "言語を選択",
+            "currentLang": "設定言語: **{{lang}}**"
+        },
+        "modules": {
+            "description": "モジュールを有効または無効にします。",
+            "selectPlaceholder": "有効なモジュールを選択",
+            "currentValue": "有効モジュール: **{{total}}** 中 **{{active}}**",
+            "changedInfo": "モジュールを変更しました。有効モジュール: **{{total}}** 中 **{{active}}**。変更はサーバー内の全ユーザーにすぐに適用されます。"
+        },
+        "birthdays": {
+            "description": "誕生日のお祝いを設定します。",
+            "channelOption": "お祝い用チャンネル。",
+            "enableOption": "有効または無効。",
+            "title": "誕生日のお祝い",
+            "status": "ステータス",
+            "on": "有効",
+            "off": "無効",
+            "channel": "チャンネル",
+            "notSet": "未選択",
+            "changedInfo": "設定を更新しました。Botは毎日 **09:00 UTC** に誕生日の人をお祝いします。",
+            "channelRequired": "先にチャンネルを選択してください。",
+            "notTextChannel": "チャンネルはテキストチャンネルである必要があります。",
+            "saveError": "設定を保存できませんでした。"
+        },
+        "logging": {
+            "description": "サーバーログを設定します。",
+            "channelOption": "ログ用チャンネル。",
+            "enableOption": "有効または無効。",
+            "title": "サーバーログ",
+            "status": "ステータス",
+            "on": "有効",
+            "off": "無効",
+            "channel": "チャンネル",
+            "notSet": "未選択",
+            "changedInfo": "ログ設定を更新しました。サーバーイベントは指定チャンネルに記録されます。",
+            "channelRequired": "先にチャンネルを選択してください。",
+            "notTextChannel": "チャンネルはテキストチャンネルである必要があります。",
+            "saveError": "設定を保存できませんでした。"
+        },
+        "currency": {
+            "description": "サーバー通貨を設定します。",
+            "emojiOption": "通貨の絵文字 (例: 💎、🪙)。",
+            "nameOption": "通貨の名前。",
+            "title": "サーバー通貨",
+            "emoji": "絵文字",
+            "name": "名前",
+            "changedInfo": "通貨設定を更新しました。",
+            "saveError": "設定を保存できませんでした。"
+        }
+    },
+
+    "help": {
+        "description": "利用可能なコマンド一覧。",
+        "commandOption": "コマンド名を選択または入力してください。",
+        "title": "利用可能なコマンド一覧",
+        "selectPlaceholder": "カテゴリを選択",
+        "homeOption": "🏠 ホーム",
+        "moduleTitle": "モジュール",
+        "commandInfo": "コマンド情報",
+        "commandNotFound": "コマンド `{{name}}` が見つかりません。",
+        "fieldInfo": "情報",
+        "fieldCooldown": "クールダウン",
+        "fieldBotPerms": "Botの権限",
+        "fieldUserPerms": "メンバーの権限",
+        "fieldExampleN": "例 {{n}}"
+    },
+
+    "errors": {
+        "generic": "予期しないエラーが発生しました。後でもう一度試すか、サポートにお問い合わせください。",
+        "noPermission": "このコマンドを使用する権限がありません。権限を確認するか、管理者にお問い合わせください。",
+        "cooldown": "コマンドはまだ準備できていません。**{{time}}** 待ってからもう一度お試しください。",
+        "notFound": "要求されたリソースが見つかりません。パラメータを確認して再試行してください。",
+        "moduleDisabled": "このモジュールはこのサーバーで無効になっています。`/config modules` で有効にしてください。",
+        "guildOnly": "このコマンドはサーバーでのみ利用可能で、DMでは使用できません。"
+    },
+
+    "components": {
+        "notOwner": "このメニューは別のユーザーが開きました。自分のコマンドを使用してください。"
+    },
+
+    "commands": {
+        "say": {
+            "description": "現在のチャンネルでBotとしてメッセージを送信します。",
+            "longDescription": "現在のチャンネルでBotとしてメッセージを送信します。",
+            "cooldown": "3秒",
+            "botPermissions": "メッセージを送信",
+            "userPermissions": "管理者",
+            "option": "メッセージ本文。",
+            "examples": [
+                "/say message:みなさんこんにちは！\nBotとしてメッセージを送信します。",
+                "/say message:**太字** テキスト\nMarkdownをサポートします。"
+            ]
+        },
+        "birthday": {
+            "description": "誕生日の管理: 設定、表示、削除。",
+            "longDescription": "誕生日の設定、表示、削除。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/birthday set day:15 month:6\n誕生日を6月15日に設定します。",
+                "/birthday set day:15 month:6 year:2000\n年付きで設定します。",
+                "/birthday view\nあなたの誕生日を表示します。",
+                "/birthday view @user\nユーザーの誕生日を表示します。",
+                "/birthday delete\nあなたの誕生日を削除します。"
+            ],
+            "set": {
+                "description": "自分の誕生日を設定します。",
+                "longDescription": "誕生日の日、月、任意で年を保存します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/birthday set day:15 month:6\n誕生日を6月15日に設定します。",
+                    "/birthday set day:15 month:6 year:2000\n年付きで設定します。"
+                ]
+            },
+            "view": {
+                "description": "誰かの誕生日を表示します。",
+                "longDescription": "指定したユーザーの誕生日を表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/birthday view\nあなたの誕生日を表示します。",
+                    "/birthday view @user\nユーザーの誕生日を表示します。"
+                ]
+            },
+            "delete": {
+                "description": "自分の誕生日を削除します。",
+                "longDescription": "保存された誕生日を削除します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/birthday delete\nあなたの誕生日を削除します。"
+                ]
+            }
+        },
+        "actions": {
+            "description": "GIFを使った感情とインタラクション: 抱きしめる、キスなど。",
+            "longDescription": "指定したユーザーと、またはユーザーなしでGIFインタラクションを送信します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/actions action:hug user:@user\nユーザーを抱きしめます。",
+                "/actions action:kiss user:@user\nユーザーにキスします。",
+                "/actions action:slap user:@user\nユーザーを叩きます。",
+                "/actions action:cry\n泣きます。",
+                "/actions action:dance\n踊ります。"
+            ]
+        },
+        "ping": {
+            "description": "Bot、API、データベース、シャードの遅延を表示します。",
+            "longDescription": "現在の応答時間とBotの接続状態を報告します。",
+            "cooldown": "6秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/ping\nBotの遅延を表示します。"
+            ]
+        },
+        "help": {
+            "description": "説明、権限、例付きの利用可能なコマンド一覧。",
+            "longDescription": "このサーバーで利用可能なすべてのモジュールとコマンドを表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/help\nヘルプメニューを表示します。",
+                "/help command:ban\nコマンド /ban の詳細情報。"
+            ]
+        },
+        "config": {
+            "description": "サーバー向けBot設定: 言語、モジュール、ログ、誕生日、通貨。",
+            "longDescription": "サーバー言語、モジュール、ログ、お祝いの変更。",
+            "cooldown": "5秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "サーバーを管理",
+            "examples": [
+                "/config language\nサーバー言語を変更します。",
+                "/config modules\nモジュールを有効/無効にします。",
+                "/config birthdays channel:#general enable:true\nお祝いを設定します。",
+                "/config logging channel:#logs enable:true\nログを設定します。"
+            ],
+            "language": {
+                "description": "サーバーの言語を変更します。",
+                "longDescription": "サーバー全体のBot言語を変更します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "サーバーを管理",
+                "examples": [
+                    "/config language\n言語選択メニューを開きます。"
+                ]
+            },
+            "modules": {
+                "description": "モジュールを有効または無効にします。",
+                "longDescription": "サーバー上のBotの有効なモジュールを管理します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "サーバーを管理",
+                "examples": [
+                    "/config modules\nモジュール選択メニューを開きます。"
+                ]
+            },
+            "birthdays": {
+                "description": "誕生日のお祝いを設定します。",
+                "longDescription": "チャンネルの選択と自動お祝いの有効/無効。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む, メッセージを送信",
+                "userPermissions": "サーバーを管理",
+                "examples": [
+                    "/config birthdays\n現在の設定を表示します。",
+                    "/config birthdays channel:#general enable:true\n#general でお祝いを有効にします。",
+                    "/config birthdays enable:false\nお祝いを無効にします。"
+                ]
+            },
+            "logging": {
+                "description": "サーバーログを設定します。",
+                "longDescription": "チャンネルの選択とログシステムの有効/無効。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む, メッセージを送信",
+                "userPermissions": "サーバーを管理",
+                "examples": [
+                    "/config logging\n現在の設定を表示します。",
+                    "/config logging channel:#logs enable:true\n#logs でログを有効にします。",
+                    "/config logging enable:false\nログを無効にします。"
+                ]
+            },
+            "currency": {
+                "description": "サーバー通貨を設定します。",
+                "longDescription": "経済の通貨の絵文字と名前を変更します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "サーバーを管理",
+                "examples": [
+                    "/config currency\n現在の設定を表示します。",
+                    "/config currency emoji:🪙 name:コイン"
+                ]
+            }
+        },
+        "confessions": {
+            "description": "サーバーチャンネル用のAIメモリコンテナを管理します。",
+            "longDescription": "このサーバーのチャンネル用AIメモリコンテナを管理します。",
+            "cooldown": "5秒",
+            "botPermissions": "リンクを埋め込む, メッセージを送信",
+            "userPermissions": "管理者",
+            "examples": [
+                "/confessions create channel:#general\nAIメモリコンテナを作成します。",
+                "/confessions list\nサーバーのコンテナ一覧。",
+                "/confessions block id:123\nIDでコンテナを削除します。",
+                "/confessions report id:123 reason:スパム\nコンテナをオーナーに送信します。"
+            ],
+            "create": { "description": "チャンネル用のメモリコンテナを作成します。", "option": "チャンネル。" },
+            "list": { "description": "サーバーのコンテナ一覧。" },
+            "block": { "description": "コンテナを完全に削除します。", "option": "コンテナID。" },
+            "report": {
+                "description": "コンテナをBotのオーナーに送信します。",
+                "idOption": "コンテナID。",
+                "reasonOption": "報告理由。"
+            }
+        },
+        "about": {
+            "description": "Botの情報、統計、システム負荷を表示します。",
+            "longDescription": "統計、負荷、システム情報を表示します。",
+            "cooldown": "5秒",
+            "botPermissions": "リンクを埋め込む, ファイルを添付",
+            "userPermissions": "なし",
+            "examples": [
+                "/about\nBotの情報を表示します。"
+            ]
+        },
+        "avatar": {
+            "description": "ユーザーのアバターを最大サイズで表示します。",
+            "longDescription": "ユーザーのアバターを最大サイズで表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/avatar\nあなたのアバターを表示します。",
+                "/avatar user:@user\nユーザーのアバターを表示します。"
+            ]
+        },
+        "banner": {
+            "description": "ユーザーのバナーを最大サイズで表示します。",
+            "longDescription": "ユーザーのバナーを最大サイズで表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/banner\nあなたのバナーを表示します。",
+                "/banner user:@user\nユーザーのバナーを表示します。"
+            ]
+        },
+        "guild": {
+            "description": "サーバー情報: メンバー、ブースト、オーナー、機能。",
+            "longDescription": "サーバー情報を取得するコマンド。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/guild info\nサーバー情報を表示します。",
+                "/guild icon\nサーバーアイコンを表示します。",
+                "/guild banner\nサーバーバナーを表示します。"
+            ],
+            "icon": {
+                "description": "サーバーアイコンを表示します。",
+                "longDescription": "現在のサーバーアイコンを表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/guild icon\nサーバーアイコンを表示します。"]
+            },
+            "banner": {
+                "description": "サーバーバナーを表示します。",
+                "longDescription": "現在のサーバーバナーを表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/guild banner\nサーバーバナーを表示します。"]
+            },
+            "info": {
+                "description": "サーバーの詳細情報。",
+                "longDescription": "サーバーの詳細な統計を表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/guild info\nサーバー情報を表示します。"]
+            }
+        },
+        "channel": {
+            "description": "チャンネル情報: カテゴリ、トピック、作成日。",
+            "longDescription": "チャンネル情報を取得するコマンド。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/channel info\n現在のチャンネル情報を表示します。",
+                "/channel info channel:#general\n#general のチャンネル情報を表示します。"
+            ],
+            "info": {
+                "description": "チャンネル情報を表示します。",
+                "longDescription": "チャンネルのカテゴリ、トピック、作成日を表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む, チャンネルを管理",
+                "userPermissions": "なし",
+                "examples": [
+                    "/channel info\n現在のチャンネル情報を表示します。",
+                    "/channel info channel:#general\n#general のチャンネル情報を表示します。"
+                ]
+            }
+        },
+        "user": {
+            "description": "ユーザー情報: 登録日、参加日、ロール。",
+            "longDescription": "ユーザー情報を取得するコマンド。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/user info\nあなたの情報を表示します。",
+                "/user info user:@user\nユーザーの情報を表示します。"
+            ],
+            "info": {
+                "description": "ユーザー情報を表示します。",
+                "longDescription": "ユーザーの登録日、参加日、ロールを表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/user info\nあなたの情報を表示します。",
+                    "/user info user:@user\nユーザーの情報を表示します。"
+                ]
+            }
+        },
+        "roles": {
+            "description": "ロール情報: 色、作成日、ID。",
+            "longDescription": "ロール情報を取得するコマンド。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/roles info role:@role\nロール情報を表示します。"
+            ],
+            "info": {
+                "description": "ロール情報を表示します。",
+                "longDescription": "ロールの色、作成日、IDを表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/roles info role:@role\nロール情報を表示します。"
+                ]
+            }
+        },
+        "timestamp": {
+            "description": "さまざまな形式のDiscordタイムスタンプを生成します。",
+            "longDescription": "指定した時刻からすべてのDiscordタイムスタンプ形式を作成します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/timestamp\n現在時刻をすべての形式で表示します。",
+                "/timestamp time:5m\n5分後の時刻を表示します。",
+                "/timestamp time:2026-01-01 12:00\n指定した日時を表示します。"
+            ]
+        },
+        "emoji": {
+            "description": "サーバー絵文字の表示と情報。",
+            "longDescription": "サーバー絵文字の表示と情報。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/emoji list\n絵文字一覧を表示します。",
+                "/emoji info emoji:cat\n絵文字の情報。"
+            ],
+            "list": {
+                "description": "サーバー絵文字の一覧。",
+                "longDescription": "ページネーション付きでサーバーのすべての絵文字を表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/emoji list\n絵文字一覧を表示します。"]
+            },
+            "info": {
+                "description": "絵文字の情報。",
+                "longDescription": "絵文字のID、アニメーション、作成日を表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/emoji info emoji:cat\n名前で情報を表示します。",
+                    "/emoji info emoji:123456789012345678\nIDで情報を表示します。"
+                ]
+            }
+        },
+        "ban": {
+            "description": "理由とメッセージ削除を指定してユーザーをBANします。",
+            "longDescription": "任意のメッセージ削除付きでユーザーをサーバーからブロックします。",
+            "cooldown": "3秒",
+            "botPermissions": "メンバーをBAN",
+            "userPermissions": "メンバーをBAN",
+            "userOption": "BANするユーザー。",
+            "reasonOption": "理由。",
+            "deleteOption": "過去N日間のメッセージを削除 (0-7)。",
+            "examples": [
+                "/ban user:@user reason:スパム\nユーザーをBANします。",
+                "/ban user:@user reason:荒らし delete_messages:7\nBANして過去7日間のメッセージを削除します。",
+                "/ban user:@user\n理由なしでBANします。"
+            ]
+        },
+        "unban": {
+            "description": "理由を指定してIDでユーザーのBANを解除します。",
+            "longDescription": "IDでユーザーのBANを解除します。",
+            "cooldown": "3秒",
+            "botPermissions": "メンバーをBAN",
+            "userPermissions": "メンバーをBAN",
+            "userIdOption": "ユーザーID。",
+            "reasonOption": "理由。",
+            "examples": [
+                "/unban user_id:123456789012345678 reason:異議申し立て\nユーザーのBANを解除します。",
+                "/unban user_id:123456789012345678\n理由なしでBANを解除します。"
+            ]
+        },
+        "kick": {
+            "description": "理由を指定してユーザーをサーバーからキックします。",
+            "longDescription": "メンバーをサーバーから追放します。",
+            "cooldown": "3秒",
+            "botPermissions": "メンバーをキック",
+            "userPermissions": "メンバーをキック",
+            "userOption": "ユーザー。",
+            "reasonOption": "理由。",
+            "examples": [
+                "/kick user:@user reason:荒らし\n理由付きでユーザーをキックします。",
+                "/kick user:@user\n理由なしでキックします。"
+            ]
+        },
+        "timeout": {
+            "description": "指定した時間、ユーザーにタイムアウトを適用します。",
+            "longDescription": "ユーザーの通信を一時的にブロックします。",
+            "cooldown": "3秒",
+            "botPermissions": "メンバーをモデレート",
+            "userPermissions": "メンバーをモデレート",
+            "userOption": "ユーザー。",
+            "durationOption": "期間 (例: 5m、1h、2d)。",
+            "reasonOption": "理由。",
+            "examples": [
+                "/timeout user:@user duration:5m reason:荒らし\n5分間のタイムアウト。",
+                "/timeout user:@user duration:1h reason:スパム\n1時間のタイムアウト。",
+                "/timeout user:@user duration:2d\n2日間のタイムアウト。"
+            ]
+        },
+        "untimeout": {
+            "description": "ユーザーの有効なタイムアウトを解除します。",
+            "longDescription": "有効なタイムアウトを解除します。",
+            "cooldown": "3秒",
+            "botPermissions": "メンバーをモデレート",
+            "userPermissions": "メンバーをモデレート",
+            "userOption": "ユーザー。",
+            "examples": [
+                "/untimeout user:@user\nタイムアウトを解除します。"
+            ]
+        },
+        "warn": {
+            "description": "警告の管理: 付与、一覧、削除、クリア。",
+            "longDescription": "警告の付与、表示、削除。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "メンバーをモデレート",
+            "examples": [
+                "/warn add user:@user reason:スパム\n警告を付与します。",
+                "/warn list user:@user\n警告一覧。",
+                "/warn remove id:5\n警告を削除します。",
+                "/warn clear user:@user\nすべての警告を削除します。"
+            ],
+            "add": {
+                "description": "警告を付与します。",
+                "longDescription": "ユーザーに警告を追加します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "メンバーをモデレート",
+                "examples": [
+                    "/warn add user:@user reason:スパム\n警告を付与します。"
+                ]
+            },
+            "list": {
+                "description": "ユーザーの警告一覧。",
+                "longDescription": "ユーザーのすべての警告を表示します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "メンバーをモデレート",
+                "examples": [
+                    "/warn list user:@user\n一覧を表示します。"
+                ]
+            },
+            "remove": {
+                "description": "IDで警告を削除します。",
+                "longDescription": "特定の警告をIDで削除します。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "メンバーをモデレート",
+                "examples": [
+                    "/warn remove id:5\n警告 #5 を削除します。"
+                ]
+            },
+            "clear": {
+                "description": "ユーザーのすべての警告を削除します。",
+                "longDescription": "すべての警告をクリアします。",
+                "cooldown": "3秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "メンバーをモデレート",
+                "examples": [
+                    "/warn clear user:@user\nすべての警告をクリアします。"
+                ]
+            }
+        },
+        "clear": {
+            "description": "現在のチャンネルでメッセージを削除します (最大100件)。",
+            "longDescription": "メッセージを一括削除します (最大100件)。",
+            "cooldown": "3秒",
+            "botPermissions": "メッセージを管理",
+            "userPermissions": "メッセージを管理",
+            "amountOption": "件数 (1-100)。",
+            "userOption": "このユーザーのメッセージのみ。",
+            "examples": [
+                "/clear amount:50\n50件のメッセージを削除します。",
+                "/clear amount:100\n100件のメッセージを削除します。",
+                "/clear amount:20 user:@user\nユーザーの20件のメッセージを削除します。"
+            ]
+        },
+        "slowmode": {
+            "description": "チャンネルにスローモードを設定します (0-21600秒)。",
+            "longDescription": "チャンネルでのメッセージ間隔を設定します。",
+            "cooldown": "3秒",
+            "botPermissions": "チャンネルを管理",
+            "userPermissions": "チャンネルを管理",
+            "secondsOption": "秒 (0-21600)。",
+            "channelOption": "チャンネル。",
+            "examples": [
+                "/slowmode seconds:10\n10秒に設定します。",
+                "/slowmode seconds:60 channel:#general\n#general で60秒に設定します。",
+                "/slowmode seconds:0\nスローモードを無効にします。"
+            ]
+        },
+        "nickname": {
+            "description": "メンバーのニックネームを変更またはリセットします。",
+            "longDescription": "メンバーのニックネームを設定またはリセットします。",
+            "cooldown": "3秒",
+            "botPermissions": "ニックネームを管理",
+            "userPermissions": "ニックネームを管理",
+            "userOption": "ユーザー。",
+            "nameOption": "新しいニックネーム (空でリセット)。",
+            "examples": [
+                "/nickname user:@user name:新しい名前\nニックネームを変更します。",
+                "/nickname user:@user\nニックネームをリセットします。"
+            ]
+        },
+        "role": {
+            "description": "メンバーのロールを付与または剥奪します。",
+            "longDescription": "ロールの付与と剥奪。",
+            "cooldown": "3秒",
+            "botPermissions": "ロールを管理",
+            "userPermissions": "ロールを管理",
+            "examples": [
+                "/role add user:@user role:@role\nロールを付与します。",
+                "/role remove user:@user role:@role\nロールを剥奪します。"
+            ],
+            "add": {
+                "description": "ロールを付与します。",
+                "longDescription": "ユーザーにロールを追加します。",
+                "cooldown": "3秒",
+                "botPermissions": "ロールを管理",
+                "userPermissions": "ロールを管理",
+                "examples": ["/role add user:@user role:@role\nロールを付与します。"]
+            },
+            "remove": {
+                "description": "ロールを剥奪します。",
+                "longDescription": "ユーザーからロールを削除します。",
+                "cooldown": "3秒",
+                "botPermissions": "ロールを管理",
+                "userPermissions": "ロールを管理",
+                "examples": ["/role remove user:@user role:@role\nロールを剥奪します。"]
+            }
+        },
+        "infrastructure": {
+            "description": "サーバーインフラの管理: チャンネルのロック/ロック解除。",
+            "longDescription": "チャンネルやその他のサーバー要素の操作。",
+            "cooldown": "3秒",
+            "botPermissions": "チャンネルを管理",
+            "userPermissions": "チャンネルを管理",
+            "examples": [
+                "/infrastructure channel lock\n現在のチャンネルをロックします。",
+                "/infrastructure channel unlock\n現在のチャンネルをロック解除します。"
+            ],
+            "channel": {
+                "description": "チャンネル操作。",
+                "lock": {
+                    "description": "チャンネルをロックします。",
+                    "longDescription": "@everyone の書き込みを禁止します。",
+                    "cooldown": "3秒",
+                    "botPermissions": "チャンネルを管理",
+                    "userPermissions": "チャンネルを管理",
+                    "channelOption": "チャンネル。",
+                    "reasonOption": "理由。",
+                    "examples": [
+                        "/infrastructure channel lock\n現在のチャンネルをロックします。",
+                        "/infrastructure channel lock channel:#general reason:荒らし\n理由付きで #general をロックします。"
+                    ]
+                },
+                "unlock": {
+                    "description": "チャンネルをロック解除します。",
+                    "longDescription": "メッセージ送信の禁止を解除します。",
+                    "cooldown": "3秒",
+                    "botPermissions": "チャンネルを管理",
+                    "userPermissions": "チャンネルを管理",
+                    "channelOption": "チャンネル。",
+                    "examples": [
+                        "/infrastructure channel unlock\n現在のチャンネルをロック解除します。",
+                        "/infrastructure channel unlock channel:#general\n#general をロック解除します。"
+                    ]
+                }
+            }
+        },
+        "websearch": {
+            "description": "情報検索: Wikipedia、Genshin、Steam、YouTube。",
+            "longDescription": "Wikipedia検索、Genshin、Steam、YouTubeプロフィール。",
+            "cooldown": "5秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/websearch wiki Discord\nWikipediaで検索します。",
+                "/websearch genshin 712345678\nGenshinプロフィール。",
+                "/websearch steam 765611999199624578\nSteamプロフィール。",
+                "/websearch youtube excepterr\nYouTubeチャンネルを検索します。"
+            ],
+            "wiki": {
+                "description": "Wikipediaで検索します。",
+                "longDescription": "Wikipediaの記事を検索して概要を表示します。",
+                "cooldown": "5秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/websearch wiki Discord\n記事 \"Discord\" を検索します。"]
+            },
+            "genshin": {
+                "description": "UIDでGenshin Impactプロフィールを表示します。",
+                "longDescription": "UIDでGenshin Impactプレイヤープロフィールを表示します。",
+                "cooldown": "5秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/websearch genshin 712345678\nプレイヤープロフィールを表示します。"]
+            },
+            "steam": {
+                "description": "Steamプロフィール。",
+                "longDescription": "SteamID64またはバニティURLでSteamプロフィールを表示します。",
+                "cooldown": "5秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": [
+                    "/websearch steam 765611999199624578\nSteamID64で表示します。",
+                    "/websearch steam excepterr\nバニティURLで表示します。"
+                ]
+            },
+            "youtube": {
+                "description": "YouTubeチャンネルを検索します。",
+                "longDescription": "YouTubeチャンネルを検索して統計を表示します。",
+                "cooldown": "5秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/websearch youtube excepterr\nチャンネル \"excepterr\" を検索します。"]
+            }
+        },
+        "balance": {
+            "description": "残高、レベル、利用可能な報酬を表示します。",
+            "longDescription": "残高、レベル、利用可能な報酬を表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "userOption": "ユーザー。",
+            "examples": ["/balance", "/balance user:@user"]
+        },
+        "timely": {
+            "description": "3時間ごとの定期ボーナスを受け取ります。",
+            "longDescription": "3時間ごとの定期ボーナス。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": ["/timely"]
+        },
+        "daily": {
+            "description": "24時間ごとのデイリーボーナスを受け取ります。",
+            "longDescription": "24時間ごとのデイリーボーナス。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": ["/daily"]
+        },
+        "weekly": {
+            "description": "7日ごとのウィークリーボーナスを受け取ります。",
+            "longDescription": "7日ごとのウィークリーボーナス。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": ["/weekly"]
+        },
+        "work": {
+            "description": "働いてお金と経験値を稼ぎます (1時間ごと)。",
+            "longDescription": "1時間ごとの仕事。お金と経験値を与えます。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": ["/work"]
+        },
+        "currency": {
+            "description": "サーバー通貨を設定します: 絵文字と名前。",
+            "longDescription": "経済の通貨の絵文字と名前を変更します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "サーバーを管理",
+            "emojiOption": "通貨の絵文字 (例: 💎、🪙)。",
+            "nameOption": "通貨の名前。",
+            "examples": [
+                "/currency\n現在の設定を表示します。",
+                "/currency emoji:🪙 name:コイン\n通貨を変更します。"
+            ]
+        },
+        "leaderboard": {
+            "description": "残高トップユーザー (1ページ10人、全5ページ)。",
+            "longDescription": "1ページあたりトップ10、全5ページを表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": ["/leaderboard"]
+        },
+        "bank": {
+            "description": "銀行の管理: 入金または引き出し。",
+            "longDescription": "お金を預けたり引き出したりします。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "amountOption": "金額、またはすべての場合は0。",
+            "examples": [
+                "/bank deposit amount:1000",
+                "/bank deposit amount:0",
+                "/bank withdraw amount:500"
+            ],
+            "deposit": { "description": "銀行に入金します。" },
+            "withdraw": { "description": "銀行から引き出します。" }
+        },
+        "marriage": {
+            "description": "家族: プロポーズと離婚。",
+            "longDescription": "プロポーズと離婚。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む, メッセージを送信",
+            "userPermissions": "なし",
+            "userOption": "ユーザー。",
+            "examples": ["/marriage propose user:@user", "/marriage divorce"],
+            "propose": { "description": "プロポーズします。" },
+            "divorce": { "description": "離婚します。" }
+        },
+        "shop": {
+            "description": "ロールショップ: 表示、購入、追加、削除。",
+            "longDescription": "ロールショップの表示、購入、管理。",
+            "cooldown": "3秒",
+            "botPermissions": "ロールを管理",
+            "userPermissions": "add/remove にはサーバーを管理",
+            "roleOption": "ロール。",
+            "examples": [
+                "/shop list",
+                "/shop buy role:@role",
+                "/shop add role:@role price:5000",
+                "/shop remove role:@role"
+            ],
+            "list": { "description": "ショップを表示します。" },
+            "buy": { "description": "ロールを購入します。" },
+            "add": { "description": "ロールをショップに追加します。" },
+            "remove": { "description": "ロールをショップから削除します。" }
+        },
+        "music": {
+            "description": "音楽コマンド: YouTubeからの再生と管理。",
+            "longDescription": "YouTubeからの音楽再生と管理。",
+            "cooldown": "2秒",
+            "botPermissions": "接続, 発言, リンクを埋め込む",
+            "userPermissions": "なし",
+            "example": "/music play never gonna give you up",
+            "play": {
+                "description": "YouTubeからトラックを再生します。",
+                "longDescription": "YouTubeでトラックを検索してキューに追加します。",
+                "cooldown": "3秒",
+                "botPermissions": "接続, 発言",
+                "userPermissions": "なし",
+                "queryOption": "名前またはリンク。",
+                "examples": [
+                    "/music play never gonna give you up",
+                    "/music play https://youtu.be/dQw4w9WgXcQ"
+                ]
+            },
+            "skip": {
+                "description": "トラックをスキップします。",
+                "longDescription": "現在のトラックをスキップします。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "examples": ["/music skip"]
+            },
+            "pause": {
+                "description": "一時停止。",
+                "longDescription": "再生を一時停止します。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "examples": ["/music pause"]
+            },
+            "resume": {
+                "description": "再開。",
+                "longDescription": "再生を再開します。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "examples": ["/music resume"]
+            },
+            "stop": {
+                "description": "停止。",
+                "longDescription": "再生を停止してキューをクリアします。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "examples": ["/music stop"]
+            },
+            "nowplaying": {
+                "description": "現在再生中の曲。",
+                "longDescription": "現在のトラックを表示します。",
+                "cooldown": "2秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/music nowplaying"]
+            },
+            "queue": {
+                "description": "トラックキュー。",
+                "longDescription": "キューを表示します。",
+                "cooldown": "2秒",
+                "botPermissions": "リンクを埋め込む",
+                "userPermissions": "なし",
+                "examples": ["/music queue"]
+            },
+            "volume": {
+                "description": "音量。",
+                "longDescription": "プレイヤーの音量を設定します。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "valueOption": "音量 (0-200)。",
+                "examples": ["/music volume value:50"]
+            },
+            "loop": {
+                "description": "リピートモード。",
+                "longDescription": "トラックまたはキューのリピートを有効にします。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "modeOption": "モード。",
+                "examples": ["/music loop mode:track", "/music loop mode:queue", "/music loop mode:off"]
+            },
+            "shuffle": {
+                "description": "キューをシャッフルします。",
+                "longDescription": "キューのトラックをシャッフルします。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "examples": ["/music shuffle"]
+            },
+            "seek": {
+                "description": "トラックをシークします。",
+                "longDescription": "指定した秒にシークします。",
+                "cooldown": "2秒",
+                "botPermissions": "なし",
+                "userPermissions": "なし",
+                "secondsOption": "秒。",
+                "examples": ["/music seek seconds:30"]
+            }
+        },
+        "8ball": {
+            "description": "マジックボールに質問して答えを受け取ります。",
+            "longDescription": "マジックボールがあなたの質問に答えます。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "questionOption": "あなたの質問。",
+            "question": "質問",
+            "answer": "答え",
+            "answers": [
+                "間違いない。", "運命づけられている。", "疑いの余地はない。", "間違いなくはい。",
+                "確信していい。", "たぶんはい。", "おそらくそう。",
+                "良い見通し。", "兆しははいと言っている。", "はい。",
+                "まだ不明、もう一度試して。", "後で聞いて。", "話さない方がいい。",
+                "今は予測できない。", "集中してもう一度聞いて。",
+                "考えることすらない。", "私の答えはいいえ。", "私のデータではいいえ。",
+                "見通しはあまり良くない。", "かなり疑わしい。"
+            ]
+        },
+        "coinflip": {
+            "description": "コインを投げる: 表か裏。",
+            "longDescription": "コインを投げて表か裏を出します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "heads": "🪙 **表** が出ました！",
+            "tails": "🪙 **裏** が出ました！"
+        },
+        "dice": {
+            "description": "指定した面数のサイコロを振ります。",
+            "longDescription": "指定した面数のサイコロを振ります。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "sidesOption": "面数 (デフォルト6)。",
+            "result": "🎲 出た数字: **{{result}}**"
+        },
+        "rps": {
+            "description": "Botとじゃんけんをします。",
+            "longDescription": "Botとじゃんけんをします。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "choiceOption": "あなたの選択。",
+            "rock": "グー",
+            "paper": "パー",
+            "scissors": "チョキ",
+            "win": "🎉 あなたの勝ちです！Botは **{{bot}}** を選びました。",
+            "lose": "😢 あなたの負けです。Botは **{{bot}}** を選びました。",
+            "draw": "🤝 引き分け！Botは **{{bot}}** を選びました。"
+        },
+        "rate": {
+            "description": "何かを0から10の尺度で評価します。",
+            "longDescription": "項目や行動を0から10の尺度で評価します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "thingOption": "評価するもの。",
+            "result": "私は **{{thing}}** を **{{rating}}/10** と評価します。"
+        },
+        "reverse": {
+            "description": "テキストを逆さまにします。",
+            "longDescription": "テキストを後ろから前に反転します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "textOption": "反転するテキスト。",
+            "result": "🔄 **結果:**\n```\n{{result}}\n```"
+        },
+        "uppercase": {
+            "description": "テキストを大文字に変換します。",
+            "longDescription": "すべての文字を大文字にします。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "textOption": "テキスト。",
+            "result": "🔠 **結果:**\n```\n{{result}}\n```"
+        },
+        "lowercase": {
+            "description": "テキストを小文字に変換します。",
+            "longDescription": "すべての文字を小文字にします。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "textOption": "テキスト。",
+            "result": "🔡 **結果:**\n```\n{{result}}\n```"
+        },
+        "length": {
+            "description": "テキストの文字数と単語数を数えます。",
+            "longDescription": "テキストの文字数と単語数を表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "textOption": "分析するテキスト。",
+            "title": "📊 テキスト統計",
+            "chars": "文字数",
+            "words": "単語数",
+            "charsNoSpaces": "スペースを除く文字数"
+        },
+        "changelog": {
+            "description": "Botの最新の変更と現在のバージョンを表示します。",
+            "longDescription": "Botの最新の変更と現在のバージョンを表示します。",
+            "cooldown": "3秒",
+            "botPermissions": "リンクを埋め込む",
+            "userPermissions": "なし",
+            "examples": [
+                "/changelog\n変更履歴を表示します。"
+            ]
+        }
+    }
+}
